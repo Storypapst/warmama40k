@@ -1,0 +1,2261 @@
+[
+  {
+    "id": "chaos-land-raider-emperor-s-children",
+    "name": "Chaos Land Raider",
+    "faction": "Emperor's Children",
+    "points": 220,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Emperor's Children",
+      "Land Raider",
+      "Slaanesh",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Soulshatter lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-rhino-emperor-s-children",
+    "name": "Chaos Rhino",
+    "faction": "Emperor's Children",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Dedicated Transport",
+      "Emperor's Children",
+      "Rhino",
+      "Slaanesh",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-spawn-emperor-s-children",
+    "name": "Chaos Spawn",
+    "faction": "Emperor's Children",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Chaos Spawn",
+      "Emperor's Children",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hideous Mutations",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6+2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-terminators-emperor-s-children",
+    "name": "Chaos Terminators",
+    "faction": "Emperor's Children",
+    "points": 155,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 155
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Emperor's Children",
+      "Infantry",
+      "Slaanesh",
+      "Terminator",
+      "Terminator Squad"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 6,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Reaper autocannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainfist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 5,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Paired accursed weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Power fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemon-prince-of-slaanesh-emperor-s-children",
+    "name": "Daemon Prince of Slaanesh",
+    "faction": "Emperor's Children",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 10,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Daemon",
+      "Daemon Prince",
+      "Emperor's Children",
+      "Monster",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hellforged weapons - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "14",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemon-prince-of-slaanesh-with-wings-emperor-s-children",
+    "name": "Daemon Prince of Slaanesh with Wings",
+    "faction": "Emperor's Children",
+    "points": 215,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 215
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "minusOneDamage": true
+    },
+    "tags": [
+      "Chaos",
+      "Character",
+      "Daemon",
+      "Daemon Prince with Wings",
+      "Emperor's Children",
+      "Fly",
+      "Monster",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hellforged weapons - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "14",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemonettes-emperor-s-children",
+    "name": "Daemonettes",
+    "faction": "Emperor's Children",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Daemonettes",
+      "Emperor's Children",
+      "Infantry",
+      "Legions of Excess",
+      "Slaanesh",
+      "Summoned"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slashing claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "fiends-emperor-s-children",
+    "name": "Fiends",
+    "faction": "Emperor's Children",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 95
+        },
+        {
+          "modelCount": 4,
+          "points": 190
+        },
+        {
+          "modelCount": 5,
+          "points": 190
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Emperor's Children",
+      "Fiends",
+      "Legions of Excess",
+      "Slaanesh",
+      "Summoned"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Barbed tail and dissecting claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "flawless-blades-emperor-s-children",
+    "name": "Flawless Blades",
+    "faction": "Emperor's Children",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 110
+        },
+        {
+          "modelCount": 4,
+          "points": 220
+        },
+        {
+          "modelCount": 5,
+          "points": 220
+        },
+        {
+          "modelCount": 6,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Emperor's Children",
+      "Flawless Blades",
+      "Grenades",
+      "Infantry",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blissblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "fulgrim-emperor-s-children",
+    "name": "Fulgrim",
+    "faction": "Emperor's Children",
+    "points": 340,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 16,
+      "movement": 16,
+      "leadership": 5,
+      "objectiveControl": 6,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 340
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Daemon",
+      "Emperor's Children",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Fulgrim",
+      "Monster",
+      "Primarch",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Malefic lash",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Daemonic blades - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Daemonic blades - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "12",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Serpentine tail",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "heldrake-emperor-s-children",
+    "name": "Heldrake",
+    "faction": "Emperor's Children",
+    "points": 195,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 14,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 195
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Chaos",
+      "Daemon",
+      "Emperor's Children",
+      "Fly",
+      "Heldrake",
+      "Slaanesh",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Baleflamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Hades autocannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Heldrake claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "infractors-emperor-s-children",
+    "name": "Infractors",
+    "faction": "Emperor's Children",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Emperor's Children",
+      "Grenades",
+      "Infantry",
+      "Infractors",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Duelling sabre",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rapture lash",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "keeper-of-secrets-emperor-s-children",
+    "name": "Keeper of Secrets",
+    "faction": "Emperor's Children",
+    "points": 240,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 18,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 240
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Daemon",
+      "Emperor's Children",
+      "Extra Attacks Weapon",
+      "Keeper of Secrets",
+      "Legions of Excess",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Living whip",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Phantasmagoria - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Phantasmagoria - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ritual knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Snapping claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Witstealer sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lord-exultant-emperor-s-children",
+    "name": "Lord Exultant",
+    "faction": "Emperor's Children",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Emperor's Children",
+      "Extra Attacks Weapon",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Lord Exultant",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Slaanesh",
+      "Warlord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Screamer pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Master-crafted power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Phoenix power spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      },
+      {
+        "name": "Power fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rapture lash",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lord-kakophonist-emperor-s-children",
+    "name": "Lord Kakophonist",
+    "faction": "Emperor's Children",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Emperor's Children",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Lord Kakophonist",
+      "Melee Weapon",
+      "Slaanesh",
+      "Warlord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Screamer pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lucius-the-eternal-emperor-s-children",
+    "name": "Lucius the Eternal",
+    "faction": "Emperor's Children",
+    "points": 150,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Chaos",
+      "Character",
+      "Emperor's Children",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Lucius the Eternal",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of the Laer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Lash of Torment",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "maulerfiend-emperor-s-children",
+    "name": "Maulerfiend",
+    "faction": "Emperor's Children",
+    "points": 130,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Daemon",
+      "Emperor's Children",
+      "Maulerfiend",
+      "Slaanesh",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Magma cutter",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "melta": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lasher tendrils",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Maulerfiend fists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "noise-marines-emperor-s-children",
+    "name": "Noise Marines",
+    "faction": "Emperor's Children",
+    "points": 145,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 6
+    },
+    "composition": {
+      "defaultModelCount": 6,
+      "minModelCount": 6,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 6,
+          "points": 145
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Emperor's Children",
+      "Infantry",
+      "Noise Marines",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blastmaster - single frequency",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Blastmaster - varied frequency",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Screamer pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Sonic blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "seekers-emperor-s-children",
+    "name": "Seekers",
+    "faction": "Emperor's Children",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 80
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        },
+        {
+          "modelCount": 7,
+          "points": 160
+        },
+        {
+          "modelCount": 8,
+          "points": 160
+        },
+        {
+          "modelCount": 9,
+          "points": 160
+        },
+        {
+          "modelCount": 10,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Daemon",
+      "Emperor's Children",
+      "Extra Attacks Weapon",
+      "Legions of Excess",
+      "Mounted",
+      "Seekers",
+      "Slaanesh",
+      "Summoned"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lashing tongues",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Slashing claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "shalaxi-helbane-emperor-s-children",
+    "name": "Shalaxi Helbane",
+    "faction": "Emperor's Children",
+    "points": 340,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 20,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 340
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Daemon",
+      "Emperor's Children",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Legions of Excess",
+      "Monster",
+      "Psyker",
+      "Shalaxi Helbane",
+      "Slaanesh"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Lash of Slaanesh",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pavane of Slaanesh - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Pavane of Slaanesh - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Snapping claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Soulpiercer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sorcerer-emperor-s-children",
+    "name": "Sorcerer",
+    "faction": "Emperor's Children",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Emperor's Children",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Slaanesh",
+      "Sorcerer",
+      "Warlord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Agonising Energies - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Agonising Energies - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tormentors-emperor-s-children",
+    "name": "Tormentors",
+    "faction": "Emperor's Children",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 170
+        },
+        {
+          "modelCount": 7,
+          "points": 170
+        },
+        {
+          "modelCount": 8,
+          "points": 170
+        },
+        {
+          "modelCount": 9,
+          "points": 170
+        },
+        {
+          "modelCount": 10,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Emperor's Children",
+      "Grenades",
+      "Infantry",
+      "Slaanesh",
+      "Tormentors"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Boltgun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Meltagun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Plasma gun - standard",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Plasma gun - supercharge",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rapture lash",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

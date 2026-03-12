@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" fill="#121212" rx="29"/>
+  <path d="M 96 31.320000000000007 
+    C 154.212 57.19200000000001 160.68 89.532 160.68 102.468
+    C 160.68 134.808 128.34 154.212 96 160.68
+    C 63.660000000000004 154.212 31.320000000000007 134.808 31.320000000000007 102.468
+    C 31.320000000000007 89.532 37.788000000000004 57.19200000000001 96 31.320000000000007 Z" 
+    fill="#c9a84c" opacity="0.9"/>
+  <text x="96" y="105.24" text-anchor="middle" dominant-baseline="central"
+    font-family="Arial Black, sans-serif" font-weight="900" font-size="28"
+    fill="#121212" letter-spacing="-1">W40K</text>
+</svg>

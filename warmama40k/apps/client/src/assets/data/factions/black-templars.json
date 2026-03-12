@@ -1,0 +1,2561 @@
+[
+  {
+    "id": "castellan-black-templars",
+    "name": "Castellan",
+    "faction": "Black Templars",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Castellan",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Lieutenant",
+      "Melee Weapon",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astartes Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "7",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Master-crafted Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaplain-grimaldus-black-templars",
+    "name": "Chaplain Grimaldus",
+    "faction": "Black Templars",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 5,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 4
+    },
+    "composition": {
+      "defaultModelCount": 4,
+      "minModelCount": 4,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Black Templars",
+      "Chaplain Grimaldus",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Plasma Pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma Pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Artificer Crozius",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "crusade-ancient-black-templars",
+    "name": "Crusade Ancient",
+    "faction": "Black Templars",
+    "points": 55,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Ancient",
+      "Black Templars",
+      "Character",
+      "Crusade Ancient",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "crusader-squad-black-templars",
+    "name": "Crusader Squad",
+    "faction": "Black Templars",
+    "points": 150,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 20,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 150
+        },
+        {
+          "modelCount": 11,
+          "points": 310
+        },
+        {
+          "modelCount": 12,
+          "points": 310
+        },
+        {
+          "modelCount": 13,
+          "points": 310
+        },
+        {
+          "modelCount": 14,
+          "points": 310
+        },
+        {
+          "modelCount": 15,
+          "points": 310
+        },
+        {
+          "modelCount": 16,
+          "points": 310
+        },
+        {
+          "modelCount": 17,
+          "points": 310
+        },
+        {
+          "modelCount": 18,
+          "points": 310
+        },
+        {
+          "modelCount": 19,
+          "points": 310
+        },
+        {
+          "modelCount": 20,
+          "points": 310
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Black Templars",
+      "Crusader Squad",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Power Weapon",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Bolt Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Neophyte Firearm",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pyre Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Pyreblaster",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astartes Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Master-crafted Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Power Fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "emperor-s-champion-black-templars",
+    "name": "Emperor's Champion",
+    "faction": "Black Templars",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Character",
+      "Emperor's Champion",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Black Sword - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 5
+          }
+        }
+      },
+      {
+        "name": "Black Sword - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "emperor-s-champion-anointed-black-templars",
+    "name": "Emperor's Champion (Anointed)",
+    "faction": "Black Templars",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Character",
+      "Emperor's Champion",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Black Sword - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 5
+          }
+        }
+      },
+      {
+        "name": "Black Sword - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "execrator-black-templars",
+    "name": "Execrator",
+    "faction": "Black Templars",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 5,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Chaplain",
+      "Character",
+      "Execrator",
+      "Extra Attacks Weapon",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Absolvor Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pyre Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crozius Arcanum",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Master-crafted Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "gladiator-lancer-black-templars",
+    "name": "Gladiator Lancer",
+    "faction": "Black Templars",
+    "points": 160,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Gladiator Lancer",
+      "Imperium",
+      "Smoke",
+      "Space Marines",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fragstorm grenade launcher",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Icarus Rocket Pod",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Lancer Laser Destroyer",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6+3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "gladiator-reaper-black-templars",
+    "name": "Gladiator Reaper",
+    "faction": "Black Templars",
+    "points": 160,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Gladiator Reaper",
+      "Imperium",
+      "Smoke",
+      "Space Marines",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Icarus Rocket Pod",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Tempest Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 4
+        }
+      },
+      {
+        "name": "Twin Heavy Onslaught Gatling Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "gladiator-valiant-black-templars",
+    "name": "Gladiator Valiant",
+    "faction": "Black Templars",
+    "points": 150,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Gladiator Valiant",
+      "Imperium",
+      "Smoke",
+      "Space Marines",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Icarus Rocket Pod",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Twin Las-talon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "high-marshal-helbrecht-black-templars",
+    "name": "High Marshal Helbrecht",
+    "faction": "Black Templars",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 6,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Chapter Master",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "High Marshal Helbrecht",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Ferocity",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Sword of the High Marshals - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Sword of the High Marshals - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "impulsor-black-templars",
+    "name": "Impulsor",
+    "faction": "Black Templars",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 11,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Dedicated Transport",
+      "Imperium",
+      "Impulsor",
+      "Space Marines",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bellicatus Missile Array - Frag",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Bellicatus Missile Array - Icarus",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Bellicatus Missile Array - Krak",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Ironhail Skytalon Array",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "land-raider-crusader-black-templars",
+    "name": "Land Raider Crusader",
+    "faction": "Black Templars",
+    "points": 220,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true,
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Grenades",
+      "Imperium",
+      "Land Raider",
+      "Land Raider Crusader",
+      "Smoke",
+      "Space Marines",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Hurricane Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 6,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin Assault Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "marshal-black-templars",
+    "name": "Marshal",
+    "faction": "Black Templars",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Captain",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Marshal",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Plasma Pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma Pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "7",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "repulsor-black-templars",
+    "name": "Repulsor",
+    "faction": "Black Templars",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Imperium",
+      "Repulsor",
+      "Smoke",
+      "Space Marines",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Onslaught Gatling Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Hunter-slayer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "indirectFire": true,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Las-talon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Repulsor Defensive Array",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "18",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin Heavy Bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin Lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "repulsor-executioner-black-templars",
+    "name": "Repulsor Executioner",
+    "faction": "Black Templars",
+    "points": 235,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 235
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Imperium",
+      "Repulsor Executioner",
+      "Smoke",
+      "Space Marines",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Laser Destroyer",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6+4",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heavy Onslaught Gatling Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Icarus Rocket Pod",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Macro Plasma Incinerator - Standard",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D6+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Macro Plasma Incinerator - Supercharge",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "D6+1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Repulsor Executioner Defensive Array",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin Heavy Bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin Icarus Ironhail Heavy Stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sternguard-veteran-squad-black-templars",
+    "name": "Sternguard Veteran Squad",
+    "faction": "Black Templars",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 170
+        },
+        {
+          "modelCount": 7,
+          "points": 170
+        },
+        {
+          "modelCount": 8,
+          "points": 170
+        },
+        {
+          "modelCount": 9,
+          "points": 170
+        },
+        {
+          "modelCount": 10,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Power Fist Weapon",
+      "Power Weapon",
+      "Space Marines",
+      "Sternguard Veteran Squad",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Pyrecannon",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Sternguard Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Sternguard Bolt Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Sternguard Heavy Bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astartes Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Power Fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sword-brethren-squad-black-templars",
+    "name": "Sword Brethren Squad",
+    "faction": "Black Templars",
+    "points": 105,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 4
+    },
+    "composition": {
+      "defaultModelCount": 4,
+      "minModelCount": 4,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 105
+        },
+        {
+          "modelCount": 5,
+          "points": 130
+        },
+        {
+          "modelCount": 6,
+          "points": 235
+        },
+        {
+          "modelCount": 7,
+          "points": 235
+        },
+        {
+          "modelCount": 8,
+          "points": 235
+        },
+        {
+          "modelCount": 9,
+          "points": 235
+        },
+        {
+          "modelCount": 10,
+          "points": 260
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Power Weapon",
+      "Primaris Sword Brethren",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma Pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma Pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pyre Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astartes Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Master-crafted Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Thunder Hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin Lightning Claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "terminator-squad-black-templars",
+    "name": "Terminator Squad",
+    "faction": "Black Templars",
+    "points": 175,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 175
+        },
+        {
+          "modelCount": 6,
+          "points": 330
+        },
+        {
+          "modelCount": 7,
+          "points": 330
+        },
+        {
+          "modelCount": 8,
+          "points": 330
+        },
+        {
+          "modelCount": 9,
+          "points": 330
+        },
+        {
+          "modelCount": 10,
+          "points": 330
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Black Templars",
+      "Imperium",
+      "Infantry",
+      "Space Marines",
+      "Terminator",
+      "Terminator Squad"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Assault Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Heavy Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Storm Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainfist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Power Fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

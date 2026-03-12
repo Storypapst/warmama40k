@@ -1,0 +1,179 @@
+[
+  {
+    "id": "kor-sarro-khan-white-scars",
+    "name": "Kor'sarro Khan",
+    "faction": "White Scars",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Captain",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Infantry",
+      "Kor'sarro Khan",
+      "Leader",
+      "Space Marines",
+      "Tacticus",
+      "White Scars"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Moonfang",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "suboden-khan-white-scars",
+    "name": "Suboden Khan",
+    "faction": "White Scars",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 8,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Captain",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Leader",
+      "Mounted",
+      "Space Marines",
+      "Suboden Khan",
+      "White Scars"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Onslaught Gatling Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Power Sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Stormtooth",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  }
+]

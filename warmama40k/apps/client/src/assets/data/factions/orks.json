@@ -1,0 +1,5959 @@
+[
+  {
+    "id": "battlewagon-orks",
+    "name": "Battlewagon",
+    "faction": "Orks",
+    "points": 160,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battlewagon",
+      "Orks",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Kannon - frag",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Kannon - shell",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Killkannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Lobba",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Zzap gun",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 0,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "5",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Deff rolla",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Grabbin' klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Tracks and wheels",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Wreckin' ball",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beast-snagga-boyz-orks",
+    "name": "Beast Snagga Boyz",
+    "faction": "Orks",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 9,
+      "maxModelCount": 19,
+      "compositionOptions": [
+        {
+          "modelCount": 9,
+          "points": 95
+        },
+        {
+          "modelCount": 11,
+          "points": 190
+        },
+        {
+          "modelCount": 12,
+          "points": 190
+        },
+        {
+          "modelCount": 13,
+          "points": 190
+        },
+        {
+          "modelCount": 14,
+          "points": 190
+        },
+        {
+          "modelCount": 15,
+          "points": 190
+        },
+        {
+          "modelCount": 16,
+          "points": 190
+        },
+        {
+          "modelCount": 17,
+          "points": 190
+        },
+        {
+          "modelCount": 18,
+          "points": 190
+        },
+        {
+          "modelCount": 19,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Battleline",
+      "Beast Snagga",
+      "Beast Snagga Boyz",
+      "Infantry",
+      "Mob",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Thump gun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power snappa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beastboss-orks",
+    "name": "Beastboss",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Beast Snagga",
+      "Beastboss",
+      "Character",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Orks",
+      "Ranged Weapon",
+      "Warboss"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shoota",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Beast Snagga klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Beastchoppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "beastboss-on-squigosaur-orks",
+    "name": "Beastboss on Squigosaur",
+    "faction": "Orks",
+    "points": 110,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 8,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Beast Snagga",
+      "Beastboss on Squigosaur",
+      "Character",
+      "Extra Attacks Weapon",
+      "Leader",
+      "Melee Weapon",
+      "Mounted",
+      "Orks",
+      "Warboss"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Thump gun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Beastchoppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Squigosaur’s jaws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "big-mek-orks",
+    "name": "Big Mek",
+    "faction": "Orks",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Big Mek",
+      "Character",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Mek",
+      "Melee Weapon",
+      "Orks",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Traktor blasta",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Drilla",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "big-mek-in-mega-armour-orks",
+    "name": "Big Mek in Mega Armour",
+    "faction": "Orks",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Big Mek in Mega Armour",
+      "Character",
+      "Infantry",
+      "Leader",
+      "Mega Armour",
+      "Mek",
+      "Orks",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kombi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Kustom shoota",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Tellyport blasta",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Killsaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "big-mek-with-shokk-attack-gun-orks",
+    "name": "Big Mek with Shokk Attack Gun",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Big Mek with Shokk Attack Gun",
+      "Character",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Mek",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shokk attack gun",
+        "range": 60,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "D6+1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "big-ed-bossbunka-orks",
+    "name": "Big'ed Bossbunka",
+    "faction": "Orks",
+    "points": 135,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 0,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 135
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Big'ed Bossbunka",
+      "Fortification",
+      "Orks",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Gaze of Gork - glare",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "sustainedHits": "D3"
+        }
+      },
+      {
+        "name": "Gaze of Gork - squint",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 12,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": "D3"
+        }
+      }
+    ],
+    "meleeWeapons": []
+  },
+  {
+    "id": "blitza-bommer-orks",
+    "name": "Blitza-bommer",
+    "faction": "Orks",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Blitza-bommer",
+      "Fly",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin supa-shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "boomdakka-snazzwagon-orks",
+    "name": "Boomdakka Snazzwagon",
+    "faction": "Orks",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Boomdakka Snazzwagon",
+      "Grenades",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Grot blasta",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Mek speshul",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 4,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spiked wheels",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "boss-snikrot-orks",
+    "name": "Boss Snikrot",
+    "faction": "Orks",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Boss Snikrot",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Orks",
+      "Smoke"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Mork’s Teeth",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "boyz-orks",
+    "name": "Boyz",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 9,
+      "maxModelCount": 19,
+      "compositionOptions": [
+        {
+          "modelCount": 9,
+          "points": 80
+        },
+        {
+          "modelCount": 11,
+          "points": 170
+        },
+        {
+          "modelCount": 12,
+          "points": 170
+        },
+        {
+          "modelCount": 13,
+          "points": 170
+        },
+        {
+          "modelCount": 14,
+          "points": 170
+        },
+        {
+          "modelCount": 15,
+          "points": 170
+        },
+        {
+          "modelCount": 16,
+          "points": 170
+        },
+        {
+          "modelCount": 17,
+          "points": 170
+        },
+        {
+          "modelCount": 18,
+          "points": 170
+        },
+        {
+          "modelCount": 19,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Boyz",
+      "Grenades",
+      "Infantry",
+      "Mob",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Kombi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Shoota",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "breaka-boyz-orks",
+    "name": "Breaka Boyz",
+    "faction": "Orks",
+    "points": 140,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 6
+    },
+    "composition": {
+      "defaultModelCount": 6,
+      "minModelCount": 6,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 6,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Breaka Boyz",
+      "Grenades",
+      "Infantry",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Rokkit pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Knucklebustas",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Smash hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Tankhammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "burna-boyz-orks",
+    "name": "Burna Boyz",
+    "faction": "Orks",
+    "points": 60,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Burna Boyz",
+      "Infantry",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Burna",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Cuttin’ flames",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "burna-bommer-orks",
+    "name": "Burna-bommer",
+    "faction": "Orks",
+    "points": 125,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Burna-bommer",
+      "Fly",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Skorcha missile rack",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Twin big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin supa-shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "dakkajet-orks",
+    "name": "Dakkajet",
+    "faction": "Orks",
+    "points": 135,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 135
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Dakkajet",
+      "Fly",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Twin supa-shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "deff-dread-orks",
+    "name": "Deff Dread",
+    "faction": "Orks",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 8,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deff Dread",
+      "Orks",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Skorcha",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dread klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Stompy feet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "deffkilla-wartrike-orks",
+    "name": "Deffkilla Wartrike",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Deffkilla Wartrike",
+      "Leader",
+      "Melee Weapon",
+      "Mounted",
+      "Orks",
+      "Ranged Weapon",
+      "Speed Freeks",
+      "Warboss"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Deffkilla boomstikks",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Killa jet - burna",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Killa jet - cutta",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Snagga klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "deffkoptas-orks",
+    "name": "Deffkoptas",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deffkoptas",
+      "Fly",
+      "Grenades",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kopta rokkits",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spinnin’ blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "flash-gitz-orks",
+    "name": "Flash Gitz",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 80
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        },
+        {
+          "modelCount": 7,
+          "points": 160
+        },
+        {
+          "modelCount": 8,
+          "points": 160
+        },
+        {
+          "modelCount": 9,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Flash Gitz",
+      "Grenades",
+      "Infantry",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Snazzgun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "gargantuan-squiggoth-orks",
+    "name": "Gargantuan Squiggoth",
+    "faction": "Orks",
+    "points": 440,
+    "unitType": "model",
+    "stats": {
+      "toughness": 13,
+      "wounds": 30,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 12,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 440
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Gargantuan Squiggoth",
+      "Monster",
+      "Orks",
+      "Titanic",
+      "Towering",
+      "Transport"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kannon - frag",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Kannon - shell",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Supa-kannon",
+        "range": 60,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "2D6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Huge tusks - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "12",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      },
+      {
+        "name": "Huge tusks - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "18",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ghazghkull-thraka-orks",
+    "name": "Ghazghkull Thraka",
+    "faction": "Orks",
+    "points": 235,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 10,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 2,
+      "invulnerableSave": 2,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 235
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Ghazghkull Thraka",
+      "Infantry",
+      "Leader",
+      "Orks",
+      "Warboss"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Mork’s Roar",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 4
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gork’s Klaw - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Gork’s Klaw - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "12",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Makari’s stabba",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "gorkanaut-orks",
+    "name": "Gorkanaut",
+    "faction": "Orks",
+    "points": 265,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 20,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 8,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 265
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Gorkanaut",
+      "Orks",
+      "Titanic",
+      "Towering",
+      "Transport",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Deffstorm mega-shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "20",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Skorcha",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Twin big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Klaw of Gork - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Klaw of Gork - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "15",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "gretchin-orks",
+    "name": "Gretchin",
+    "faction": "Orks",
+    "points": 40,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 2,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 7,
+      "invulnerableSave": null,
+      "modelCount": 11
+    },
+    "composition": {
+      "defaultModelCount": 11,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 40
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Gretchin",
+      "Grots",
+      "Infantry",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Grot blasta",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 10
+        }
+      },
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Grot-smacka",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hunta-rig-orks",
+    "name": "Hunta Rig",
+    "faction": "Orks",
+    "points": 135,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 135
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Beast Snagga",
+      "Hunta Rig",
+      "Monster",
+      "Orks",
+      "Transport"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Stikka kannon",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "’Eavy lobba",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Butcha boyz",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Savage horns and hooves",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      },
+      {
+        "name": "Saw blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "kill-rig-orks",
+    "name": "Kill Rig",
+    "faction": "Orks",
+    "points": 155,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 155
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Beast Snagga",
+      "Kill Rig",
+      "Monster",
+      "Orks",
+      "Psyker",
+      "Transport"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Stikka kannon",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Wurrtower",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "’Eavy lobba",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Butcha boyz",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Savage horns and hooves",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      },
+      {
+        "name": "Saw blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "killa-kans-orks",
+    "name": "Killa Kans",
+    "faction": "Orks",
+    "points": 125,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 125
+        },
+        {
+          "modelCount": 4,
+          "points": 250
+        },
+        {
+          "modelCount": 5,
+          "points": 250
+        },
+        {
+          "modelCount": 6,
+          "points": 250
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grots",
+      "Killa Kans",
+      "Orks",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Grotzooka",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D3+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Kan shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Skorcha",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Kan klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "kommandos-orks",
+    "name": "Kommandos",
+    "faction": "Orks",
+    "points": 120,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Grenades",
+      "Infantry",
+      "Kommandos",
+      "Orks",
+      "Smoke"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Burna",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Kustom shoota",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Breacha ram",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "kustom-boosta-blasta-orks",
+    "name": "Kustom Boosta-blasta",
+    "faction": "Orks",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Kustom Boosta-blasta",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Burna exhausts",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Grot blasta",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rivet kannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spiked wheels",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lootas-orks",
+    "name": "Lootas",
+    "faction": "Orks",
+    "points": 50,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Infantry",
+      "Lootas",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Deffgun",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 6,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "meganobz-orks",
+    "name": "Meganobz",
+    "faction": "Orks",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 65
+        },
+        {
+          "modelCount": 3,
+          "points": 95
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Infantry",
+      "Mega Armour",
+      "Meganobz",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kombi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Kustom shoota",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Killsaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Twin killsaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "megatrakk-scrapjet-orks",
+    "name": "Megatrakk Scrapjet",
+    "faction": "Orks",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Megatrakk Scrapjet",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Rokkit cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6+1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Twin big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Wing missiles",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nose drill",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "mek-orks",
+    "name": "Mek",
+    "faction": "Orks",
+    "points": 45,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 45
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": {
+      "heal": true,
+      "healD3Wounds": true
+    },
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Mek",
+      "Melee Weapon",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kustom mega-slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Killsaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Wrench",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "mek-gunz-orks",
+    "name": "Mek Gunz",
+    "faction": "Orks",
+    "points": 50,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 3,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grots",
+      "Mek Gunz",
+      "Orks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "1-2 Bubblechukka - big bubble",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "3-4 Bubblechukka - wobbly bubble",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "5-6 Bubblechukka - dense bubble",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "D6+3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Kustom mega-kannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Smasha gun",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "D3+1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Traktor kannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Grot crew",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "morkanaut-orks",
+    "name": "Morkanaut",
+    "faction": "Orks",
+    "points": 280,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 20,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 8,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 280
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Morkanaut",
+      "Orks",
+      "Titanic",
+      "Towering",
+      "Transport",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kustom mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Kustom mega-zappa",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Twin big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Klaw of Mork - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Klaw of Mork - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "mozrog-skragbad-orks",
+    "name": "Mozrog Skragbad",
+    "faction": "Orks",
+    "points": 145,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 8,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 145
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Beast Snagga",
+      "Character",
+      "Epic Hero",
+      "Leader",
+      "Mounted",
+      "Mozrog Skragbad",
+      "Orks",
+      "Warboss"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Thump gun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big Chompa’s jaws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Gutrippa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "nob-on-smasha-squig-orks",
+    "name": "Nob on Smasha Squig",
+    "faction": "Orks",
+    "points": null,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": []
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Extra Attacks Weapon",
+      "Mounted",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Squig jaws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "nobz-orks",
+    "name": "Nobz",
+    "faction": "Orks",
+    "points": 105,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 105
+        },
+        {
+          "modelCount": 6,
+          "points": 210
+        },
+        {
+          "modelCount": 7,
+          "points": 210
+        },
+        {
+          "modelCount": 8,
+          "points": 210
+        },
+        {
+          "modelCount": 9,
+          "points": 210
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Infantry",
+      "Nobz",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kombi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "painboss-orks",
+    "name": "Painboss",
+    "faction": "Orks",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5,
+      "heal": true,
+      "healD3Models": true
+    },
+    "tags": [
+      "Beast Snagga",
+      "Character",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Orks",
+      "Painboss"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Beast Snagga klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "painboy-orks",
+    "name": "Painboy",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "heal": true,
+      "healD3Models": true
+    },
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Orks",
+      "Painboy"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "’Urty syringe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "rukkatrukk-squigbuggy-orks",
+    "name": "Rukkatrukk Squigbuggy",
+    "faction": "Orks",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Orks",
+      "Rukkatrukk Squigbuggy",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Sawn-off shotgun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Squig launchas",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6+6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Saw blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "runtherd-orks",
+    "name": "Runtherd",
+    "faction": "Orks",
+    "points": null,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": []
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Infantry",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Grot-smacka",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "shokkjump-dragsta-orks",
+    "name": "Shokkjump Dragsta",
+    "faction": "Orks",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Orks",
+      "Shokkjump Dragsta",
+      "Speed Freeks",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kustom shokk rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Saw blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "squighog-boy-orks",
+    "name": "Squighog Boy",
+    "faction": "Orks",
+    "points": null,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 3,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": []
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Extra Attacks Weapon",
+      "Mounted",
+      "Orks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Saddlegit weapons",
+        "range": 9,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Stikka (ranged)",
+        "range": 9,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Squig jaws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Stikka (melee)",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "squighog-boyz-orks",
+    "name": "Squighog Boyz",
+    "faction": "Orks",
+    "points": 150,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 3,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 4
+    },
+    "composition": {
+      "defaultModelCount": 4,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Beast Snagga",
+      "Grenades",
+      "Mounted",
+      "Orks",
+      "Squighog Boyz"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Saddlegit weapons",
+        "range": 9,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Stikka (ranged)",
+        "range": 9,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Squig jaws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Stikka (melee)",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "plusOneToWound": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "stompa-orks",
+    "name": "Stompa",
+    "faction": "Orks",
+    "points": 800,
+    "unitType": "model",
+    "stats": {
+      "toughness": 14,
+      "wounds": 30,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 12,
+      "armourSave": 2,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 800
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Orks",
+      "Stompa",
+      "Titanic",
+      "Towering",
+      "Transport",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Deffkannon",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "3D6",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Skorcha",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Supa-gatler",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "20",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Supa-rokkits",
+        "range": 100,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "D6",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Twin big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Mega-choppa - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 24,
+        "armourPenetration": 5,
+        "attacks": "6",
+        "damage": "10",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Mega-choppa - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "18",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "stormboyz-orks",
+    "name": "Stormboyz",
+    "faction": "Orks",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 65
+        },
+        {
+          "modelCount": 6,
+          "points": 130
+        },
+        {
+          "modelCount": 7,
+          "points": 130
+        },
+        {
+          "modelCount": 8,
+          "points": 130
+        },
+        {
+          "modelCount": 9,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack",
+      "Orks",
+      "Stormboyz"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tankbustas-orks",
+    "name": "Tankbustas",
+    "faction": "Orks",
+    "points": 140,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 6
+    },
+    "composition": {
+      "defaultModelCount": 6,
+      "minModelCount": 6,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 6,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Infantry",
+      "Orks",
+      "Tankbustas"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Rokkit launcha",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "blast": true
+        }
+      },
+      {
+        "name": "Rokkit pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Smash hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "trukk-orks",
+    "name": "Trukk",
+    "faction": "Orks",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Dedicated Transport",
+      "Orks",
+      "Transport",
+      "Trukk",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spiked wheel",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Wreckin' ball",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "warbikers-orks",
+    "name": "Warbikers",
+    "faction": "Orks",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 2,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 65
+        },
+        {
+          "modelCount": 4,
+          "points": 130
+        },
+        {
+          "modelCount": 5,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Mounted",
+      "Orks",
+      "Speed Freeks",
+      "Warbikers"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Twin dakkagun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 2,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "warboss-orks",
+    "name": "Warboss",
+    "faction": "Orks",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Extra Attacks Weapon",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Orks",
+      "Ranged Weapon",
+      "Warboss"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Kombi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Twin slugga",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Attack Squig",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Big choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power klaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "warboss-in-mega-armour-orks",
+    "name": "Warboss in Mega Armour",
+    "faction": "Orks",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 7,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Mega Armour",
+      "Melee Weapon",
+      "Orks",
+      "Ranged Weapon",
+      "Warboss",
+      "Warboss in Mega Armour"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Big shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "’Uge choppa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wazbom-blastajet-orks",
+    "name": "Wazbom Blastajet",
+    "faction": "Orks",
+    "points": 175,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 175
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Fly",
+      "Grenades",
+      "Orks",
+      "Speed Freeks",
+      "Vehicle",
+      "Wazbom Blastajet"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Smasha gun",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Twin supa-shoota",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin tellyport mega-blasta",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin wazbom mega-kannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "weirdboy-orks",
+    "name": "Weirdboy",
+    "faction": "Orks",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Orks",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Weirdboy"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "’Eadbanger",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Weirdboy staff",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wurrboy-orks",
+    "name": "Wurrboy",
+    "faction": "Orks",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Beast Snagga",
+      "Character",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Orks",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Wurrboy"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Eyez of Mork",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "zodgrod-wortsnagga-orks",
+    "name": "Zodgrod Wortsnagga",
+    "faction": "Orks",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Orks",
+      "Zodgrod Wortsnagga"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Squigstoppa",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Da Grabzappa",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

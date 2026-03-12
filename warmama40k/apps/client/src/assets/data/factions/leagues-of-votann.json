@@ -1,0 +1,2289 @@
+[
+  {
+    "id": "arkanyst-evaluator-leagues-of-votann",
+    "name": "Arkanyst Evaluator",
+    "faction": "Leagues of Votann",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Arkanyst Evaluator",
+      "Character",
+      "Infantry",
+      "Leader",
+      "Leagues of Votann",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Transmatter inverter - full charge",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Transmatter inverter - half charge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Transmatter inverter - overcharge",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "br-khyr-iron-master-leagues-of-votann",
+    "name": "Brôkhyr Iron-master",
+    "faction": "Leagues of Votann",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": {
+      "heal": true,
+      "healD3Wounds": true
+    },
+    "tags": [
+      "Brôkhyr",
+      "Character",
+      "Infantry",
+      "Iron-master",
+      "Leader",
+      "Leagues of Votann",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Graviton rifle",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Las-beam cutter",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Graviton hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Manipulator arms",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma torch",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "br-khyr-thunderkyn-leagues-of-votann",
+    "name": "Brôkhyr Thunderkyn",
+    "faction": "Leagues of Votann",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 2,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Brôkhyr",
+      "Exoframe",
+      "Infantry",
+      "Leagues of Votann",
+      "Thunderkyn"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Graviton blast cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "SP conversion beamer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "buri-aegnirssen-leagues-of-votann",
+    "name": "Buri Aegnirssen",
+    "faction": "Leagues of Votann",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Buri Aegnirssen",
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bane - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Bane - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "cthonian-beserks-leagues-of-votann",
+    "name": "Cthonian Beserks",
+    "faction": "Leagues of Votann",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 100
+        },
+        {
+          "modelCount": 6,
+          "points": 200
+        },
+        {
+          "modelCount": 7,
+          "points": 200
+        },
+        {
+          "modelCount": 8,
+          "points": 200
+        },
+        {
+          "modelCount": 9,
+          "points": 200
+        },
+        {
+          "modelCount": 10,
+          "points": 200
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 4
+    },
+    "tags": [
+      "Beserks",
+      "Cthonian",
+      "Infantry",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Mole grenade launcher",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Twin concussion gauntlets",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "cthonian-earthshakers-leagues-of-votann",
+    "name": "Cthonian Earthshakers",
+    "faction": "Leagues of Votann",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 4,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Artillery",
+      "Cthonian",
+      "Earthshakers",
+      "Infantry",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Breacher ordnance",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "D6+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Tremor shells",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plasma picks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "einhyr-champion-leagues-of-votann",
+    "name": "Einhyr Champion",
+    "faction": "Leagues of Votann",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Einhyr Champion",
+      "Exoarmour",
+      "Infantry",
+      "Leader",
+      "Leagues of Votann",
+      "Melee Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Darkstar axe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Mass hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "einhyr-hearthguard-leagues-of-votann",
+    "name": "Einhyr Hearthguard",
+    "faction": "Leagues of Votann",
+    "points": 135,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 135
+        },
+        {
+          "modelCount": 6,
+          "points": 270
+        },
+        {
+          "modelCount": 7,
+          "points": 270
+        },
+        {
+          "modelCount": 8,
+          "points": 270
+        },
+        {
+          "modelCount": 9,
+          "points": 270
+        },
+        {
+          "modelCount": 10,
+          "points": 270
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Einhyr Hearthguard",
+      "Exoarmour",
+      "Infantry",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "EtaCarn plasma gun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Exo-armour grenade launcher",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Volkanite disintegrator",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Concussion gauntlet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Graviton hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Plasma blade gauntlet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "grimnyr-leagues-of-votann",
+    "name": "Grimnyr",
+    "faction": "Leagues of Votann",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Grimnyr",
+      "Infantry",
+      "Leader",
+      "Leagues of Votann",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Ancestral Wrath - focused witchfire",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Ancestral Wrath - witchfire",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Autoch-pattern bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ancestral ward stave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hearthkyn-warriors-leagues-of-votann",
+    "name": "Hearthkyn Warriors",
+    "faction": "Leagues of Votann",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Battleline",
+      "Grenades",
+      "Hearthkyn Warriors",
+      "Infantry",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Autoch-pattern bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "EtaCarn plasma beamer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": "D3"
+        }
+      },
+      {
+        "name": "HYLas auto rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "HYLas rotary cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Ion blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Magna-rail rifle",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3+3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Theyn's pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Theyn's melee weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hekaton-land-fortress-leagues-of-votann",
+    "name": "Hekaton Land Fortress",
+    "faction": "Leagues of Votann",
+    "points": 240,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 240
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Hekaton Land Fortress",
+      "Leagues of Votann",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Cyclic ion cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D6+2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Heavy magna-rail cannon",
+        "range": 30,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 18,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6+4",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Hekaton warhead",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "MATR autocannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "SP heavy conversion beamer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin bolt cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Twin ion beamer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "D3+1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured wheels",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hernkyn-pioneers-leagues-of-votann",
+    "name": "Hernkyn Pioneers",
+    "faction": "Leagues of Votann",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Fly",
+      "Grenades",
+      "Hernkyn Pioneers",
+      "Leagues of Votann",
+      "Mounted"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt revolver",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Bolt shotgun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "HYLas rotary cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Ion beamer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "D3+1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Magna-coil autocannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plasma knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "hernkyn-yaegirs-leagues-of-votann",
+    "name": "Hernkyn Yaegirs",
+    "faction": "Leagues of Votann",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Hernkyn Yaegirs",
+      "Infantry",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "APM launcher",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Bolt revolver",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Bolt shotgun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Magna-coil rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Plasma knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "ironkin-steeljacks-with-heavy-volkan-leagues-of-votann",
+    "name": "Ironkin Steeljacks with Heavy Volkan...",
+    "faction": "Leagues of Votann",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Infantry",
+      "Ironkin Steeljacks",
+      "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heavy volkanite disintegrator",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plasma knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Plasma sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ironkin-steeljacks-with-melee-weapons-leagues-of-votann",
+    "name": "Ironkin Steeljacks with Melee Weapons",
+    "faction": "Leagues of Votann",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 85
+        },
+        {
+          "modelCount": 4,
+          "points": 170
+        },
+        {
+          "modelCount": 5,
+          "points": 170
+        },
+        {
+          "modelCount": 6,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Infantry",
+      "Ironkin Steeljacks",
+      "Ironkin Steeljacks with Melee Weapons",
+      "Leagues of Votann"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Concussion gauntlet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Plasma sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "kapricus-carrier-leagues-of-votann",
+    "name": "Kapricus Carrier",
+    "faction": "Leagues of Votann",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 7,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Carrier",
+      "Dedicated Transport",
+      "Fly",
+      "Hernkyn",
+      "Kapricus",
+      "Leagues of Votann",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Magna-coil autocannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin magna-coil autocannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "kapricus-defenders-leagues-of-votann",
+    "name": "Kapricus Defenders",
+    "faction": "Leagues of Votann",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 7,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Defenders",
+      "Fly",
+      "Hernkyn",
+      "Kapricus",
+      "Leagues of Votann",
+      "Smoke",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "HYLas rotary cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Magna-rail cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D3+3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin magna-coil autocannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "k-hl-leagues-of-votann",
+    "name": "Kâhl",
+    "faction": "Leagues of Votann",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Infantry",
+      "Kâhl",
+      "Leader",
+      "Leagues of Votann",
+      "Melee Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Volkanite disintegrator",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Forgewrought plasma axe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Mass gauntlet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "memnyr-strategist-leagues-of-votann",
+    "name": "Memnyr Strategist",
+    "faction": "Leagues of Votann",
+    "points": 45,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 45
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Leagues of Votann",
+      "Melee Weapon",
+      "Memnyr Strategist",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sagitaur-leagues-of-votann",
+    "name": "Sagitaur",
+    "faction": "Leagues of Votann",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Dedicated Transport",
+      "Leagues of Votann",
+      "Sagitaur",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "HYLas beam cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "MATR autocannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Sagitaur missile launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Twin bolt cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured wheels",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "thar-the-destined-leagues-of-votann",
+    "name": "Ûthar the Destined",
+    "faction": "Leagues of Votann",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Leagues of Votann",
+      "Ûthar the Destined"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Volkanite disintegrator",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blade of the Ancestors",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  }
+]

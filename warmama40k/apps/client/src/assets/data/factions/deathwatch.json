@@ -1,0 +1,1971 @@
+[
+  {
+    "id": "corvus-blackstar-deathwatch",
+    "name": "Corvus Blackstar",
+    "faction": "Deathwatch",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 14,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Aircraft",
+      "Corvus Blackstar",
+      "Deathwatch",
+      "Fly",
+      "Imperium",
+      "Smoke",
+      "Space Marines",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blackstar rocket launcher",
+        "range": 30,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6+1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Hurricane bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 6,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Stormstrike missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "deathwatch-terminator-squad-deathwatch",
+    "name": "Deathwatch Terminator Squad",
+    "faction": "Deathwatch",
+    "points": 190,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 190
+        },
+        {
+          "modelCount": 6,
+          "points": 350
+        },
+        {
+          "modelCount": 7,
+          "points": 350
+        },
+        {
+          "modelCount": 8,
+          "points": 350
+        },
+        {
+          "modelCount": 9,
+          "points": 350
+        },
+        {
+          "modelCount": 10,
+          "points": 350
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deathwatch",
+      "Deathwatch Terminator Squad",
+      "Imperium",
+      "Infantry",
+      "Kill Team",
+      "Space Marines",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Assault Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Cyclone missile launcher - frag",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "blast": true
+        }
+      },
+      {
+        "name": "Cyclone missile launcher - krak",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Plasma cannon - standard",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Plasma cannon - supercharge",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "blast": true
+        }
+      },
+      {
+        "name": "Storm Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainfist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 10,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Power Fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 10
+        }
+      },
+      {
+        "name": "Thunder Hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin Lightning Claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "deathwatch-veterans-deathwatch",
+    "name": "Deathwatch Veterans",
+    "faction": "Deathwatch",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 100
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        },
+        {
+          "modelCount": 10,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Deathwatch",
+      "Deathwatch Kill Team",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Ordo Xenos",
+      "Retinue",
+      "Space Marines",
+      "Watch Sergeant loadout"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Boltgun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Deathwatch shotgun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Frag cannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Infernus heavy bolter - heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Infernus heavy bolter - heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Stalker-pattern boltgun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blackshield blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Deathwatch thunder hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Xenophase blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "decimus-kill-team-deathwatch",
+    "name": "Decimus Kill Team",
+    "faction": "Deathwatch",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 0,
+      "wounds": 0,
+      "movement": 0,
+      "leadership": 0,
+      "objectiveControl": 0,
+      "armourSave": 0,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 200
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Deathwatch",
+      "Decimus Kill Team",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Kill Team",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Astartes grenade launcher - frag",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Astartes grenade launcher - krak",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Deathwatch marksman bolt carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Frag cannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "blast": true,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Hellstorm bolt rifle",
+        "range": 30,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Infernus heavy bolter - heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Infernus heavy bolter - heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Plasma incinerator - Standard",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma incinerator - Supercharge",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Special-issue bolt pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Stalker bolt rifle",
+        "range": 30,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Combat knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heavy thunder hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Xenophase blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "fortis-kill-team-deathwatch",
+    "name": "Fortis Kill Team",
+    "faction": "Deathwatch",
+    "points": 180,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deathwatch",
+      "Fortis Kill Team",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Kill Team",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Astartes grenade launcher - frag",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Astartes grenade launcher - krak",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Castellan Launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Deathwatch bolt rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Hand Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Heavy bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma incinerator - Standard",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma incinerator - Supercharge",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Plasma Pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma Pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pyreblaster",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Superfrag missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6+1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Superkrak missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Vengor Launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astartes Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power Fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Thunder Hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "indomitor-kill-team-deathwatch",
+    "name": "Indomitor Kill Team",
+    "faction": "Deathwatch",
+    "points": 265,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 265
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deathwatch",
+      "Gravis",
+      "Grenades",
+      "Imperium",
+      "Indomitor Kill Team",
+      "Infantry",
+      "Kill Team",
+      "Space Marines"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Auto boltstorm gauntlets",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Deathwatch heavy bolt rifle",
+        "range": 30,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Deathwatch heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Flamestorm gauntlets",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6+1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Melta rifle",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin power fists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "spectrus-kill-team-deathwatch",
+    "name": "Spectrus Kill Team",
+    "faction": "Deathwatch",
+    "points": 180,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deathwatch",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Kill Team",
+      "Phobos",
+      "Smoke",
+      "Space Marines",
+      "Spectrus Kill Team"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Bolt sniper rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Deathwatch Bolt carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Deathwatch marksman bolt carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Deathwatch occulus bolt carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Instigator bolt carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Las fusil",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Special-issue bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 6
+        }
+      },
+      {
+        "name": "Combat knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Paired combat blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "talonstrike-kill-team-deathwatch",
+    "name": "Talonstrike Kill Team",
+    "faction": "Deathwatch",
+    "points": 275,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 275
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Deathwatch",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Jump Pack",
+      "Kill Team",
+      "Space Marines",
+      "Talonstrike Kill Team"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Assault bolters",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Hand Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma exterminators - standard",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Plasma exterminators - supercharge",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Plasma pistol - Standard",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Plasma pistol - Supercharge",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Astartes Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Power Fist",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "watch-captain-artemis-deathwatch",
+    "name": "Watch Captain Artemis",
+    "faction": "Deathwatch",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Captain",
+      "Character",
+      "Deathwatch",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Space Marines",
+      "Watch Captain Artemis"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hellfire Extremis",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Master-crafted power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "watch-master-deathwatch",
+    "name": "Watch Master",
+    "faction": "Deathwatch",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Captain",
+      "Character",
+      "Deathwatch",
+      "Grenades",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Space Marines",
+      "Watch Master"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Vigil spear",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Vigil spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  }
+]

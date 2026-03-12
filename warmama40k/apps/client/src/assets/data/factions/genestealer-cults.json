@@ -1,0 +1,3232 @@
+[
+  {
+    "id": "aberrants-genestealer-cults",
+    "name": "Aberrants",
+    "faction": "Genestealer Cults",
+    "points": 135,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 135
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": "5"
+    },
+    "tags": [
+      "Aberrants",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Aberrant weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "abominant-genestealer-cults",
+    "name": "Abominant",
+    "faction": "Genestealer Cults",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": "5"
+    },
+    "tags": [
+      "Abominant",
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Melee Weapon"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Power sledgehammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "achilles-ridgerunners-genestealer-cults",
+    "name": "Achilles Ridgerunners",
+    "faction": "Genestealer Cults",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 8,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Achilles Ridgerunners",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Smoke",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Achilles missile launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heavy mining laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Heavy mortar",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Twin heavy stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "acolyte-hybrids-with-autopistols-genestealer-cults",
+    "name": "Acolyte Hybrids with Autopistols",
+    "faction": "Genestealer Cults",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 65
+        },
+        {
+          "modelCount": 6,
+          "points": 130
+        },
+        {
+          "modelCount": 7,
+          "points": 130
+        },
+        {
+          "modelCount": 8,
+          "points": 130
+        },
+        {
+          "modelCount": 9,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Acolyte Hybrids",
+      "Acolyte Hybrids with Autopistols",
+      "Battleline",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Infantry"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Cult claws and knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Heavy Mining Tool",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Leader's Bio-weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "acolyte-hybrids-with-hand-flamers-genestealer-cults",
+    "name": "Acolyte Hybrids with Hand Flamers",
+    "faction": "Genestealer Cults",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 70
+        },
+        {
+          "modelCount": 6,
+          "points": 140
+        },
+        {
+          "modelCount": 7,
+          "points": 140
+        },
+        {
+          "modelCount": 8,
+          "points": 140
+        },
+        {
+          "modelCount": 9,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Acolyte Hybrids",
+      "Acolyte Hybrids with Hand Flamers",
+      "Battleline",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Infantry"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Demolition charge",
+        "range": 8,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Hand flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Cult claws and knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Leader's bio-weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "acolyte-iconward-genestealer-cults",
+    "name": "Acolyte Iconward",
+    "faction": "Genestealer Cults",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Acolyte Iconward",
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Cult claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "atalan-jackals-genestealer-cults",
+    "name": "Atalan Jackals",
+    "faction": "Genestealer Cults",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 8,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Atalan Jackals",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Mounted"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Atalan incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Atalan small arms",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Grenade launcher - frag",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Grenade launcher - krak",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Heavy stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Mining laser",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Atalan power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "benefictus-genestealer-cults",
+    "name": "Benefictus",
+    "faction": "Genestealer Cults",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Benefictus",
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Psionic cascade - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psionic cascade - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "biophagus-genestealer-cults",
+    "name": "Biophagus",
+    "faction": "Genestealer Cults",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Biophagus",
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Chemical vials",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 1,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Injector goad",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "clamavus-genestealer-cults",
+    "name": "Clamavus",
+    "faction": "Genestealer Cults",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Clamavus",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "deathleaper-genestealer-cults",
+    "name": "Deathleaper",
+    "faction": "Genestealer Cults",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 7,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Deathleaper",
+      "Epic Hero",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lictor claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "gargoyles-genestealer-cults",
+    "name": "Gargoyles",
+    "faction": "Genestealer Cults",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 12,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 20,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 85
+        },
+        {
+          "modelCount": 11,
+          "points": 170
+        },
+        {
+          "modelCount": 12,
+          "points": 170
+        },
+        {
+          "modelCount": 13,
+          "points": 170
+        },
+        {
+          "modelCount": 14,
+          "points": 170
+        },
+        {
+          "modelCount": 15,
+          "points": 170
+        },
+        {
+          "modelCount": 16,
+          "points": 170
+        },
+        {
+          "modelCount": 17,
+          "points": 170
+        },
+        {
+          "modelCount": 18,
+          "points": 170
+        },
+        {
+          "modelCount": 19,
+          "points": 170
+        },
+        {
+          "modelCount": 20,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Endless Multitude",
+      "Fly",
+      "Gargoyles",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fleshborer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blinding venom",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "goliath-rockgrinder-genestealer-cults",
+    "name": "Goliath Rockgrinder",
+    "faction": "Genestealer Cults",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Genestealer Cults",
+      "Goliath Rockgrinder",
+      "Great Devourer",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Clearance incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Demolition charge cache",
+        "range": 8,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Heavy mining laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Heavy seismic cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Heavy stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Drilldozer blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "8",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "goliath-truck-genestealer-cults",
+    "name": "Goliath Truck",
+    "faction": "Genestealer Cults",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Dedicated Transport",
+      "Genestealer Cults",
+      "Goliath Truck",
+      "Great Devourer",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Demolition charge cache",
+        "range": 8,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Heavy stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Twin autocannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Goliath wheels",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hybrid-metamorphs-genestealer-cults",
+    "name": "Hybrid Metamorphs",
+    "faction": "Genestealer Cults",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 70
+        },
+        {
+          "modelCount": 6,
+          "points": 140
+        },
+        {
+          "modelCount": 7,
+          "points": 140
+        },
+        {
+          "modelCount": 8,
+          "points": 140
+        },
+        {
+          "modelCount": 9,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Hybrid Metamorphs",
+      "Infantry"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hand flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Leader's Bio-weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Metamorph mutations - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Metamorph mutations - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "hyperadapted-raveners-genestealer-cults",
+    "name": "Hyperadapted Raveners",
+    "faction": "Genestealer Cults",
+    "points": 165,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 165
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Burrowers",
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Hyperadapted Raveners",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Synapse",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Venom bolt",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Prime claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 5
+          }
+        }
+      },
+      {
+        "name": "Ravener heavy claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "jackal-alphus-genestealer-cults",
+    "name": "Jackal Alphus",
+    "faction": "Genestealer Cults",
+    "points": 55,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Jackal Alphus",
+      "Leader",
+      "Mounted",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Cult sniper rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "kelermorph-genestealer-cults",
+    "name": "Kelermorph",
+    "faction": "Genestealer Cults",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Kelermorph",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Liberator autostubs",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lictor-genestealer-cults",
+    "name": "Lictor",
+    "faction": "Genestealer Cults",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Lictor",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lictor claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "locus-genestealer-cults",
+    "name": "Locus",
+    "faction": "Genestealer Cults",
+    "points": 45,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 45
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Locus",
+      "Melee Weapon"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Locus blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "magus-genestealer-cults",
+    "name": "Magus",
+    "faction": "Genestealer Cults",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Magus",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force stave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "mawloc-genestealer-cults",
+    "name": "Mawloc",
+    "faction": "Genestealer Cults",
+    "points": 135,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 14,
+      "movement": 10,
+      "leadership": 8,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 135
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Extra Attacks Weapon",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Mawloc",
+      "Monster",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Distendible jaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Mawloc scything talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "16",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "neophyte-hybrids-genestealer-cults",
+    "name": "Neophyte Hybrids",
+    "faction": "Genestealer Cults",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 9,
+      "maxModelCount": 19,
+      "compositionOptions": [
+        {
+          "modelCount": 9,
+          "points": 65
+        },
+        {
+          "modelCount": 11,
+          "points": 145
+        },
+        {
+          "modelCount": 12,
+          "points": 145
+        },
+        {
+          "modelCount": 13,
+          "points": 145
+        },
+        {
+          "modelCount": 14,
+          "points": 145
+        },
+        {
+          "modelCount": 15,
+          "points": 145
+        },
+        {
+          "modelCount": 16,
+          "points": 145
+        },
+        {
+          "modelCount": 17,
+          "points": 145
+        },
+        {
+          "modelCount": 18,
+          "points": 145
+        },
+        {
+          "modelCount": 19,
+          "points": 145
+        }
+      ]
+    },
+    "globalModifiers": {
+      "oneShot": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Infantry",
+      "Neophyte Hybrids"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Anointed pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 7
+        }
+      },
+      {
+        "name": "Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Grenade launcher - frag",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Grenade launcher - krak",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heavy stubber",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 3
+        }
+      },
+      {
+        "name": "Hybrid firearm",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Mining Laser",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Seismic Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 5,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Webber",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "neurolictor-genestealer-cults",
+    "name": "Neurolictor",
+    "faction": "Genestealer Cults",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 7,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Neurolictor",
+      "Synapse",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Piercing claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "nexos-genestealer-cults",
+    "name": "Nexos",
+    "faction": "Genestealer Cults",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Nexos"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "parasite-of-mortrex-genestealer-cults",
+    "name": "Parasite of Mortrex",
+    "faction": "Genestealer Cults",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 12,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Melee Weapon",
+      "Parasite of Mortrex",
+      "Synapse",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Barbed ovipositor",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Clawed limbs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "patriarch-genestealer-cults",
+    "name": "Patriarch",
+    "faction": "Genestealer Cults",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Patriarch",
+      "Psyker"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Patriarch's claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "primus-genestealer-cults",
+    "name": "Primus",
+    "faction": "Genestealer Cults",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Extra Attacks Weapon",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Primus",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Scoped needle pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 1,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Cult bonesword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Toxin injector claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "purestrain-genestealers-genestealer-cults",
+    "name": "Purestrain Genestealers",
+    "faction": "Genestealer Cults",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Purestrain Genestealers"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Cult claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "raveners-genestealer-cults",
+    "name": "Raveners",
+    "faction": "Genestealer Cults",
+    "points": 125,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 10,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Burrowers",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Raveners",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ravener claws and talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "reductus-saboteur-genestealer-cults",
+    "name": "Reductus Saboteur",
+    "faction": "Genestealer Cults",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Grenades",
+      "Infantry",
+      "Ranged Weapon",
+      "Reductus Saboteur"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Demolition charges",
+        "range": 8,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Remote explosives",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sanctus-genestealer-cults",
+    "name": "Sanctus",
+    "faction": "Genestealer Cults",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Sanctus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Cult sniper rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Psyker",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Sanctus bio-dagger",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "trygon-genestealer-cults",
+    "name": "Trygon",
+    "faction": "Genestealer Cults",
+    "points": 140,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 14,
+      "movement": 10,
+      "leadership": 8,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Monster",
+      "Trygon",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bio-electric pulse",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Trygon scything talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "12",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tyrannocyte-genestealer-cults",
+    "name": "Tyrannocyte",
+    "faction": "Genestealer Cults",
+    "points": 105,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 8,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 105
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Dedicated Transport",
+      "Fly",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Monster",
+      "Transport",
+      "Tyrannocyte",
+      "Vanguard Invader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Tyrannocyte Bio-weapons",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flensing Whips",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "von-ryan-s-leapers-genestealer-cults",
+    "name": "Von Ryan's Leapers",
+    "faction": "Genestealer Cults",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 10,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Vanguard Invader",
+      "Von Ryan's Leapers"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Leaper's talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "winged-hive-tyrant-genestealer-cults",
+    "name": "Winged Hive Tyrant",
+    "faction": "Genestealer Cults",
+    "points": 170,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Fly",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Hive Tyrant",
+      "Melee Weapon",
+      "Monster",
+      "Psyker",
+      "Synapse",
+      "Vanguard Invader",
+      "Winged Hive Tyrant"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy venom cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Stranglethorn cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D6+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Monstrous bonesword and lash whip",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Monstrous scything talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Tyrant talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "winged-tyranid-prime-genestealer-cults",
+    "name": "Winged Tyranid Prime",
+    "faction": "Genestealer Cults",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Fly",
+      "Genestealer Cults",
+      "Great Devourer",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Synapse",
+      "Vanguard Invader",
+      "Winged Tyranid Prime"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Prime talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

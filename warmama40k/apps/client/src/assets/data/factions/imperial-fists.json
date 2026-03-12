@@ -1,0 +1,216 @@
+[
+  {
+    "id": "darnath-lysander-imperial-fists",
+    "name": "Darnath Lysander",
+    "faction": "Imperial Fists",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 7,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 2,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Captain",
+      "Character",
+      "Darnath Lysander",
+      "Epic Hero",
+      "Imperial Fists",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Space Marines",
+      "Terminator"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Fist of Dorn",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "pedro-kantor-imperial-fists",
+    "name": "Pedro Kantor",
+    "faction": "Imperial Fists",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Chapter Master",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperial Fists",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Pedro Kantor",
+      "Space Marines"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dorn's Arrow",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Fist of Retribution",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tor-garadon-imperial-fists",
+    "name": "Tor Garadon",
+    "faction": "Imperial Fists",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Captain",
+      "Character",
+      "Epic Hero",
+      "Gravis",
+      "Imperial Fists",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Space Marines",
+      "Tor Garadon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Artificer Grav Gun",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hand of Defiance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

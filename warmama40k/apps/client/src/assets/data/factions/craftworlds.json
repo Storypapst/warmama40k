@@ -1,0 +1,8443 @@
+[
+  {
+    "id": "asurmen-craftworlds",
+    "name": "Asurmen",
+    "faction": "Craftworlds",
+    "points": 125,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asurmen",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Phoenix Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "The Bloody Twins",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Sword of Asur",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "autarch-craftworlds",
+    "name": "Autarch",
+    "faction": "Craftworlds",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Autarch",
+      "Character",
+      "Craftworlds",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Death Spinner",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Dragon Fusion Gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Dragon Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Reaper Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Reaper Launcher - Starswarm",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Banshee Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Scorpion Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "7",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Star Glaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "autarch-wayleaper-craftworlds",
+    "name": "Autarch Wayleaper",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Autarch Wayleaper",
+      "Character",
+      "Craftworlds",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Death Spinner",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Dragon Fusion Gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Dragon Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Reaper Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Reaper Launcher - Starswarm",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Banshee Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Scorpion Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "7",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Star Glaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "avatar-of-khaine-craftworlds",
+    "name": "Avatar of Khaine",
+    "faction": "Craftworlds",
+    "points": 280,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 14,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 280
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Avatar of Khaine",
+      "Character",
+      "Craftworlds",
+      "Daemon",
+      "Epic Hero",
+      "Monster"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "The Wailing Doom",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": "D3"
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Wailing Doom - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "6",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "The Wailing Doom - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "12",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "baharroth-craftworlds",
+    "name": "Baharroth",
+    "faction": "Craftworlds",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Baharroth",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack",
+      "Leader",
+      "Phoenix Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fury of the Tempest",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Shining Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "corsair-skyreavers-craftworlds",
+    "name": "Corsair Skyreavers",
+    "faction": "Craftworlds",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 75
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        },
+        {
+          "modelCount": 9,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Corsair Skyreavers",
+      "Craftworlds",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Corsair blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Fusion gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Neuro disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Corsair Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "corsair-voidreavers-craftworlds",
+    "name": "Corsair Voidreavers",
+    "faction": "Craftworlds",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 65
+        },
+        {
+          "modelCount": 6,
+          "points": 110
+        },
+        {
+          "modelCount": 7,
+          "points": 110
+        },
+        {
+          "modelCount": 8,
+          "points": 110
+        },
+        {
+          "modelCount": 9,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Battleline",
+      "Corsair Voidreavers",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Grenades",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Corsair shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Neuro disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Shuriken rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Wraithcannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "corsair-voidscarred-craftworlds",
+    "name": "Corsair Voidscarred",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 9,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 9,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Corsair Voidscarred",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Grenades",
+      "Infantry",
+      "Psychic Weapon",
+      "Psyker",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Corsair blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Corsair shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Executioner",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Fusion pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Long rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Neuro disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Wraithcannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 11
+        }
+      },
+      {
+        "name": "Paired Hekatarii blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witch staff",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "crimson-hunter-craftworlds",
+    "name": "Crimson Hunter",
+    "faction": "Craftworlds",
+    "points": 160,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aircraft",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Crimson Hunter",
+      "Fly",
+      "Vehicle",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bright Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Pulse Laser",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "d-cannon-platform-craftworlds",
+    "name": "D-Cannon Platform",
+    "faction": "Craftworlds",
+    "points": 125,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "D-Cannon Platform",
+      "Infantry",
+      "Support Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "D-cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "D3",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "dark-reapers-craftworlds",
+    "name": "Dark Reapers",
+    "faction": "Craftworlds",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 90
+        },
+        {
+          "modelCount": 6,
+          "points": 195
+        },
+        {
+          "modelCount": 7,
+          "points": 195
+        },
+        {
+          "modelCount": 8,
+          "points": 195
+        },
+        {
+          "modelCount": 9,
+          "points": 195
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Dark Reapers",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Reaper Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Reaper Launcher - Starswarm",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Tempest Launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "death-jester-craftworlds",
+    "name": "Death Jester",
+    "faction": "Craftworlds",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Death Jester",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shrieker Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Jester's Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "dire-avengers-craftworlds",
+    "name": "Dire Avengers",
+    "faction": "Craftworlds",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 75
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        },
+        {
+          "modelCount": 9,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Dire Avengers",
+      "Grenades",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Avenger Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Diresword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Power Glaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "eldrad-ulthran-craftworlds",
+    "name": "Eldrad Ulthran",
+    "faction": "Craftworlds",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Eldrad Ultran",
+      "Epic Hero",
+      "Farseer",
+      "Infantry",
+      "Leader",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Mind War",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Ulthamar and witchblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "falcon-craftworlds",
+    "name": "Falcon",
+    "faction": "Craftworlds",
+    "points": 130,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Falcon",
+      "Fly",
+      "Transport",
+      "Vehicle",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bright Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Pulse Laser",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "farseer-craftworlds",
+    "name": "Farseer",
+    "faction": "Craftworlds",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Farseer",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Eldritch Storm",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Singing Spear",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Singing Spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witchblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "farseer-skyrunner-craftworlds",
+    "name": "Farseer Skyrunner",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Farseer",
+      "Farseer Skyrunner",
+      "Fly",
+      "Leader",
+      "Melee Weapon",
+      "Mounted",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Eldritch Storm",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Singing Spear",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Singing Spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witchblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fire-dragons-craftworlds",
+    "name": "Fire Dragons",
+    "faction": "Craftworlds",
+    "points": 120,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 120
+        },
+        {
+          "modelCount": 6,
+          "points": 240
+        },
+        {
+          "modelCount": 7,
+          "points": 240
+        },
+        {
+          "modelCount": 8,
+          "points": 240
+        },
+        {
+          "modelCount": 9,
+          "points": 240
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Fire Dragons",
+      "Grenades",
+      "Infantry",
+      "Torrent Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dragon Fusion Gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Dragon Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Dragon's Breath Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6+2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Exarch's Dragon Fusion Gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 6
+        }
+      },
+      {
+        "name": "Firepike",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Dragon Axe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 4,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "fire-prism-craftworlds",
+    "name": "Fire Prism",
+    "faction": "Craftworlds",
+    "points": 150,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fire Prism",
+      "Fly",
+      "Vehicle",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Prism Cannon - dispersed pulse",
+        "range": 60,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Prism Cannon - focused lances",
+        "range": 60,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "fuegan-craftworlds",
+    "name": "Fuegan",
+    "faction": "Craftworlds",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Fuegan",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Phoenix Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Searsong - Beam",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Searsong - Lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 6
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Fire Axe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 4,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "guardian-defenders-craftworlds",
+    "name": "Guardian Defenders",
+    "faction": "Craftworlds",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 11
+    },
+    "composition": {
+      "defaultModelCount": 11,
+      "minModelCount": 11,
+      "maxModelCount": 11,
+      "compositionOptions": [
+        {
+          "modelCount": 11,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Battleline",
+      "Craftworlds",
+      "Grenades",
+      "Guardian Defenders",
+      "Guardians",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bright Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hemlock-wraithfighter-craftworlds",
+    "name": "Hemlock Wraithfighter",
+    "faction": "Craftworlds",
+    "points": 155,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 155
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aircraft",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Hemlock Wraithfighter",
+      "Psyker",
+      "Vehicle",
+      "Wraith Construct",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy D-Scythe",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 4,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": []
+  },
+  {
+    "id": "howling-banshees-craftworlds",
+    "name": "Howling Banshees",
+    "faction": "Craftworlds",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 95
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Howling Banshees",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Triskele",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Banshee Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Executioner",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Mirrorswords",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Triskele",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "jain-zar-craftworlds",
+    "name": "Jain Zar",
+    "faction": "Craftworlds",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Infantry",
+      "Jain Zar",
+      "Leader",
+      "Phoenix Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Silent Death",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Destruction",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "8",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kharseth-craftworlds",
+    "name": "Kharseth",
+    "faction": "Craftworlds",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Infantry",
+      "Kharseth",
+      "Leader",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dread of the Deep Void",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "D6+2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Waystave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lhykhis-craftworlds",
+    "name": "Lhykhis",
+    "faction": "Craftworlds",
+    "points": 135,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 135
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Fly",
+      "Infantry",
+      "Jump Pack",
+      "Leader",
+      "Lhykhis",
+      "Phoenix Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Brood Twain",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spider's Fangs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Weaverender",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "maugan-ra-craftworlds",
+    "name": "Maugan Ra",
+    "faction": "Craftworlds",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Maugan Ra",
+      "Phoenix Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Maugetar",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Maugetar",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "night-spinner-craftworlds",
+    "name": "Night Spinner",
+    "faction": "Craftworlds",
+    "points": 190,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Night Spinner",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Doomweaver",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "phantom-titan-craftworlds",
+    "name": "Phantom Titan",
+    "faction": "Craftworlds",
+    "points": 2100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 14,
+      "wounds": 55,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 20,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 2100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Monster",
+      "Phantom Titan",
+      "Titanic",
+      "Towering",
+      "Walker",
+      "Wraith Construct"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "D-bombard",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 20,
+        "armourPenetration": 4,
+        "attacks": "D6",
+        "damage": "2D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Phantom pulsar",
+        "range": 120,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 4,
+        "attacks": "8",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Phantom starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Pulse laser",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 7
+        }
+      },
+      {
+        "name": "Voidstorm missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Phantom feet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Wraith glaive - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 4,
+        "attacks": "6",
+        "damage": "12",
+        "abilities": {
+          "attacksMultiplier": 6
+        }
+      },
+      {
+        "name": "Wraith glaive - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "12",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "prince-yriel-craftworlds",
+    "name": "Prince Yriel",
+    "faction": "Craftworlds",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Prince Yriel"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "The Eye of Wrath",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Spear of Twilight",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "rangers-craftworlds",
+    "name": "Rangers",
+    "faction": "Craftworlds",
+    "points": 55,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 55
+        },
+        {
+          "modelCount": 6,
+          "points": 110
+        },
+        {
+          "modelCount": 7,
+          "points": 110
+        },
+        {
+          "modelCount": 8,
+          "points": 110
+        },
+        {
+          "modelCount": 9,
+          "points": 110
+        },
+        {
+          "modelCount": 10,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Rangers",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Long rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "revenant-titan-craftworlds",
+    "name": "Revenant Titan",
+    "faction": "Craftworlds",
+    "points": 1100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 13,
+      "wounds": 30,
+      "movement": 16,
+      "leadership": 6,
+      "objectiveControl": 16,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 1100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Monster",
+      "Revenant Titan",
+      "Titanic",
+      "Towering",
+      "Walker",
+      "Wraith Construct"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Cloudburst missile launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Revenant Pulsar",
+        "range": 60,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Sonic Lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D6+6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Revenant feet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "shadow-weaver-platform-craftworlds",
+    "name": "Shadow Weaver Platform",
+    "faction": "Craftworlds",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Shadow Weaver Platform",
+      "Support Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shadow weaver",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "shadowseer-craftworlds",
+    "name": "Shadowseer",
+    "faction": "Craftworlds",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Grenades",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Shadowseer"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Neuro Disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Miststave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "shining-spears-craftworlds",
+    "name": "Shining Spears",
+    "faction": "Craftworlds",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 2,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 110
+        },
+        {
+          "modelCount": 4,
+          "points": 220
+        },
+        {
+          "modelCount": 5,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Mounted",
+      "Shining Spears",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Laser Lance",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Star Lance",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Laser Lance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "plusOneToWound": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Paragon Sabre",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Star Lance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "shroud-runners-craftworlds",
+    "name": "Shroud Runners",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Mounted",
+      "Shroud Runners",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Long rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skyweavers-craftworlds",
+    "name": "Skyweavers",
+    "faction": "Craftworlds",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 95
+        },
+        {
+          "modelCount": 3,
+          "points": 190
+        },
+        {
+          "modelCount": 4,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Fly",
+      "Harlequin Allies",
+      "Harlequins",
+      "Mounted",
+      "Skyweavers",
+      "Smoke"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Skyweaver Haywire Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Star Bolas",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Zephyrglaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "solitaire-craftworlds",
+    "name": "Solitaire",
+    "faction": "Craftworlds",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Epic Hero",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Solitaire"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Solitaire Weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "spiritseer-craftworlds",
+    "name": "Spiritseer",
+    "faction": "Craftworlds",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Infantry",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Spiritseer",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Witch Staff",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "starfangs-craftworlds",
+    "name": "Starfangs",
+    "faction": "Craftworlds",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Starfangs",
+      "Vehicle",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Disintegrator Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Starfang Grenade Launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "starweaver-craftworlds",
+    "name": "Starweaver",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Dedicated Transport",
+      "Fly",
+      "Harlequin Allies",
+      "Harlequins",
+      "Smoke",
+      "Star Weaver",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "storm-guardians-craftworlds",
+    "name": "Storm Guardians",
+    "faction": "Craftworlds",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 2,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 11
+    },
+    "composition": {
+      "defaultModelCount": 11,
+      "minModelCount": 11,
+      "maxModelCount": 11,
+      "compositionOptions": [
+        {
+          "modelCount": 11,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Battleline",
+      "Craftworlds",
+      "Grenades",
+      "Guardians",
+      "Infantry",
+      "Storm Guardians",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Fusion gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "striking-scorpions-craftworlds",
+    "name": "Striking Scorpions",
+    "faction": "Craftworlds",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        },
+        {
+          "modelCount": 9,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Striking Scorpions",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Chainsabres",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Biting blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Chainsabres",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Scorpion chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Scorpion's claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "swooping-hawks-craftworlds",
+    "name": "Swooping Hawks",
+    "faction": "Craftworlds",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 95
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack",
+      "Swooping Hawks",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Exarch's Lasblaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Hawk's Talon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Lasblaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Sunpistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power Sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "the-visarch-craftworlds",
+    "name": "The Visarch",
+    "faction": "Craftworlds",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "The Visarch",
+      "Ynnari"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Asu-var - duellist stance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Asu-var - mythic stance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 4,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Asu-var - quicksilver stance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "the-yncarne-craftworlds",
+    "name": "The Yncarne",
+    "faction": "Craftworlds",
+    "points": 260,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 260
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Craftworlds",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Monster",
+      "Psyker",
+      "The Yncarne",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Swirling soul energy",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Vilith-zhar - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 4,
+        "attacks": "5",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Vilith-zhar - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 4,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "troupe-craftworlds",
+    "name": "Troupe",
+    "faction": "Craftworlds",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 0,
+      "wounds": 0,
+      "movement": 0,
+      "leadership": 0,
+      "objectiveControl": 0,
+      "armourSave": 0,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 11,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 100
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        },
+        {
+          "modelCount": 10,
+          "points": 190
+        },
+        {
+          "modelCount": 11,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Grenades",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Troupe"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Neuro Disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harlequin's Special Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "troupe-master-craftworlds",
+    "name": "Troupe Master",
+    "faction": "Craftworlds",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Grenades",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Troupe Master"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Neuro Disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harlequin's Special Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Troupe Master's Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "vibro-cannon-platform-craftworlds",
+    "name": "Vibro Cannon Platform",
+    "faction": "Craftworlds",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Support Weapon",
+      "Vibro Cannon Platform",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Vibro Cannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "voidweaver-craftworlds",
+    "name": "Voidweaver",
+    "faction": "Craftworlds",
+    "points": 125,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Craftworlds",
+      "Fly",
+      "Harlequin Allies",
+      "Harlequins",
+      "Vehicle",
+      "Voidweaver"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Prismatic Cannon - dispersed pulse",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Prismatic Cannon - focused lances",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Voidweaver Haywire Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "vypers-craftworlds",
+    "name": "Vypers",
+    "faction": "Craftworlds",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Vehicle",
+      "Vypers",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bright Lance",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "war-walkers-craftworlds",
+    "name": "War Walkers",
+    "faction": "Craftworlds",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 6,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Vehicle",
+      "Walker",
+      "War Walkers",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bright Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "War Walker feet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "warlock-craftworlds",
+    "name": "Warlock",
+    "faction": "Craftworlds",
+    "points": 45,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 2,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 45
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Character",
+      "Craftworlds",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Warlock",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Destructor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Singing Spear",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Singing Spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witchblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "warlock-conclave-craftworlds",
+    "name": "Warlock Conclave",
+    "faction": "Craftworlds",
+    "points": 55,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 2,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 55
+        },
+        {
+          "modelCount": 3,
+          "points": 130
+        },
+        {
+          "modelCount": 4,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Leader",
+      "Psychic Weapon",
+      "Psyker",
+      "Warlock",
+      "Warlock Conclave",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Destructor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Singing Spear",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Singing Spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witchblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "warlock-skyrunners-craftworlds",
+    "name": "Warlock Skyrunners",
+    "faction": "Craftworlds",
+    "points": 45,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 45
+        },
+        {
+          "modelCount": 2,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Leader",
+      "Mounted",
+      "Psychic Weapon",
+      "Psyker",
+      "Warlock",
+      "Warlock Skyrunners",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Destructor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Singing Spear",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Singing Spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witchblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "warp-spiders-craftworlds",
+    "name": "Warp Spiders",
+    "faction": "Craftworlds",
+    "points": 105,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 105
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aspect Warrior",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Infantry",
+      "Jump Pack",
+      "Torrent Weapon",
+      "Warp Spiders",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Death spinner",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Death Weavers",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "twinLinked": true,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Exarch's Deathspinner",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Spinneret Rifle",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Powerblade Array",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Powerblades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "wave-serpent-craftworlds",
+    "name": "Wave Serpent",
+    "faction": "Craftworlds",
+    "points": 125,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 13,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Dedicated Transport",
+      "Fly",
+      "Transport",
+      "Vehicle",
+      "Wave Serpent",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin Aeldari Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin Aeldari Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin Bright Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "windriders-craftworlds",
+    "name": "Windriders",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Fly",
+      "Mounted",
+      "Windriders",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "wraithblades-craftworlds",
+    "name": "Wraithblades",
+    "faction": "Craftworlds",
+    "points": 160,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Wraith Construct",
+      "Wraithblades",
+      "Ynnari"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ghostaxe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Ghostswords",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wraithguard-craftworlds",
+    "name": "Wraithguard",
+    "faction": "Craftworlds",
+    "points": 170,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Infantry",
+      "Wraith Construct",
+      "Wraithguard",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "D-Scythe",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 7,
+        "armourPenetration": 3,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Wraithcannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wraithknight-craftworlds",
+    "name": "Wraithknight",
+    "faction": "Craftworlds",
+    "points": 435,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 18,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 10,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 435
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Monster",
+      "Titanic",
+      "Towering",
+      "Walker",
+      "Wraith Construct",
+      "Wraithknight",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Wraithcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 20,
+        "armourPenetration": 4,
+        "attacks": "D3",
+        "damage": "2D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Suncannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "D6+4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Titanic Feet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wraithknight-with-ghostglaive-craftworlds",
+    "name": "Wraithknight with Ghostglaive",
+    "faction": "Craftworlds",
+    "points": 420,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 18,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 10,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 420
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Monster",
+      "Titanic",
+      "Towering",
+      "Walker",
+      "Wraith Construct",
+      "Wraithknight with Ghostglaive",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Wraithcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 20,
+        "armourPenetration": 4,
+        "attacks": "D3",
+        "damage": "2D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Titanic Ghostglaive - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Titanic Ghostglaive - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "15",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wraithlord-craftworlds",
+    "name": "Wraithlord",
+    "faction": "Craftworlds",
+    "points": 140,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 10,
+      "movement": 8,
+      "leadership": 8,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true,
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Asuryani",
+      "Craftworlds",
+      "Monster",
+      "Walker",
+      "Wraith Construct",
+      "Wraithlord",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Aeldari Missile Launcher - Starshot",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Aeldari Missile Launcher - Sunburst",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Bright Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Scatter Laser",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Shuriken Catapult",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Starcannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ghostglaive - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Ghostglaive - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "8",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Wraithbone Fists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-archon-craftworlds",
+    "name": "Ynnari Archon",
+    "faction": "Craftworlds",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Archon",
+      "Character",
+      "Craftworlds",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Huskblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-incubi-craftworlds",
+    "name": "Ynnari Incubi",
+    "faction": "Craftworlds",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 170
+        },
+        {
+          "modelCount": 7,
+          "points": 170
+        },
+        {
+          "modelCount": 8,
+          "points": 170
+        },
+        {
+          "modelCount": 9,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Craftworlds",
+      "Incubi",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Demiklaives - Dual Blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Demiklaives - Single Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Klaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-kabalite-warriors-craftworlds",
+    "name": "Ynnari Kabalite Warriors",
+    "faction": "Craftworlds",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Battleline",
+      "Craftworlds",
+      "Grenades",
+      "Infantry",
+      "Kabalite Warriors",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 6
+        }
+      },
+      {
+        "name": "Sybarite Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-raider-craftworlds",
+    "name": "Ynnari Raider",
+    "faction": "Craftworlds",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 10,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Craftworlds",
+      "Dedicated Transport",
+      "Fly",
+      "Raider",
+      "Transport",
+      "Vehicle",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladevanes",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-reavers-craftworlds",
+    "name": "Ynnari Reavers",
+    "faction": "Craftworlds",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 16,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 2,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 65
+        },
+        {
+          "modelCount": 4,
+          "points": 120
+        },
+        {
+          "modelCount": 5,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Craftworlds",
+      "Fly",
+      "Mounted",
+      "Reavers",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Heat Lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Agonizer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Bladevanes",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-succubus-craftworlds",
+    "name": "Ynnari Succubus",
+    "faction": "Craftworlds",
+    "points": 45,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 45
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Craftworlds",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Succubus",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Succubus Weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-venom-craftworlds",
+    "name": "Ynnari Venom",
+    "faction": "Craftworlds",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Craftworlds",
+      "Dedicated Transport",
+      "Fly",
+      "Transport",
+      "Vehicle",
+      "Venom",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Twin Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladevanes",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ynnari-wyches-craftworlds",
+    "name": "Ynnari Wyches",
+    "faction": "Craftworlds",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 6,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Battleline",
+      "Craftworlds",
+      "Grenades",
+      "Infantry",
+      "Wyches",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hekatarii Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yvraine-craftworlds",
+    "name": "Yvraine",
+    "faction": "Craftworlds",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Craftworlds",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Psyker",
+      "Ynnari",
+      "Yvraine"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Storm of Whispers",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Kha-vir",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  }
+]

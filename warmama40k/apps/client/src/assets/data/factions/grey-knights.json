@@ -1,0 +1,3450 @@
+[
+  {
+    "id": "brother-captain-grey-knights",
+    "name": "Brother-Captain",
+    "faction": "Grey Knights",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Brother-Captain",
+      "Character",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Psyker",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "brotherhood-champion-grey-knights",
+    "name": "Brotherhood Champion",
+    "faction": "Grey Knights",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Brotherhood Champion",
+      "Character",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "brotherhood-chaplain-grey-knights",
+    "name": "Brotherhood Chaplain",
+    "faction": "Grey Knights",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 5,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Brotherhood Chaplain",
+      "Character",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psyker",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crozius arcanum",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "brotherhood-librarian-grey-knights",
+    "name": "Brotherhood Librarian",
+    "faction": "Grey Knights",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Brotherhood Librarian",
+      "Character",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Vortex of Doom",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "brotherhood-techmarine-grey-knights",
+    "name": "Brotherhood Techmarine",
+    "faction": "Grey Knights",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": {
+      "heal": true,
+      "healD3Wounds": true
+    },
+    "tags": [
+      "Brotherhood Techmarine",
+      "Character",
+      "Extra Attacks Weapon",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psyker",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Forge bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Grav-pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Omnissian power axe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Servo-arm",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "brotherhood-terminator-squad-grey-knights",
+    "name": "Brotherhood Terminator Squad",
+    "faction": "Grey Knights",
+    "points": 160,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 4
+    },
+    "composition": {
+      "defaultModelCount": 4,
+      "minModelCount": 4,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 200
+        },
+        {
+          "modelCount": 6,
+          "points": 320
+        },
+        {
+          "modelCount": 7,
+          "points": 320
+        },
+        {
+          "modelCount": 8,
+          "points": 320
+        },
+        {
+          "modelCount": 9,
+          "points": 400
+        },
+        {
+          "modelCount": 10,
+          "points": 400
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Brotherhood Terminator Squad",
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Psyker",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "castellan-crowe-grey-knights",
+    "name": "Castellan Crowe",
+    "faction": "Grey Knights",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Castellan Crowe",
+      "Character",
+      "Epic Hero",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Psychic Weapon",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Purifying Flame",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Black Blade of Antwyr",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "grand-master-grey-knights",
+    "name": "Grand Master",
+    "faction": "Grey Knights",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 7,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Grand Master",
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "grand-master-in-nemesis-dreadknight-grey-knights",
+    "name": "Grand Master in Nemesis Dreadknight",
+    "faction": "Grey Knights",
+    "points": 225,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 13,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 225
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Grand Master in Nemesis Dreadknight",
+      "Grey Knights",
+      "Imperium",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fragstorm grenade launcher",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Gatling psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Heavy incinerator",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Heavy psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Sublimator",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "melta": 4
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dreadfists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis daemon greathammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis flail",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "10",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis greatsword - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis greatsword - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis mace",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "grand-master-voldus-grey-knights",
+    "name": "Grand Master Voldus",
+    "faction": "Grey Knights",
+    "points": 110,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 7,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Grand Master Voldus",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Leader",
+      "Psyker",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Searing Purity",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "D3+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Malleus Argyrum",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "grey-knights-thunderhawk-gunship-grey-knights",
+    "name": "Grey Knights Thunderhawk Gunship",
+    "faction": "Grey Knights",
+    "points": 805,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 30,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 805
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Fly",
+      "Grey Knights",
+      "Imperium",
+      "Thunderhawk Gunship",
+      "Titanic",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hellstrike missile battery",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Thunderhawk heavy cannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "D6+6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Turbo-laser destructor",
+        "range": 96,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 20,
+        "armourPenetration": 4,
+        "attacks": "D3+1",
+        "damage": "D6+6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armored Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "interceptor-squad-grey-knights",
+    "name": "Interceptor Squad",
+    "faction": "Grey Knights",
+    "points": 125,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 125
+        },
+        {
+          "modelCount": 6,
+          "points": 250
+        },
+        {
+          "modelCount": 7,
+          "points": 250
+        },
+        {
+          "modelCount": 8,
+          "points": 250
+        },
+        {
+          "modelCount": 9,
+          "points": 250
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Fly",
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Interceptor Squad",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "land-raider-grey-knights",
+    "name": "Land Raider",
+    "faction": "Grey Knights",
+    "points": 220,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grey Knights",
+      "Imperium",
+      "Land Raider",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Godhammer lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "land-raider-banisher-grey-knights",
+    "name": "Land Raider Banisher",
+    "faction": "Grey Knights",
+    "points": 255,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 255
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grey Knights",
+      "Imperium",
+      "Land Raider Banisher",
+      "Psychic Weapon",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy incinerator",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "land-raider-crusader-grey-knights",
+    "name": "Land Raider Crusader",
+    "faction": "Grey Knights",
+    "points": 220,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Land Raider Crusader",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Hurricane bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 6,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "land-raider-redeemer-grey-knights",
+    "name": "Land Raider Redeemer",
+    "faction": "Grey Knights",
+    "points": 270,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 270
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Land Raider Redeemer",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Flamestorm cannon",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "nemesis-dreadknight-grey-knights",
+    "name": "Nemesis Dreadknight",
+    "faction": "Grey Knights",
+    "points": 210,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 13,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 210
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grey Knights",
+      "Imperium",
+      "Nemesis Dreadknight",
+      "Psyker",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gatling psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Heavy incinerator",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Heavy psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dreadfists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis daemon greathammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis greatsword - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis greatsword - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "paladin-squad-grey-knights",
+    "name": "Paladin Squad",
+    "faction": "Grey Knights",
+    "points": 180,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 4
+    },
+    "composition": {
+      "defaultModelCount": 4,
+      "minModelCount": 3,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 180
+        },
+        {
+          "modelCount": 5,
+          "points": 225
+        },
+        {
+          "modelCount": 6,
+          "points": 360
+        },
+        {
+          "modelCount": 7,
+          "points": 360
+        },
+        {
+          "modelCount": 8,
+          "points": 360
+        },
+        {
+          "modelCount": 9,
+          "points": 450
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Paladin Squad",
+      "Psyker",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "purgation-squad-grey-knights",
+    "name": "Purgation Squad",
+    "faction": "Grey Knights",
+    "points": 115,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 115
+        },
+        {
+          "modelCount": 6,
+          "points": 230
+        },
+        {
+          "modelCount": 7,
+          "points": 230
+        },
+        {
+          "modelCount": 8,
+          "points": 230
+        },
+        {
+          "modelCount": 9,
+          "points": 230
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Psyker",
+      "Purgation Squad"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "purifier-squad-grey-knights",
+    "name": "Purifier Squad",
+    "faction": "Grey Knights",
+    "points": 125,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 125
+        },
+        {
+          "modelCount": 6,
+          "points": 250
+        },
+        {
+          "modelCount": 7,
+          "points": 250
+        },
+        {
+          "modelCount": 8,
+          "points": 250
+        },
+        {
+          "modelCount": 9,
+          "points": 250
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Psyker",
+      "Purifier Squad"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Purifying Flame",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5,
+          "ignoresCover": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "razorback-grey-knights",
+    "name": "Razorback",
+    "faction": "Grey Knights",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Dedicated Transport",
+      "Grey Knights",
+      "Imperium",
+      "Razorback",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "rhino-grey-knights",
+    "name": "Rhino",
+    "faction": "Grey Knights",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Dedicated Transport",
+      "Grey Knights",
+      "Imperium",
+      "Rhino",
+      "Smoke",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hunter-killer missile",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "stormhawk-interceptor-grey-knights",
+    "name": "Stormhawk Interceptor",
+    "faction": "Grey Knights",
+    "points": 160,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Fly",
+      "Grey Knights",
+      "Imperium",
+      "Smoke",
+      "Stormhawk Interceptor",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Icarus stormcannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Las-talon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Skyhammer missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Typhoon missile launcher - frag",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Typhoon missile launcher - krak",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "stormraven-gunship-grey-knights",
+    "name": "Stormraven Gunship",
+    "faction": "Grey Knights",
+    "points": 280,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 14,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 280
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "minusOneDamage": true
+    },
+    "tags": [
+      "Aircraft",
+      "Fly",
+      "Grey Knights",
+      "Imperium",
+      "Stormraven Gunship",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hurricane bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 6,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Stormstrike missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin heavy plasma cannon - standard",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin heavy plasma cannon - supercharge",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Typhoon missile launcher - frag",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Typhoon missile launcher - krak",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "stormtalon-gunship-grey-knights",
+    "name": "Stormtalon Gunship",
+    "faction": "Grey Knights",
+    "points": 170,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Fly",
+      "Grey Knights",
+      "Imperium",
+      "Stormtalon Gunship",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Skyhammer missile launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Twin assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Typhoon missile launcher - frag",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Typhoon missile launcher - krak",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "strike-squad-grey-knights",
+    "name": "Strike Squad",
+    "faction": "Grey Knights",
+    "points": 120,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 120
+        },
+        {
+          "modelCount": 6,
+          "points": 240
+        },
+        {
+          "modelCount": 7,
+          "points": 240
+        },
+        {
+          "modelCount": 8,
+          "points": 240
+        },
+        {
+          "modelCount": 9,
+          "points": 240
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Grenades",
+      "Grey Knights",
+      "Imperium",
+      "Infantry",
+      "Psyker",
+      "Strike Squad"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Incinerator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Psilencer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Psycannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Nemesis force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "venerable-dreadnought-grey-knights",
+    "name": "Venerable Dreadnought",
+    "faction": "Grey Knights",
+    "points": 140,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 8,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Grey Knights",
+      "Imperium",
+      "Psyker",
+      "Smoke",
+      "Vehicle",
+      "Venerable Dreadnought",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Assault cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Heavy plasma cannon - standard",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Heavy plasma cannon - supercharge",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Storm bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Dreadnought combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

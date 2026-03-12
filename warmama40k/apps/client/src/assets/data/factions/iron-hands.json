@@ -1,0 +1,191 @@
+[
+  {
+    "id": "caanok-var-iron-hands",
+    "name": "Caanok Var",
+    "faction": "Iron Hands",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Caanok Var",
+      "Captain",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Infantry",
+      "Iron Hands",
+      "Leader",
+      "Space Marines",
+      "Terminator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Storm Bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Axiom - Strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Axiom - Sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "10",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "iron-father-feirros-iron-hands",
+    "name": "Iron Father Feirros",
+    "faction": "Iron Hands",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Gravis",
+      "Imperium",
+      "Infantry",
+      "Iron Father Ferrios",
+      "Iron Hands",
+      "Leader",
+      "Space Marines"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Gorgon's Wrath",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harrowhand",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Medusan Manipuli",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

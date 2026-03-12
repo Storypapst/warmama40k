@@ -1,0 +1,156 @@
+[
+  {
+    "id": "aethon-shaan-raven-guard",
+    "name": "Aethon Shaan",
+    "faction": "Raven Guard",
+    "points": 110,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Aethon Shaan",
+      "Chapter Master",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Imperium",
+      "Infantry",
+      "Jump Pack",
+      "Raven Guard",
+      "Space Marines",
+      "Tacticus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy Bolt Pistol",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Claws of Severax",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "7",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "kayvaan-shrike-raven-guard",
+    "name": "Kayvaan Shrike",
+    "faction": "Raven Guard",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Chapter Master",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Imperium",
+      "Infantry",
+      "Jump Pack",
+      "Kayvaan Shrike",
+      "Leader",
+      "Phobos",
+      "Raven Guard",
+      "Space Marines"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blackout",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Raven's Talons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "7",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ]
+  }
+]

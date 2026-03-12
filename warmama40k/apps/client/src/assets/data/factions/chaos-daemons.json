@@ -1,0 +1,4815 @@
+[
+  {
+    "id": "be-lakor-chaos-daemons",
+    "name": "Be'lakor",
+    "faction": "Chaos Daemons",
+    "points": 375,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 20,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 375
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Be'lakor",
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Legiones Daemonica",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Shadow Legion",
+      "Undivided"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Betraying Shades - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Betraying Shades - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Blade of Shadows - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "7",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "The Blade of Shadows - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "14",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "beasts-of-nurgle-chaos-daemons",
+    "name": "Beasts of Nurgle",
+    "faction": "Chaos Daemons",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 9,
+      "wounds": 7,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 6,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Beasts of Nurgle",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Legiones Daemonica",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Putrid appendages",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "bloodcrushers-chaos-daemons",
+    "name": "Bloodcrushers",
+    "faction": "Chaos Daemons",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 110
+        },
+        {
+          "modelCount": 4,
+          "points": 220
+        },
+        {
+          "modelCount": 5,
+          "points": 220
+        },
+        {
+          "modelCount": 6,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Bloodcrushers",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Mounted",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hellblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Juggernaut's bladed horn",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "bloodletters-chaos-daemons",
+    "name": "Bloodletters",
+    "faction": "Chaos Daemons",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Bloodletters",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Infantry",
+      "Khorne",
+      "Khorne Battleline",
+      "Legiones Daemonica",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hellblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "bloodmaster-chaos-daemons",
+    "name": "Bloodmaster",
+    "faction": "Chaos Daemons",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Bloodmaster",
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Leader",
+      "Legiones Daemonica",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of blood",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "bloodthirster-chaos-daemons",
+    "name": "Bloodthirster",
+    "faction": "Chaos Daemons",
+    "points": 305,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 18,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 305
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Bloodthirster",
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Fly",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Monster",
+      "Ranged Weapon",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bloodflail",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Hellfire breath",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Lash of Khorne",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Great axe of Khorne - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "7",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Great axe of Khorne - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "14",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "blue-horrors-chaos-daemons",
+    "name": "Blue Horrors",
+    "faction": "Chaos Daemons",
+    "points": 125,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Blue",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Infantry",
+      "Legiones Daemonica",
+      "Psychic Weapon",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Coruscating Blue flames",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blue claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "burning-chariot-chaos-daemons",
+    "name": "Burning Chariot",
+    "faction": "Chaos Daemons",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Burning Chariot",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Legiones Daemonica",
+      "Mounted",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fires of Tzeentch - blue fire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Fires of Tzeentch - pink fire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flamer mouths",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Screamer bites",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "changecaster-chaos-daemons",
+    "name": "Changecaster",
+    "faction": "Chaos Daemons",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Changecaster",
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Psyker",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Arcane Fireball - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Arcane Fireball - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Herald combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "contorted-epitome-chaos-daemons",
+    "name": "Contorted Epitome",
+    "faction": "Chaos Daemons",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 8,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Contorted Epitome",
+      "Extra Attacks Weapon",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Psyker",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Coiled tentacles",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Ravaging claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemon-prince-of-chaos-chaos-daemons",
+    "name": "Daemon Prince of Chaos",
+    "faction": "Chaos Daemons",
+    "points": 190,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 10,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Daemon Prince of Chaos",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Monster",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Ranged Weapon",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hellforged weapons - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "14",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemon-prince-of-chaos-with-wings-chaos-daemons",
+    "name": "Daemon Prince of Chaos with wings",
+    "faction": "Chaos Daemons",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Daemon Prince of Chaos with wings",
+      "Fly",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Monster",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Ranged Weapon",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hellforged weapons - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "14",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemonettes-chaos-daemons",
+    "name": "Daemonettes",
+    "faction": "Chaos Daemons",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Daemonettes",
+      "Infantry",
+      "Legiones Daemonica",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Slashing claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "epidemius-chaos-daemons",
+    "name": "Epidemius",
+    "faction": "Chaos Daemons",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 8,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Epidemius",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Nurgle",
+      "Nurgle non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Balesword and nurgling attendants",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "exalted-flamer-chaos-daemons",
+    "name": "Exalted Flamer",
+    "faction": "Chaos Daemons",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 6,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Exalted Flamer",
+      "Fly",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fires of Tzeentch - blue fire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Fires of Tzeentch - pink fire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flamer mouths",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "fateskimmer-chaos-daemons",
+    "name": "Fateskimmer",
+    "faction": "Chaos Daemons",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 9,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Fateskimmer",
+      "Fly",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Mounted",
+      "Psyker",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Arcane Fireball - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Arcane Fireball - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Herald combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Screamer bites",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "feculent-gnarlmaw-chaos-daemons",
+    "name": "Feculent Gnarlmaw",
+    "faction": "Chaos Daemons",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 9,
+      "movement": 0,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Feculent Gnarlmaw",
+      "Fortification",
+      "Legiones Daemonica",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": []
+  },
+  {
+    "id": "fiends-chaos-daemons",
+    "name": "Fiends",
+    "faction": "Chaos Daemons",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 95
+        },
+        {
+          "modelCount": 4,
+          "points": 190
+        },
+        {
+          "modelCount": 5,
+          "points": 190
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Fiends",
+      "Legiones Daemonica",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Barbed tail and dissecting claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "flamers-chaos-daemons",
+    "name": "Flamers",
+    "faction": "Chaos Daemons",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 65
+        },
+        {
+          "modelCount": 4,
+          "points": 130
+        },
+        {
+          "modelCount": 5,
+          "points": 130
+        },
+        {
+          "modelCount": 6,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Flamers",
+      "Fly",
+      "Infantry",
+      "Legiones Daemonica",
+      "Psychic Weapon",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Flickering Flames",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flamer mouths",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "flesh-hounds-chaos-daemons",
+    "name": "Flesh Hounds",
+    "faction": "Chaos Daemons",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Flesh Hounds",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Burning roar",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gore-drenched fangs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "fluxmaster-chaos-daemons",
+    "name": "Fluxmaster",
+    "faction": "Chaos Daemons",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Fluxmaster",
+      "Fly",
+      "Leader",
+      "Legiones Daemonica",
+      "Mounted",
+      "Psyker",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Arcane Fireball - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Arcane Fireball - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Herald combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "great-unclean-one-chaos-daemons",
+    "name": "Great Unclean One",
+    "faction": "Chaos Daemons",
+    "points": 250,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 20,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 250
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Great Unclean One",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Monster",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Psyker",
+      "Ranged Weapon",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Plague flail",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D6+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Putrid vomit",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bileblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Bilesword - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Bilesword - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Doomsday bell",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "hellflayers-chaos-daemons",
+    "name": "Hellflayers",
+    "faction": "Chaos Daemons",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 7,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Hellflayer",
+      "Legiones Daemonica",
+      "Mounted",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Lashes of torment",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lashes of torment",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Seeker tongues",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Slashing claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "horticulous-slimux-chaos-daemons",
+    "name": "Horticulous Slimux",
+    "faction": "Chaos Daemons",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 10,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Horticulous Slimux",
+      "Leader",
+      "Legiones Daemonica",
+      "Mounted",
+      "Nurgle",
+      "Nurgle non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Acidic maw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Lopping shears",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "infernal-enrapturess-chaos-daemons",
+    "name": "Infernal Enrapturess",
+    "faction": "Chaos Daemons",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Infernal Enrapturess",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heartstring lyre - cacophonous melody",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Heartstring lyre - euphonic blast",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "kairos-fateweaver-chaos-daemons",
+    "name": "Kairos Fateweaver",
+    "faction": "Chaos Daemons",
+    "points": 285,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 20,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 285
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Kairos Fateweaver",
+      "Legiones Daemonica",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal Gateway - focused witchfire",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3+6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Infernal Gateway - witchfire",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Tomorrow",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "karanak-chaos-daemons",
+    "name": "Karanak",
+    "faction": "Chaos Daemons",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Karanak",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Leader",
+      "Legiones Daemonica"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Scalding Roar",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Soul-rending fangs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "keeper-of-secrets-chaos-daemons",
+    "name": "Keeper of Secrets",
+    "faction": "Chaos Daemons",
+    "points": 240,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 18,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 240
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Keeper of Secrets",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Living whip",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Phantasmagoria - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Phantasmagoria - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Ritual knife",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Snapping claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Witstealer sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "khorne-soul-grinder-chaos-daemons",
+    "name": "Khorne Soul Grinder",
+    "faction": "Chaos Daemons",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 14,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Shadow Legion",
+      "Soul Grinder",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Harvester cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Torrent of burning blood",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Iron claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Warpclaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Warpsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "lord-of-change-chaos-daemons",
+    "name": "Lord of Change",
+    "faction": "Chaos Daemons",
+    "points": 270,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 18,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 270
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Legiones Daemonica",
+      "Lord of Change",
+      "Melee Weapon",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt of Change - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Bolt of Change - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rod of sorcery",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Baleful sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Staff of Tzeentch",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "nurgle-soul-grinder-chaos-daemons",
+    "name": "Nurgle Soul Grinder",
+    "faction": "Chaos Daemons",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 14,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Legiones Daemonica",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Shadow Legion",
+      "Soul Grinder",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Harvester cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Phlegm bombardment",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D6+1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Iron claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Warpclaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Warpsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "nurglings-chaos-daemons",
+    "name": "Nurglings",
+    "faction": "Chaos Daemons",
+    "points": 40,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 8,
+      "objectiveControl": 0,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 40
+        },
+        {
+          "modelCount": 4,
+          "points": 70
+        },
+        {
+          "modelCount": 5,
+          "points": 70
+        },
+        {
+          "modelCount": 6,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Legiones Daemonica",
+      "Nurgle",
+      "Nurgle Battleline",
+      "Nurglings",
+      "Shadow Legion",
+      "Swarm"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Diseased claws and teeth",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "pink-horrors-chaos-daemons",
+    "name": "Pink Horrors",
+    "faction": "Chaos Daemons",
+    "points": 140,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Blue",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Infantry",
+      "Legiones Daemonica",
+      "Pink",
+      "Psychic Weapon",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Coruscating Pink flames",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Pink claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "plague-drones-chaos-daemons",
+    "name": "Plague Drones",
+    "faction": "Chaos Daemons",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 8,
+      "wounds": 5,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 110
+        },
+        {
+          "modelCount": 4,
+          "points": 220
+        },
+        {
+          "modelCount": 5,
+          "points": 220
+        },
+        {
+          "modelCount": 6,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Legiones Daemonica",
+      "Mounted",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Plague Drones",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Death's heads",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Foul mouthparts",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Plaguesword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "plaguebearers-chaos-daemons",
+    "name": "Plaguebearers",
+    "faction": "Chaos Daemons",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Infantry",
+      "Legiones Daemonica",
+      "Nurgle",
+      "Nurgle Battleline",
+      "Plaguebearers",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Plaguesword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "poxbringer-chaos-daemons",
+    "name": "Poxbringer",
+    "faction": "Chaos Daemons",
+    "points": 55,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Poxbringer",
+      "Psyker",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Foul balesword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "rendmaster-on-blood-throne-chaos-daemons",
+    "name": "Rendmaster on Blood Throne",
+    "faction": "Chaos Daemons",
+    "points": 165,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 9,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 165
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Mounted",
+      "Rendmaster on Blood Throne",
+      "Shadow Legion"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Attendant's hellblades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Blade of blood",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "rotigus-chaos-daemons",
+    "name": "Rotigus",
+    "faction": "Chaos Daemons",
+    "points": 265,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 22,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 265
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Legiones Daemonica",
+      "Monster",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Psychic Weapon",
+      "Psyker",
+      "Rotigus"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Streams of brackish filth",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gnarlrod - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "7",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Gnarlrod - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "14",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "screamers-chaos-daemons",
+    "name": "Screamers",
+    "faction": "Chaos Daemons",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Fly",
+      "Legiones Daemonica",
+      "Screamers",
+      "Shadow Legion",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lamprey bite",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "seekers-chaos-daemons",
+    "name": "Seekers",
+    "faction": "Chaos Daemons",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 80
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        },
+        {
+          "modelCount": 7,
+          "points": 160
+        },
+        {
+          "modelCount": 8,
+          "points": 160
+        },
+        {
+          "modelCount": 9,
+          "points": 160
+        },
+        {
+          "modelCount": 10,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Legiones Daemonica",
+      "Mounted",
+      "Seekers",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lashing tongues",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Slashing claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "shalaxi-helbane-chaos-daemons",
+    "name": "Shalaxi Helbane",
+    "faction": "Chaos Daemons",
+    "points": 340,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 20,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 340
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Legiones Daemonica",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Shalaxi Helbane",
+      "Slaanesh",
+      "Slaanesh non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Lash of Slaanesh",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pavane of Slaanesh - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Pavane of Slaanesh - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Snapping claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Soulpiercer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skarbrand-chaos-daemons",
+    "name": "Skarbrand",
+    "faction": "Chaos Daemons",
+    "points": 305,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 20,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 305
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Monster",
+      "Skarbrand"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bellow of endless fury",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Slaughter and Carnage - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "8",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Slaughter and Carnage - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "16",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skull-altar-chaos-daemons",
+    "name": "Skull Altar",
+    "faction": "Chaos Daemons",
+    "points": 105,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 10,
+      "movement": 0,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 105
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Fortification",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Shadow Legion",
+      "Skull Altar"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": []
+  },
+  {
+    "id": "skull-cannon-chaos-daemons",
+    "name": "Skull Cannon",
+    "faction": "Chaos Daemons",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 9,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Legiones Daemonica",
+      "Mounted",
+      "Shadow Legion",
+      "Skull Cannon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Skull cannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "D6+2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Attendant's hellblades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Biting maw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skullmaster-chaos-daemons",
+    "name": "Skullmaster",
+    "faction": "Chaos Daemons",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 6,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Leader",
+      "Legiones Daemonica",
+      "Mounted",
+      "Shadow Legion",
+      "Skullmaster"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Blade of blood",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Juggernaut's bladed horn",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "skulltaker-chaos-daemons",
+    "name": "Skulltaker",
+    "faction": "Chaos Daemons",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Infantry",
+      "Khorne",
+      "Khorne non-Battleline",
+      "Leader",
+      "Legiones Daemonica",
+      "Skulltaker"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Slayer Sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "slaanesh-soul-grinder-chaos-daemons",
+    "name": "Slaanesh Soul Grinder",
+    "faction": "Chaos Daemons",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 14,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Legiones Daemonica",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "Soul Grinder",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Harvester cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Scream of despair",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Iron claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Warpclaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Warpsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sloppity-bilepiper-chaos-daemons",
+    "name": "Sloppity Bilepiper",
+    "faction": "Chaos Daemons",
+    "points": 55,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Shadow Legion",
+      "Sloppity Bilepiper"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Marotter",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "spoilpox-scrivener-chaos-daemons",
+    "name": "Spoilpox Scrivener",
+    "faction": "Chaos Daemons",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Nurgle",
+      "Nurgle non-Battleline",
+      "Ranged Weapon",
+      "Shadow Legion",
+      "Spoilpox Scrivener"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Disgusting Sneezes",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plaguesword and distended maw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "syll-esske-chaos-daemons",
+    "name": "Syll'esske",
+    "faction": "Chaos Daemons",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 9,
+      "movement": 9,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Leader",
+      "Legiones Daemonica",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "Syll'esske"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Cacophonic choir - focused witchfire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Cacophonic choir - witchfire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Scourging whip",
+        "range": 9,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Axe of Dominion",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Scourging whip",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "the-blue-scribes-chaos-daemons",
+    "name": "The Blue Scribes",
+    "faction": "Chaos Daemons",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 6,
+      "movement": 12,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Legiones Daemonica",
+      "Mounted",
+      "The Blue Scribes",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Sharp quills",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Psyker",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "the-changeling-chaos-daemons",
+    "name": "The Changeling",
+    "faction": "Chaos Daemons",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Infantry",
+      "Legiones Daemonica",
+      "Psychic Weapon",
+      "Psyker",
+      "The Changeling",
+      "Tzeentch",
+      "Tzeentch non-Battleline"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal Flames - focused witchfire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Infernal Flames - witchfire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Trickster's Staff",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "the-masque-of-slaanesh-chaos-daemons",
+    "name": "The Masque of Slaanesh",
+    "faction": "Chaos Daemons",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Infantry",
+      "Legiones Daemonica",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "The Masque of Slaanesh"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Serrated claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "tormentbringer-chaos-daemons",
+    "name": "Tormentbringer",
+    "faction": "Chaos Daemons",
+    "points": 140,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 12,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 5,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Mounted",
+      "Psyker",
+      "Ranged Weapon",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "Tormentbringer"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Lashes of torment",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lashes of torment",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Seeker tongues",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Slashing claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "tranceweaver-chaos-daemons",
+    "name": "Tranceweaver",
+    "faction": "Chaos Daemons",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 3,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Infantry",
+      "Leader",
+      "Legiones Daemonica",
+      "Melee Weapon",
+      "Psyker",
+      "Shadow Legion",
+      "Slaanesh",
+      "Slaanesh non-Battleline",
+      "Tranceweaver"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ravaging claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "tzeentch-soul-grinder-chaos-daemons",
+    "name": "Tzeentch Soul Grinder",
+    "faction": "Chaos Daemons",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 14,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Legiones Daemonica",
+      "Shadow Legion",
+      "Soul Grinder",
+      "Tzeentch",
+      "Tzeentch non-Battleline",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Harvester cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Warp gaze",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Iron claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Warpclaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Warpsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  }
+]

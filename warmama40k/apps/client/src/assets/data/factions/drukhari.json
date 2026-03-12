@@ -1,0 +1,4263 @@
+[
+  {
+    "id": "archon-drukhari",
+    "name": "Archon",
+    "faction": "Drukhari",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 2,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Archon",
+      "Assault Weapon",
+      "Character",
+      "Drukhari",
+      "Infantry",
+      "Kabal",
+      "Leader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Splinter pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Agoniser",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Huskblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Master-crafted power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "corsair-skyreavers-drukhari",
+    "name": "Corsair Skyreavers",
+    "faction": "Drukhari",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 75
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        },
+        {
+          "modelCount": 9,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Corsair Skyreavers",
+      "Drukhari",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Corsair blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Fusion gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Neuro disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      },
+      {
+        "name": "Corsair Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "corsair-voidreavers-drukhari",
+    "name": "Corsair Voidreavers",
+    "faction": "Drukhari",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 65
+        },
+        {
+          "modelCount": 6,
+          "points": 110
+        },
+        {
+          "modelCount": 7,
+          "points": 110
+        },
+        {
+          "modelCount": 8,
+          "points": 110
+        },
+        {
+          "modelCount": 9,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Battleline",
+      "Corsair Voidreavers",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Grenades",
+      "Infantry",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Corsair shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Neuro disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Shuriken rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Wraithcannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 5
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "corsair-voidscarred-drukhari",
+    "name": "Corsair Voidscarred",
+    "faction": "Drukhari",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 9,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 9,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Corsair Voidscarred",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Grenades",
+      "Infantry",
+      "Psychic Weapon",
+      "Psyker",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Corsair blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Corsair shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Executioner",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Fusion pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Long rifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Neuro disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Shuriken pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 1
+        }
+      },
+      {
+        "name": "Wraithcannon",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 11
+        }
+      },
+      {
+        "name": "Paired Hekatarii blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Witch staff",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cronos-drukhari",
+    "name": "Cronos",
+    "faction": "Drukhari",
+    "points": 55,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 7,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        },
+        {
+          "modelCount": 2,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Cronos",
+      "Drukhari",
+      "Fly",
+      "Haemonculus Covens",
+      "Monster"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Spirit Syphon",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Spirit Vortex",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Spirit-leech Tentacles",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "death-jester-drukhari",
+    "name": "Death Jester",
+    "faction": "Drukhari",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Death Jester",
+      "Drukhari",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Melee Weapon",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shrieker Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Jester's Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "drazhar-drukhari",
+    "name": "Drazhar",
+    "faction": "Drukhari",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToWound": true,
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Blades for Hire",
+      "Character",
+      "Drazhar",
+      "Drukhari",
+      "Epic Hero",
+      "Infantry",
+      "Leader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "The Executioner's demiklaives - Dual Bl",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "8",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "The Executioner's demiklaives - Single ",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "haemonculus-drukhari",
+    "name": "Haemonculus",
+    "faction": "Drukhari",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 5,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Drukhari",
+      "Haemonculus",
+      "Haemonculus Covens",
+      "Infantry",
+      "Leader"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Stinger Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 2,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Haemonculus tools and scissorhands",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hellions-drukhari",
+    "name": "Hellions",
+    "faction": "Drukhari",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 170
+        },
+        {
+          "modelCount": 7,
+          "points": 170
+        },
+        {
+          "modelCount": 8,
+          "points": 170
+        },
+        {
+          "modelCount": 9,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Drukhari",
+      "Fly",
+      "Grenades",
+      "Hellions",
+      "Mounted",
+      "Wych Cult"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Pods",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellglaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 5,
+          "plusOneToWound": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "plusOneToWound": true,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Stunclaw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "plusOneToWound": true,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "incubi-drukhari",
+    "name": "Incubi",
+    "faction": "Drukhari",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 90
+        },
+        {
+          "modelCount": 6,
+          "points": 180
+        },
+        {
+          "modelCount": 7,
+          "points": 180
+        },
+        {
+          "modelCount": 8,
+          "points": 180
+        },
+        {
+          "modelCount": 9,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Blades for Hire",
+      "Drukhari",
+      "Incubi",
+      "Infantry"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Demiklaives - Dual Blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Demiklaives - Single Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Klaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "kabalite-warriors-drukhari",
+    "name": "Kabalite Warriors",
+    "faction": "Drukhari",
+    "points": 115,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Assault Weapon",
+      "Battleline",
+      "Drukhari",
+      "Grenades",
+      "Infantry",
+      "Kabal",
+      "Kabalite Warriors",
+      "Smoke"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 6
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kharseth-drukhari",
+    "name": "Kharseth",
+    "faction": "Drukhari",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Character",
+      "Drukhari",
+      "Epic Hero",
+      "Infantry",
+      "Kharseth",
+      "Leader",
+      "Psyker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dread of the Deep Void",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "D6+2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Waystave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lady-malys-drukhari",
+    "name": "Lady Malys",
+    "faction": "Drukhari",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Archon",
+      "Character",
+      "Drukhari",
+      "Epic Hero",
+      "Infantry",
+      "Kabal",
+      "Lady Malys",
+      "Leader"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lady's Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Razor fan",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lelith-hesperax-drukhari",
+    "name": "Lelith Hesperax",
+    "faction": "Drukhari",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Drukhari",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Lelith Hesperax",
+      "Succubus",
+      "Wych Cult"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lelith's blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mandrakes-drukhari",
+    "name": "Mandrakes",
+    "faction": "Drukhari",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 75
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        },
+        {
+          "modelCount": 9,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Blades for Hire",
+      "Drukhari",
+      "Infantry",
+      "Mandrakes"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Baleblast",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Glimmersteel Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "prince-yriel-drukhari",
+    "name": "Prince Yriel",
+    "faction": "Drukhari",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 5,
+      "movement": 7,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Character",
+      "Drukhari",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Prince Yriel"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "The Eye of Wrath",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "The Spear of Twilight",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "raider-drukhari",
+    "name": "Raider",
+    "faction": "Drukhari",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 10,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Dedicated Transport",
+      "Drukhari",
+      "Fly",
+      "Raider",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladevanes and chainsnares",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D3+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ravager-drukhari",
+    "name": "Ravager",
+    "faction": "Drukhari",
+    "points": 110,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 11,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Drukhari",
+      "Fly",
+      "Kabal",
+      "Ravager",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladevanes",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "razorwing-jetfighter-drukhari",
+    "name": "Razorwing Jetfighter",
+    "faction": "Drukhari",
+    "points": 170,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 10,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aircraft",
+      "Drukhari",
+      "Fly",
+      "Razorwing Jetfighter",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Razorwing Missiles - Monoscythe Missiles",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Razorwing Missiles - Neurotoxin Missiles",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "D6+3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Razorwing Missiles - Shatterfield Missi",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Twin Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladed Wings",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reavers-drukhari",
+    "name": "Reavers",
+    "faction": "Drukhari",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 16,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 2,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 70
+        },
+        {
+          "modelCount": 4,
+          "points": 140
+        },
+        {
+          "modelCount": 5,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Drukhari",
+      "Fly",
+      "Mounted",
+      "Reavers",
+      "Wych Cult"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Heat Lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladevanes",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "scourges-with-heavy-weapons-drukhari",
+    "name": "Scourges with Heavy Weapons",
+    "faction": "Drukhari",
+    "points": 130,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Blades for Hire",
+      "Drukhari",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack",
+      "Scourges",
+      "Scourges with Heavy Weapons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Dark Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Haywire Blaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Heat Lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Shardcarbine",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "scourges-with-shardcarbines-drukhari",
+    "name": "Scourges with Shardcarbines",
+    "faction": "Drukhari",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Blades for Hire",
+      "Drukhari",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Jump Pack",
+      "Scourges",
+      "Scourges with Shardcarbines"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Blaster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shardcarbine",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "shadowseer-drukhari",
+    "name": "Shadowseer",
+    "faction": "Drukhari",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Grenades",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Shadowseer"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Neuro Disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Miststave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skyweavers-drukhari",
+    "name": "Skyweavers",
+    "faction": "Drukhari",
+    "points": 95,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 95
+        },
+        {
+          "modelCount": 3,
+          "points": 190
+        },
+        {
+          "modelCount": 4,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Fly",
+      "Harlequin Allies",
+      "Harlequins",
+      "Mounted",
+      "Skyweavers",
+      "Smoke"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Skyweaver Haywire Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Star Bolas",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Zephyrglaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "solitaire-drukhari",
+    "name": "Solitaire",
+    "faction": "Drukhari",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Epic Hero",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Solitaire"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Solitaire Weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "starfangs-drukhari",
+    "name": "Starfangs",
+    "faction": "Drukhari",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Anhrathe",
+      "Asuryani",
+      "Drukhari",
+      "Fly",
+      "Starfangs",
+      "Vehicle",
+      "Ynnari"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Disintegrator Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Starfang Grenade Launcher",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Wraithbone Hull",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "starweaver-drukhari",
+    "name": "Starweaver",
+    "faction": "Drukhari",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Dedicated Transport",
+      "Drukhari",
+      "Fly",
+      "Harlequin Allies",
+      "Harlequins",
+      "Smoke",
+      "Star Weaver",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "succubus-drukhari",
+    "name": "Succubus",
+    "faction": "Drukhari",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Drukhari",
+      "Infantry",
+      "Leader",
+      "Succubus",
+      "Wych Cult"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Archite glaive and agoniser",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "7",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "talos-drukhari",
+    "name": "Talos",
+    "faction": "Drukhari",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 7,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        },
+        {
+          "modelCount": 2,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Drukhari",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Haemonculus Covens",
+      "Monster",
+      "Talos"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Stinger Pod",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin Haywire Blaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Twin heat lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Twin Liquifier Gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "autoHit": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Twin Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chain-flails",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Macro-Scalpel",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Talos Gauntlet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Talos Ichor Injector",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "troupe-drukhari",
+    "name": "Troupe",
+    "faction": "Drukhari",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 0,
+      "wounds": 0,
+      "movement": 0,
+      "leadership": 0,
+      "objectiveControl": 0,
+      "armourSave": 0,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 11,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 100
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        },
+        {
+          "modelCount": 10,
+          "points": 190
+        },
+        {
+          "modelCount": 11,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Grenades",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Troupe"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Neuro Disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harlequin's Special Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Power sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "troupe-master-drukhari",
+    "name": "Troupe Master",
+    "faction": "Drukhari",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 3,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesHits": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Character",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Grenades",
+      "Harlequin Allies",
+      "Harlequins",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Ranged Weapon",
+      "Troupe Master"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fusion Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Neuro Disruptor",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Shuriken Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Harlequin's Special Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Troupe Master's Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "venom-drukhari",
+    "name": "Venom",
+    "faction": "Drukhari",
+    "points": 70,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 70
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Dedicated Transport",
+      "Drukhari",
+      "Fly",
+      "Transport",
+      "Vehicle",
+      "Venom"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Splinter Cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Twin Splinter Rifle",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "twinLinked": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladevanes",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "voidraven-bomber-drukhari",
+    "name": "Voidraven Bomber",
+    "faction": "Drukhari",
+    "points": 245,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 4,
+      "invulnerableSave": 6,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 245
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Aircraft",
+      "Drukhari",
+      "Fly",
+      "Vehicle",
+      "Voidraven"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Scythe",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Void Lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Voidraven Missiles -  Implosion Missiles",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Voidraven Missiles - Shatterfield Missi",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Bladed Wings",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "voidweaver-drukhari",
+    "name": "Voidweaver",
+    "faction": "Drukhari",
+    "points": 125,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 14,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 125
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Corsairs and Travelling Players",
+      "Drukhari",
+      "Fly",
+      "Harlequin Allies",
+      "Harlequins",
+      "Vehicle",
+      "Voidweaver"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Prismatic Cannon - dispersed pulse",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Prismatic Cannon - focused lances",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Shuriken Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Voidweaver Haywire Cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close Combat Weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "wracks-drukhari",
+    "name": "Wracks",
+    "faction": "Drukhari",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 7,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 6,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 4,
+      "maxModelCount": 9,
+      "compositionOptions": [
+        {
+          "modelCount": 4,
+          "points": 65
+        },
+        {
+          "modelCount": 6,
+          "points": 105
+        },
+        {
+          "modelCount": 7,
+          "points": 105
+        },
+        {
+          "modelCount": 8,
+          "points": 105
+        },
+        {
+          "modelCount": 9,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Battleline",
+      "Drukhari",
+      "Haemonculus Covens",
+      "Infantry",
+      "Wracks"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Hexrifle",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Liquifier Gun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Ossefactor",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Stinger Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      },
+      {
+        "name": "Torturer's tool",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 6,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "wyches-drukhari",
+    "name": "Wyches",
+    "faction": "Drukhari",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 6,
+      "invulnerableSave": 6,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aeldari",
+      "Battleline",
+      "Drukhari",
+      "Grenades",
+      "Infantry",
+      "Wych Cult",
+      "Wyches"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Blast Pistol",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Splinter Pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Gladiatorial weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hekatarii Blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Power weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 3
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,3820 @@
+[
+  {
+    "id": "ahriman-thousand-sons",
+    "name": "Ahriman",
+    "faction": "Thousand Sons",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 6,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Ahriman",
+      "Chaos",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Infantry",
+      "Leader",
+      "Mounted",
+      "Psyker",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Transmogrifying Blast",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+1",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Black Staff of Ahriman",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "blue-horrors-thousand-sons",
+    "name": "Blue Horrors",
+    "faction": "Thousand Sons",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 8,
+      "objectiveControl": 0,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Blue",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Horrors",
+      "Infantry",
+      "Psychic Weapon",
+      "Scintillating Legions",
+      "Summoned",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Coruscating Blue flames",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blue claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-land-raider-thousand-sons",
+    "name": "Chaos Land Raider",
+    "faction": "Thousand Sons",
+    "points": 220,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Land Raider",
+      "Smoke",
+      "Thousand Sons",
+      "Transport",
+      "Tzeentch",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Soulshatter lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-predator-annihilator-thousand-sons",
+    "name": "Chaos Predator Annihilator",
+    "faction": "Thousand Sons",
+    "points": 130,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 11,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Predator Annihilator",
+      "Smoke",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Inferno heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Predator twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-predator-destructor-thousand-sons",
+    "name": "Chaos Predator Destructor",
+    "faction": "Thousand Sons",
+    "points": 130,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 11,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Predator Destructor",
+      "Smoke",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Inferno heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Predator autocannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-rhino-thousand-sons",
+    "name": "Chaos Rhino",
+    "faction": "Thousand Sons",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true,
+      "plusOneToWound": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Dedicated Transport",
+      "Rhino",
+      "Smoke",
+      "Thousand Sons",
+      "Transport",
+      "Tzeentch",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-spawn-thousand-sons",
+    "name": "Chaos Spawn",
+    "faction": "Thousand Sons",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Mutant",
+      "Spawn",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hideous Mutations",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6+2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-spawn-flesh-change-thousand-sons",
+    "name": "Chaos Spawn (Flesh Change)",
+    "faction": "Thousand Sons",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Mutant",
+      "Spawn",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hideous Mutations",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6+2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chaos-vindicator-thousand-sons",
+    "name": "Chaos Vindicator",
+    "faction": "Thousand Sons",
+    "points": 185,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 11,
+      "movement": 9,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 185
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Smoke",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle",
+      "Vindicator"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Demolisher cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "D6+3",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured tracks",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemon-prince-of-tzeentch-thousand-sons",
+    "name": "Daemon Prince of Tzeentch",
+    "faction": "Thousand Sons",
+    "points": 180,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 10,
+      "movement": 9,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 180
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Daemon Prince",
+      "Melee Weapon",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Blessing",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Infernal cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Hellforged weapons - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "daemon-prince-of-tzeentch-with-wings-thousand-sons",
+    "name": "Daemon Prince of Tzeentch with wings",
+    "faction": "Thousand Sons",
+    "points": 170,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 10,
+      "movement": 13,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true,
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": {
+      "heal": true,
+      "healD3Wounds": true
+    },
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Daemon Prince",
+      "Fly",
+      "Melee Weapon",
+      "Monster",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dark Blessing",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Infernal cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Hellforged weapons - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Hellforged weapons - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "defiler-thousand-sons",
+    "name": "Defiler",
+    "faction": "Thousand Sons",
+    "points": 165,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 14,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 165
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 6
+    },
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Defiler",
+      "Extra Attacks Weapon",
+      "Smoke",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Defiler cannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Havoc launcher",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Reaper autocannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Defiler claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Defiler scourge",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "exalted-sorcerer-thousand-sons",
+    "name": "Exalted Sorcerer",
+    "faction": "Thousand Sons",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 5,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Exalted Sorcerer",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Astral Blast",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Inferno bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "exalted-sorcerer-on-disc-of-tzeentch-thousand-sons",
+    "name": "Exalted Sorcerer on Disc of Tzeentch",
+    "faction": "Thousand Sons",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 6,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Exalted Sorcerer",
+      "Fly",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Mounted",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Arcane Fire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Inferno bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "flamers-thousand-sons",
+    "name": "Flamers",
+    "faction": "Thousand Sons",
+    "points": 65,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 9,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 65
+        },
+        {
+          "modelCount": 4,
+          "points": 130
+        },
+        {
+          "modelCount": 5,
+          "points": 130
+        },
+        {
+          "modelCount": 6,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Flamers",
+      "Fly",
+      "Infantry",
+      "Scintillating Legions",
+      "Summoned",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Flickering flames",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flamer mouths",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "forgefiend-thousand-sons",
+    "name": "Forgefiend",
+    "faction": "Thousand Sons",
+    "points": 130,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 130
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Forgefiend",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Ectoplasma cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "blast": true
+        }
+      },
+      {
+        "name": "Hades autocannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Forgefiend claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Forgefiend jaws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 0,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "helbrute-thousand-sons",
+    "name": "Helbrute",
+    "faction": "Thousand Sons",
+    "points": 110,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 8,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Helbrute",
+      "Helbrute melee",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy flamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Helbrute plasma cannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Missile launcher - frag",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Missile launcher - krak",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Multi-melta",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Twin autocannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Twin lascannon",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Helbrute hammer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "5",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Power scourge",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "heldrake-thousand-sons",
+    "name": "Heldrake",
+    "faction": "Thousand Sons",
+    "points": 215,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 6,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 215
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Aircraft",
+      "Chaos",
+      "Fly",
+      "Heldrake",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Baleflamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Hades autocannon",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Heldrake claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "infernal-master-thousand-sons",
+    "name": "Infernal Master",
+    "faction": "Thousand Sons",
+    "points": 95,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 95
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Grenades",
+      "Infantry",
+      "Infernal Master",
+      "Leader",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fires of the Abyss - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Fires of the Abyss - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true
+        }
+      },
+      {
+        "name": "Inferno bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "kairos-fateweaver-thousand-sons",
+    "name": "Kairos Fateweaver",
+    "faction": "Thousand Sons",
+    "points": 285,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 20,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 285
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Kairos Fateweaver",
+      "Monster",
+      "Psyker",
+      "Scintillating Legions",
+      "Summoned",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Infernal Gateway - focused witchfire",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D3+6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      },
+      {
+        "name": "Infernal Gateway - witchfire",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Tomorrow",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lord-of-change-thousand-sons",
+    "name": "Lord of Change",
+    "faction": "Thousand Sons",
+    "points": 270,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 18,
+      "movement": 12,
+      "leadership": 6,
+      "objectiveControl": 5,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 270
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Lord of Change",
+      "Monster",
+      "Psyker",
+      "Scintillating Legions",
+      "Summoned",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Bolt of Change - focused witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "9",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Bolt of Change - witchfire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 9,
+        "armourPenetration": 1,
+        "attacks": "9",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Rod of sorcery",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Baleful sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Staff of Tzeentch",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "magnus-the-red-thousand-sons",
+    "name": "Magnus the Red",
+    "faction": "Thousand Sons",
+    "points": 435,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 16,
+      "movement": 14,
+      "leadership": 5,
+      "objectiveControl": 6,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 435
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Character",
+      "Daemon",
+      "Epic Hero",
+      "Fly",
+      "Magnus the Red",
+      "Monster",
+      "Primarch",
+      "Psyker",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gaze of Magnus",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 11,
+        "armourPenetration": 2,
+        "attacks": "3D3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Tzeentch's Firestorm",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blade of Magnus - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 3,
+        "attacks": "7",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Blade of Magnus - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "14",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "maulerfiend-thousand-sons",
+    "name": "Maulerfiend",
+    "faction": "Thousand Sons",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 12,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Extra Attacks Weapon",
+      "Maulerfiend",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Magma cutter",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "melta": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lasher tendrils",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Maulerfiend fists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "mutalith-vortex-beast-thousand-sons",
+    "name": "Mutalith Vortex Beast",
+    "faction": "Thousand Sons",
+    "points": 170,
+    "unitType": "model",
+    "stats": {
+      "toughness": 10,
+      "wounds": 13,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 4,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Chaos",
+      "Monster",
+      "Mutalith Vortex Beast",
+      "Mutant",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Warp vortex - beam",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "D6+6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Warp vortex - blast",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 2,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Warp vortex - torrent",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Betentacled maw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 0,
+        "attacks": "15",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Mutalith claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "pink-horrors-thousand-sons",
+    "name": "Pink Horrors",
+    "faction": "Thousand Sons",
+    "points": 115,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 7,
+      "invulnerableSave": 4,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Horrors",
+      "Infantry",
+      "Pink",
+      "Psychic Weapon",
+      "Scintillating Legions",
+      "Summoned",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Coruscating pink flames",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Pink claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "rubric-marines-thousand-sons",
+    "name": "Rubric Marines",
+    "faction": "Thousand Sons",
+    "points": 100,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 100
+        },
+        {
+          "modelCount": 6,
+          "points": 190
+        },
+        {
+          "modelCount": 7,
+          "points": 190
+        },
+        {
+          "modelCount": 8,
+          "points": 190
+        },
+        {
+          "modelCount": 9,
+          "points": 190
+        },
+        {
+          "modelCount": 10,
+          "points": 190
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Battleline",
+      "Chaos",
+      "Infantry",
+      "Psychic Weapon",
+      "Psyker",
+      "Rubric",
+      "Rubric Marines",
+      "Rubricae",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Inferno boltgun",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Malefic Curse",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Soulreaper cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Warpflame pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Warpflamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "scarab-occult-terminators-thousand-sons",
+    "name": "Scarab Occult Terminators",
+    "faction": "Thousand Sons",
+    "points": 180,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 180
+        },
+        {
+          "modelCount": 6,
+          "points": 360
+        },
+        {
+          "modelCount": 7,
+          "points": 360
+        },
+        {
+          "modelCount": 8,
+          "points": 360
+        },
+        {
+          "modelCount": 9,
+          "points": 360
+        },
+        {
+          "modelCount": 10,
+          "points": 360
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Infantry",
+      "Psychic Weapon",
+      "Psyker",
+      "Rubricae",
+      "Scarab Occult",
+      "Terminator",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy warpflamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Hellfyre missile rack",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Malefic Curse",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Soulreaper cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "screamers-thousand-sons",
+    "name": "Screamers",
+    "faction": "Thousand Sons",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 14,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        },
+        {
+          "modelCount": 5,
+          "points": 160
+        },
+        {
+          "modelCount": 6,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Beast",
+      "Chaos",
+      "Chaos Daemons",
+      "Daemon",
+      "Fly",
+      "Scintillating Legions",
+      "Screamers",
+      "Summoned",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Lamprey bite",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sekhetar-robots-thousand-sons",
+    "name": "Sekhetar Robots",
+    "faction": "Thousand Sons",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 4,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 80
+        },
+        {
+          "modelCount": 3,
+          "points": 160
+        },
+        {
+          "modelCount": 4,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "stealth": true
+    },
+    "tags": [
+      "Chaos",
+      "Sekhetar Robots",
+      "Thousand Sons",
+      "Tzeentch",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy warpflamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Hellfyre missile rack",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Pyreflux meltagun",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Warpflame projector",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 3,
+        "armourPenetration": 1,
+        "attacks": "D3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Power claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 10,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sorcerer-thousand-sons",
+    "name": "Sorcerer",
+    "faction": "Thousand Sons",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 6,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Grenades",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Sorcerer",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Inferno bolt pistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Pandaemonic Delusion",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Prosperine khopesh",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sorcerer-in-terminator-armour-thousand-sons",
+    "name": "Sorcerer in Terminator Armour",
+    "faction": "Thousand Sons",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Infantry",
+      "Leader",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Sorcerer",
+      "Terminator",
+      "Thousand Sons",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gaze of Hate",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Vehicle/Monster",
+            "rollNeeded": 4
+          }
+        }
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Infantry",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tzaangor-enlightened-thousand-sons",
+    "name": "Tzaangor Enlightened",
+    "faction": "Thousand Sons",
+    "points": 45,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 45
+        },
+        {
+          "modelCount": 4,
+          "points": 90
+        },
+        {
+          "modelCount": 5,
+          "points": 90
+        },
+        {
+          "modelCount": 6,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Fly",
+      "Mounted",
+      "Mutant",
+      "Thousand Sons",
+      "Tzaangor Enlightened",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Divining spear",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "plusOneToWound": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "tzaangor-enlightened-with-fatecaster-thousand-sons",
+    "name": "Tzaangor Enlightened with Fatecaster...",
+    "faction": "Thousand Sons",
+    "points": 55,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 2,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 55
+        },
+        {
+          "modelCount": 4,
+          "points": 110
+        },
+        {
+          "modelCount": 5,
+          "points": 110
+        },
+        {
+          "modelCount": 6,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Fly",
+      "Mounted",
+      "Mutant",
+      "Thousand Sons",
+      "Tzaangor Enlightened",
+      "Tzaangor Enlightened with Fatecaster greatbows",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Fatecaster greatbow",
+        "range": 30,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "ignoresCover": true,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "tzaangor-shaman-thousand-sons",
+    "name": "Tzaangor Shaman",
+    "faction": "Thousand Sons",
+    "points": 60,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 5,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": {
+      "plusOneToHit": true
+    },
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Character",
+      "Fly",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Mounted",
+      "Mutant",
+      "Psychic Weapon",
+      "Psyker",
+      "Ranged Weapon",
+      "Thousand Sons",
+      "Tzaangor Shaman",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Baleful Devolution",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Force stave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tzaangors-thousand-sons",
+    "name": "Tzaangors",
+    "faction": "Thousand Sons",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 6,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 6,
+      "invulnerableSave": 6,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 20,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 70
+        },
+        {
+          "modelCount": 11,
+          "points": 160
+        },
+        {
+          "modelCount": 12,
+          "points": 160
+        },
+        {
+          "modelCount": 13,
+          "points": 160
+        },
+        {
+          "modelCount": 14,
+          "points": 160
+        },
+        {
+          "modelCount": 15,
+          "points": 160
+        },
+        {
+          "modelCount": 16,
+          "points": 160
+        },
+        {
+          "modelCount": 17,
+          "points": 160
+        },
+        {
+          "modelCount": 18,
+          "points": 160
+        },
+        {
+          "modelCount": 19,
+          "points": 160
+        },
+        {
+          "modelCount": 20,
+          "points": 160
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": null,
+    "tags": [
+      "Chaos",
+      "Infantry",
+      "Mutant",
+      "Thousand Sons",
+      "Tzaangors",
+      "Tzeentch"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Autopistol",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 3,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chainsword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  }
+]

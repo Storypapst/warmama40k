@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect width="72" height="72" fill="#121212" rx="11"/>
+  <path d="M 36 11.64 
+    C 57.924 21.384 60.36 33.564 60.36 38.436
+    C 60.36 50.616 48.18 57.924 36 60.36
+    C 23.82 57.924 11.64 50.616 11.64 38.436
+    C 11.64 33.564 14.076 21.384 36 11.64 Z" 
+    fill="#c9a84c" opacity="0.9"/>
+  <text x="36" y="39.48" text-anchor="middle" dominant-baseline="central"
+    font-family="Arial Black, sans-serif" font-weight="900" font-size="10"
+    fill="#121212" letter-spacing="-1">W40K</text>
+</svg>

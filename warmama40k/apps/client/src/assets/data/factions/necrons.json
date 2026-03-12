@@ -1,0 +1,4382 @@
+[
+  {
+    "id": "annihilation-barge-necrons",
+    "name": "Annihilation Barge",
+    "faction": "Necrons",
+    "points": 105,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 9,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 105
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Annihilation Barge",
+      "Fly",
+      "Necrons",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauss cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Tesla cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Twin tesla destructor",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "c-tan-shard-of-the-deceiver-necrons",
+    "name": "C'tan Shard of the Deceiver",
+    "faction": "Necrons",
+    "points": 285,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 16,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 285
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "stealth": true,
+      "minusOneDamage": true,
+      "feelNoPain": 5
+    },
+    "tags": [
+      "C'tan Shard of the Deceiver",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Monster",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Cosmic insanity",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Golden fists",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "8",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "c-tan-shard-of-the-nightbringer-necrons",
+    "name": "C'tan Shard of the Nightbringer",
+    "faction": "Necrons",
+    "points": 315,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 315
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "minusOneDamage": true,
+      "feelNoPain": 5
+    },
+    "tags": [
+      "C'tan Shard of the Nightbringer",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Monster",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gaze of death",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "D6+3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Scythe of the Nightbringer - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "6",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Scythe of the Nightbringer - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "14",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "c-tan-shard-of-the-void-dragon-necrons",
+    "name": "C'tan Shard of the Void Dragon",
+    "faction": "Necrons",
+    "points": 310,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 16,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 310
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "minusOneDamage": true,
+      "feelNoPain": 5
+    },
+    "tags": [
+      "C'tan Shard of the Void Dragon",
+      "Character",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Fly",
+      "Monster",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Spear of the Void Dragon",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "D3",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Voltaic storm",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "D6+3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Canoptek tail blades",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Spear of the Void Dragon - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 12,
+        "armourPenetration": 4,
+        "attacks": "5",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "anti": {
+            "targetType": "Vehicle",
+            "rollNeeded": 2
+          }
+        }
+      },
+      {
+        "name": "Spear of the Void Dragon - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "10",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-doomstalker-necrons",
+    "name": "Canoptek Doomstalker",
+    "faction": "Necrons",
+    "points": 140,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 12,
+      "movement": 8,
+      "leadership": 8,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 140
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Canoptek",
+      "Doomstalker",
+      "Necrons",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Doomsday blaster",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "D6+1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Twin gauss flayer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "twinLinked": true,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Doomstalker limbs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-macrocytes-necrons",
+    "name": "Canoptek Macrocytes",
+    "faction": "Necrons",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 3,
+      "wounds": 1,
+      "movement": 8,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Beast",
+      "Canoptek",
+      "Fly",
+      "Macrocytes",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Atomiser beam",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Gauss scalpel",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Tesla caster",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-reanimator-necrons",
+    "name": "Canoptek Reanimator",
+    "faction": "Necrons",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 8,
+      "leadership": 8,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "feelNoPain": 4
+    },
+    "tags": [
+      "Canoptek",
+      "Necrons",
+      "Reanimator",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Atomiser beam",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Reanimator's claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-scarab-swarms-necrons",
+    "name": "Canoptek Scarab Swarms",
+    "faction": "Necrons",
+    "points": 40,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 2,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 8,
+      "objectiveControl": 0,
+      "armourSave": 6,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 40
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Canoptek",
+      "Fly",
+      "Necrons",
+      "Scarab Swarms",
+      "Swarm"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Feeder mandibles",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 5,
+        "strength": 2,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-spyders-necrons",
+    "name": "Canoptek Spyders",
+    "faction": "Necrons",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 7,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Canoptek",
+      "Fly",
+      "Necrons",
+      "Spyders",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Particle beamer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Automaton claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-tomb-crawlers-necrons",
+    "name": "Canoptek Tomb Crawlers",
+    "faction": "Necrons",
+    "points": 50,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Beast",
+      "Canoptek",
+      "Necrons",
+      "Tomb Crawlers"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Dimensional isolator",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Twin gauss reaper",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "twinLinked": true,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "canoptek-wraiths-necrons",
+    "name": "Canoptek Wraiths",
+    "faction": "Necrons",
+    "points": 110,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 8,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 6,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 110
+        },
+        {
+          "modelCount": 4,
+          "points": 220
+        },
+        {
+          "modelCount": 5,
+          "points": 220
+        },
+        {
+          "modelCount": 6,
+          "points": 220
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Beast",
+      "Canoptek",
+      "Fly",
+      "Necrons",
+      "Wraiths"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Particle caster",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Transdimensional beamer",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Vicious claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      },
+      {
+        "name": "Whip coils",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "catacomb-command-barge-necrons",
+    "name": "Catacomb Command Barge",
+    "faction": "Necrons",
+    "points": 120,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 9,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Catacomb Command Barge",
+      "Character",
+      "Fly",
+      "Melee Weapon",
+      "Necrons",
+      "Ranged Weapon",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauss cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Staff of light",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Tesla cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Overlord's blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Staff of light",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "chronomancer-necrons",
+    "name": "Chronomancer",
+    "faction": "Necrons",
+    "points": 65,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 65
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Chronomancer",
+      "Cryptek",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Chronomancer's stave",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Chronomancer's stave",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "convergence-of-dominion-necrons",
+    "name": "Convergence of Dominion",
+    "faction": "Necrons",
+    "points": 60,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 9,
+      "wounds": 7,
+      "movement": 0,
+      "leadership": 8,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Convergence of Dominion",
+      "Fortification",
+      "Necrons",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Transdimensional abductor",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": []
+  },
+  {
+    "id": "cryptothralls-necrons",
+    "name": "Cryptothralls",
+    "faction": "Necrons",
+    "points": 60,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 3,
+      "movement": 5,
+      "leadership": 8,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 2
+    },
+    "composition": {
+      "defaultModelCount": 2,
+      "minModelCount": 2,
+      "maxModelCount": 2,
+      "compositionOptions": [
+        {
+          "modelCount": 2,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Cryptothralls",
+      "Infantry",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Scouring eye",
+        "range": 6,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Scythed limbs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "deathmarks-necrons",
+    "name": "Deathmarks",
+    "faction": "Necrons",
+    "points": 60,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 60
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Deathmarks",
+      "Infantry",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Synaptic disintegrator",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "doom-scythe-necrons",
+    "name": "Doom Scythe",
+    "faction": "Necrons",
+    "points": 230,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 230
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Aircraft",
+      "Doom Scythe",
+      "Fly",
+      "Necrons",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heavy death ray",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 16,
+        "armourPenetration": 4,
+        "attacks": "3",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": "D3"
+        }
+      },
+      {
+        "name": "Twin tesla destructor",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "doomsday-ark-necrons",
+    "name": "Doomsday Ark",
+    "faction": "Necrons",
+    "points": 200,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 14,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 5,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 200
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Doomsday Ark",
+      "Fly",
+      "Necrons",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Doomsday cannon",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 18,
+        "armourPenetration": 4,
+        "attacks": "D6+1",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true
+        }
+      },
+      {
+        "name": "Gauss flayer array",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 5,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "flayed-ones-necrons",
+    "name": "Flayed Ones",
+    "faction": "Necrons",
+    "points": 60,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 60
+        },
+        {
+          "modelCount": 6,
+          "points": 120
+        },
+        {
+          "modelCount": 7,
+          "points": 120
+        },
+        {
+          "modelCount": 8,
+          "points": 120
+        },
+        {
+          "modelCount": 9,
+          "points": 120
+        },
+        {
+          "modelCount": 10,
+          "points": 120
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "stealth": true
+    },
+    "tags": [
+      "Flayed Ones",
+      "Infantry",
+      "Necrons"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Flayer claws",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "geomancer-necrons",
+    "name": "Geomancer",
+    "faction": "Necrons",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Cryptek",
+      "Geomancer",
+      "Infantry",
+      "Leader",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Tremorglaive - reverberating beam",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 2
+        }
+      },
+      {
+        "name": "Tremorglaive - shock wave pulse",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "D6+2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Tremorglaive",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ghost-ark-necrons",
+    "name": "Ghost Ark",
+    "faction": "Necrons",
+    "points": 115,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 14,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 115
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Dedicated Transport",
+      "Fly",
+      "Ghost Ark",
+      "Necrons",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauss flayer array",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "5",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "rapidFire": 5,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "hexmark-destroyer-necrons",
+    "name": "Hexmark Destroyer",
+    "faction": "Necrons",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 5,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Destroyer Cult",
+      "Hexmark Destroyer",
+      "Infantry",
+      "Melee Weapon",
+      "Necrons",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Enmitic disintegrator pistols",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "illuminor-szeras-necrons",
+    "name": "Illuminor Szeras",
+    "faction": "Necrons",
+    "points": 165,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 9,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 165
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "feelNoPain": 4
+    },
+    "tags": [
+      "Character",
+      "Cryptek",
+      "Epic Hero",
+      "Extra Attacks Weapon",
+      "Illuminor Szeras",
+      "Infantry",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Eldritch lance",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Eldritch lance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Impaling legs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "immortals-necrons",
+    "name": "Immortals",
+    "faction": "Necrons",
+    "points": 70,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 1,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 70
+        },
+        {
+          "modelCount": 6,
+          "points": 150
+        },
+        {
+          "modelCount": 7,
+          "points": 150
+        },
+        {
+          "modelCount": 8,
+          "points": 150
+        },
+        {
+          "modelCount": 9,
+          "points": 150
+        },
+        {
+          "modelCount": 10,
+          "points": 150
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Battleline",
+      "Immortals",
+      "Infantry",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauss blaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Tesla carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "imotekh-the-stormlord-necrons",
+    "name": "Imotekh the Stormlord",
+    "faction": "Necrons",
+    "points": 100,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 100
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Imotekh the Stormlord",
+      "Infantry",
+      "Leader",
+      "Necrons",
+      "Noble"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauntlet of Fire",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Staff of the Destroyer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of the Destroyer",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "lokhust-destroyers-necrons",
+    "name": "Lokhust Destroyers",
+    "faction": "Necrons",
+    "points": 40,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 40
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Destroyer Cult",
+      "Fly",
+      "Lokhust Destroyers",
+      "Mounted",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauss cannon",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lokhust-heavy-destroyers-necrons",
+    "name": "Lokhust Heavy Destroyers",
+    "faction": "Necrons",
+    "points": 55,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 4,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollOnesWounds": true
+    },
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Destroyer Cult",
+      "Fly",
+      "Lokhust Heavy Destroyers",
+      "Mounted",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Enmitic exterminator",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 6,
+          "sustainedHits": 1
+        }
+      },
+      {
+        "name": "Gauss destructor",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lokhust-lord-necrons",
+    "name": "Lokhust Lord",
+    "faction": "Necrons",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 6,
+      "wounds": 6,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollWounds": true
+    },
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Character",
+      "Destroyer Cult",
+      "Fly",
+      "Leader",
+      "Lokhust Lord",
+      "Melee Weapon",
+      "Mounted",
+      "Necrons",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Staff of light",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Lord's blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Staff of light",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "lychguard-necrons",
+    "name": "Lychguard",
+    "faction": "Necrons",
+    "points": 85,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 10,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 85
+        },
+        {
+          "modelCount": 6,
+          "points": 170
+        },
+        {
+          "modelCount": 7,
+          "points": 170
+        },
+        {
+          "modelCount": 8,
+          "points": 170
+        },
+        {
+          "modelCount": 9,
+          "points": 170
+        },
+        {
+          "modelCount": 10,
+          "points": 170
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Infantry",
+      "Lychguard",
+      "Necrons"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Hyperphase sword",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      },
+      {
+        "name": "Warscythe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "monolith-necrons",
+    "name": "Monolith",
+    "faction": "Necrons",
+    "points": 400,
+    "unitType": "model",
+    "stats": {
+      "toughness": 13,
+      "wounds": 22,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 8,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 400
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Fly",
+      "Monolith",
+      "Necrons",
+      "Titanic",
+      "Towering",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Death ray",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "D6+1",
+        "abilities": {
+          "attacksMultiplier": 5,
+          "sustainedHits": "D3"
+        }
+      },
+      {
+        "name": "Gauss flux arc",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "rapidFire": 3,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Particle whip",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "3D6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Portal of exile",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "necron-warriors-necrons",
+    "name": "Necron Warriors",
+    "faction": "Necrons",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 4,
+      "wounds": 1,
+      "movement": 5,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 10
+    },
+    "composition": {
+      "defaultModelCount": 10,
+      "minModelCount": 10,
+      "maxModelCount": 20,
+      "compositionOptions": [
+        {
+          "modelCount": 10,
+          "points": 90
+        },
+        {
+          "modelCount": 11,
+          "points": 200
+        },
+        {
+          "modelCount": 12,
+          "points": 200
+        },
+        {
+          "modelCount": 13,
+          "points": 200
+        },
+        {
+          "modelCount": 14,
+          "points": 200
+        },
+        {
+          "modelCount": 15,
+          "points": 200
+        },
+        {
+          "modelCount": 16,
+          "points": 200
+        },
+        {
+          "modelCount": 17,
+          "points": 200
+        },
+        {
+          "modelCount": 18,
+          "points": 200
+        },
+        {
+          "modelCount": 19,
+          "points": 200
+        },
+        {
+          "modelCount": 20,
+          "points": 200
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Battleline",
+      "Infantry",
+      "Necron Warriors",
+      "Necrons"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Gauss flayer",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Gauss reaper",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "nekrosor-ammentar-necrons",
+    "name": "Nekrosor Ammentar",
+    "faction": "Necrons",
+    "points": 165,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 9,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 3,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 165
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Destroyer Cult",
+      "Epic Hero",
+      "Infantry",
+      "Necrons",
+      "Nekrosor Ammentar"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Enmitic disintegrators",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "ignoresCover": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Blade tail and whip coils",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Unmaker gauntlet",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "night-scythe-necrons",
+    "name": "Night Scythe",
+    "faction": "Necrons",
+    "points": 145,
+    "unitType": "model",
+    "stats": {
+      "toughness": 9,
+      "wounds": 12,
+      "movement": 20,
+      "leadership": 7,
+      "objectiveControl": 0,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 145
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Aircraft",
+      "Fly",
+      "Necrons",
+      "Night Scythe",
+      "Transport",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Twin tesla destructor",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "obelisk-necrons",
+    "name": "Obelisk",
+    "faction": "Necrons",
+    "points": 300,
+    "unitType": "model",
+    "stats": {
+      "toughness": 13,
+      "wounds": 24,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 8,
+      "armourSave": 2,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 300
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Fly",
+      "Necrons",
+      "Obelisk",
+      "Titanic",
+      "Towering",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Tesla sphere",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "sustainedHits": 2,
+          "anti": {
+            "targetType": "Fly",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ophydian-destroyers-necrons",
+    "name": "Ophydian Destroyers",
+    "faction": "Necrons",
+    "points": 80,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 3,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Destroyer Cult",
+      "Infantry",
+      "Necrons",
+      "Ophydian Destroyers"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Ophydian hyperphase weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 2,
+        "attacks": "5",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "orikan-the-diviner-necrons",
+    "name": "Orikan the Diviner",
+    "faction": "Necrons",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Chronomancer",
+      "Cryptek",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Necrons",
+      "Orikan the Diviner"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Staff of Tomorrow",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 4,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "overlord-necrons",
+    "name": "Overlord",
+    "faction": "Necrons",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Noble",
+      "Overlord",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Staff of light",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Tachyon arrow",
+        "range": 72,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 16,
+        "armourPenetration": 5,
+        "attacks": "1",
+        "damage": "D6+2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "oneShot": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Overlord's blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Staff of light",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Voidscythe",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 12,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "overlord-with-translocation-shroud-necrons",
+    "name": "Overlord with Translocation Shroud",
+    "faction": "Necrons",
+    "points": 85,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 85
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Necrons",
+      "Noble",
+      "Overlord",
+      "Overlord with Translocation Shroud"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Overlord's blade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "plasmancer-necrons",
+    "name": "Plasmancer",
+    "faction": "Necrons",
+    "points": 55,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Cryptek",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Plasmancer",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Plasmic lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 3,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Plasmic lance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 7,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "psychomancer-necrons",
+    "name": "Psychomancer",
+    "faction": "Necrons",
+    "points": 55,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 55
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Cryptek",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Psychomancer",
+      "Ranged Weapon"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Abyssal lance",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Abyssal lance",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 6,
+        "armourPenetration": 3,
+        "attacks": "1",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "royal-warden-necrons",
+    "name": "Royal Warden",
+    "faction": "Necrons",
+    "points": 50,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 4,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 50
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Ranged Weapon",
+      "Royal Warden"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Relic gauss blaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2,
+          "lethalHits": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "seraptek-heavy-construct-necrons",
+    "name": "Seraptek Heavy Construct",
+    "faction": "Necrons",
+    "points": 540,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 24,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 10,
+      "armourSave": 3,
+      "invulnerableSave": 5,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 540
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Necrons",
+      "Seraptek Heavy Construct",
+      "Titanic",
+      "Towering",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Singularity generator",
+        "range": 36,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "2D6",
+        "damage": "4",
+        "abilities": {
+          "attacksMultiplier": 2,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Synaptic obliterator",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 3,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Transdimensional projector",
+        "range": 48,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 24,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6+4",
+        "abilities": {
+          "attacksMultiplier": 3
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Titanic forelimbs - strike",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 14,
+        "armourPenetration": 3,
+        "attacks": "6",
+        "damage": "5",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Titanic forelimbs - sweep",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skorpekh-destroyers-necrons",
+    "name": "Skorpekh Destroyers",
+    "faction": "Necrons",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 6,
+      "wounds": 3,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": {
+      "rerollHits": true
+    },
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Destroyer Cult",
+      "Infantry",
+      "Necrons",
+      "Skorpekh Destroyers"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Skorpekh hyperphase weapons",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "skorpekh-lord-necrons",
+    "name": "Skorpekh Lord",
+    "faction": "Necrons",
+    "points": 90,
+    "unitType": "model",
+    "stats": {
+      "toughness": 7,
+      "wounds": 7,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 2,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Destroyer Cult",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Ranged Weapon",
+      "Skorpekh Lord"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Enmitic annihilator",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "rapidFire": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Flensing claw",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "8",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Hyperphase harvester",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "technomancer-necrons",
+    "name": "Technomancer",
+    "faction": "Necrons",
+    "points": 80,
+    "unitType": "model",
+    "stats": {
+      "toughness": 4,
+      "wounds": 4,
+      "movement": 10,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 80
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "heal": true,
+      "healD3Wounds": true
+    },
+    "tags": [
+      "Character",
+      "Cryptek",
+      "Fly",
+      "Infantry",
+      "Leader",
+      "Melee Weapon",
+      "Necrons",
+      "Ranged Weapon",
+      "Technomancer"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Staff of light",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Staff of light",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "tesseract-vault-necrons",
+    "name": "Tesseract Vault",
+    "faction": "Necrons",
+    "points": 425,
+    "unitType": "model",
+    "stats": {
+      "toughness": 12,
+      "wounds": 24,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 8,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 425
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Fly",
+      "Necrons",
+      "Tesseract Vault",
+      "Titanic",
+      "Towering",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Antimatter meteor",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "D6+3",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "indirectFire": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Cosmic fire",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 6,
+        "armourPenetration": 2,
+        "attacks": "3D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Tesla sphere",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 4,
+          "sustainedHits": 2
+        }
+      },
+      {
+        "name": "Time's arrow",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 3,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true,
+          "anti": {
+            "targetType": "Unknown",
+            "rollNeeded": 4
+          }
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 8,
+        "armourPenetration": 0,
+        "attacks": "6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "the-silent-king-necrons",
+    "name": "The Silent King",
+    "faction": "Necrons",
+    "points": 400,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 10,
+      "wounds": 16,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 6,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 400
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Necrons",
+      "The Silent King",
+      "Triarch",
+      "Vehicle"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Annihilator beam",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 14,
+        "armourPenetration": 4,
+        "attacks": "1",
+        "damage": "6",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Sceptre of Eternal Glory",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "2",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Staff of Stars",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 6,
+        "armourPenetration": 1,
+        "attacks": "12",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "indirectFire": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Armoured bulk",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Weapons of the Final Triarch",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 3,
+        "attacks": "12",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "tomb-blades-necrons",
+    "name": "Tomb Blades",
+    "faction": "Necrons",
+    "points": 75,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 12,
+      "leadership": 7,
+      "objectiveControl": 2,
+      "armourSave": 4,
+      "invulnerableSave": null,
+      "modelCount": 3
+    },
+    "composition": {
+      "defaultModelCount": 3,
+      "minModelCount": 3,
+      "maxModelCount": 3,
+      "compositionOptions": [
+        {
+          "modelCount": 3,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "stealth": true
+    },
+    "tags": [
+      "Fly",
+      "Mounted",
+      "Necrons",
+      "Tomb Blades"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Particle beamer",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Twin gauss blaster",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Twin tesla carbine",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "2",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "twinLinked": true,
+          "sustainedHits": 2
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Close combat weapon",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 4,
+        "strength": 4,
+        "armourPenetration": 0,
+        "attacks": "1",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "transcendent-c-tan-necrons",
+    "name": "Transcendent C'tan",
+    "faction": "Necrons",
+    "points": 305,
+    "unitType": "model",
+    "stats": {
+      "toughness": 11,
+      "wounds": 16,
+      "movement": 8,
+      "leadership": 6,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 305
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true,
+      "minusOneDamage": true,
+      "feelNoPain": 5
+    },
+    "tags": [
+      "Character",
+      "Fly",
+      "Melee Weapon",
+      "Monster",
+      "Necrons",
+      "Ranged Weapon",
+      "Transcendent C'tan"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Seismic assault",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Crackling tendrils",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 10,
+        "armourPenetration": 3,
+        "attacks": "8",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "trazyn-the-infinite-necrons",
+    "name": "Trazyn the Infinite",
+    "faction": "Necrons",
+    "points": 75,
+    "unitType": "model",
+    "stats": {
+      "toughness": 5,
+      "wounds": 6,
+      "movement": 5,
+      "leadership": 6,
+      "objectiveControl": 1,
+      "armourSave": 2,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 75
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Leader",
+      "Necrons",
+      "Noble",
+      "Trazyn the Infinite"
+    ],
+    "rangedWeapons": [],
+    "meleeWeapons": [
+      {
+        "name": "Empathic Obliterator",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 0,
+        "attacks": "4",
+        "damage": "D3",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "sustainedHits": "D3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "triarch-praetorians-necrons",
+    "name": "Triarch Praetorians",
+    "faction": "Necrons",
+    "points": 90,
+    "unitType": "unit",
+    "stats": {
+      "toughness": 5,
+      "wounds": 2,
+      "movement": 10,
+      "leadership": 7,
+      "objectiveControl": 1,
+      "armourSave": 3,
+      "invulnerableSave": null,
+      "modelCount": 5
+    },
+    "composition": {
+      "defaultModelCount": 5,
+      "minModelCount": 5,
+      "maxModelCount": 5,
+      "compositionOptions": [
+        {
+          "modelCount": 5,
+          "points": 90
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Fly",
+      "Infantry",
+      "Necrons",
+      "Triarch Praetorians"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Particle caster",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 0,
+        "attacks": "3",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "devastatingWounds": true
+        }
+      },
+      {
+        "name": "Rod of covenant",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "1",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Rod of covenant",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "3",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      },
+      {
+        "name": "Voidblade",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 5,
+        "armourPenetration": 2,
+        "attacks": "4",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "triarch-stalker-necrons",
+    "name": "Triarch Stalker",
+    "faction": "Necrons",
+    "points": 110,
+    "unitType": "model",
+    "stats": {
+      "toughness": 8,
+      "wounds": 12,
+      "movement": 8,
+      "leadership": 7,
+      "objectiveControl": 4,
+      "armourSave": 3,
+      "invulnerableSave": 4,
+      "modelCount": 1
+    },
+    "composition": {
+      "defaultModelCount": 1,
+      "minModelCount": 1,
+      "maxModelCount": 1,
+      "compositionOptions": [
+        {
+          "modelCount": 1,
+          "points": 110
+        }
+      ]
+    },
+    "globalModifiers": null,
+    "defenderGlobalModifiers": {
+      "reanimationProtocols": true
+    },
+    "tags": [
+      "Necrons",
+      "Triarch Stalker",
+      "Vehicle",
+      "Walker"
+    ],
+    "rangedWeapons": [
+      {
+        "name": "Heat ray - dispersed",
+        "range": 12,
+        "type": "ranged",
+        "ballisticSkill": 0,
+        "strength": 5,
+        "armourPenetration": 1,
+        "attacks": "2D6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "autoHit": true,
+          "ignoresCover": true
+        }
+      },
+      {
+        "name": "Heat ray - focused",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 9,
+        "armourPenetration": 4,
+        "attacks": "2",
+        "damage": "D6",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "melta": 4
+        }
+      },
+      {
+        "name": "Heavy gauss cannon array",
+        "range": 24,
+        "type": "ranged",
+        "ballisticSkill": 3,
+        "strength": 8,
+        "armourPenetration": 2,
+        "attacks": "6",
+        "damage": "2",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "lethalHits": true
+        }
+      },
+      {
+        "name": "Particle shredder",
+        "range": 18,
+        "type": "ranged",
+        "ballisticSkill": 2,
+        "strength": 7,
+        "armourPenetration": 0,
+        "attacks": "D6+6",
+        "damage": "1",
+        "abilities": {
+          "attacksMultiplier": 1,
+          "blast": true,
+          "devastatingWounds": true
+        }
+      }
+    ],
+    "meleeWeapons": [
+      {
+        "name": "Stalker's forelimbs",
+        "range": null,
+        "type": "melee",
+        "ballisticSkill": 3,
+        "strength": 7,
+        "armourPenetration": 1,
+        "attacks": "4",
+        "damage": "3",
+        "abilities": {
+          "attacksMultiplier": 1
+        }
+      }
+    ]
+  }
+]

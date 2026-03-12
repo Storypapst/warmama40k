@@ -1,0 +1,192 @@
+[
+  {
+    "faction": "Adepta Sororitas",
+    "unitCount": 34,
+    "totalPoints": 3190
+  },
+  {
+    "faction": "Adeptus Custodes",
+    "unitCount": 31,
+    "totalPoints": 5500
+  },
+  {
+    "faction": "Adeptus Mechanicus",
+    "unitCount": 31,
+    "totalPoints": 2905
+  },
+  {
+    "faction": "Adeptus Titanicus",
+    "unitCount": 4,
+    "totalPoints": 9400
+  },
+  {
+    "faction": "Agents of the Imperium",
+    "unitCount": 29,
+    "totalPoints": 2410
+  },
+  {
+    "faction": "Astra Militarum",
+    "unitCount": 70,
+    "totalPoints": 9410
+  },
+  {
+    "faction": "Black Templars",
+    "unitCount": 19,
+    "totalPoints": 2400
+  },
+  {
+    "faction": "Blood Angels",
+    "unitCount": 16,
+    "totalPoints": 1640
+  },
+  {
+    "faction": "Chaos Daemons",
+    "unitCount": 56,
+    "totalPoints": 7405
+  },
+  {
+    "faction": "Chaos Knights",
+    "unitCount": 20,
+    "totalPoints": 6845
+  },
+  {
+    "faction": "Chaos Space Marines",
+    "unitCount": 56,
+    "totalPoints": 6860
+  },
+  {
+    "faction": "Craftworlds",
+    "unitCount": 72,
+    "totalPoints": 10985
+  },
+  {
+    "faction": "Dark Angels",
+    "unitCount": 16,
+    "totalPoints": 2200
+  },
+  {
+    "faction": "Death Guard",
+    "unitCount": 36,
+    "totalPoints": 4415
+  },
+  {
+    "faction": "Deathwatch",
+    "unitCount": 10,
+    "totalPoints": 1630
+  },
+  {
+    "faction": "Drukhari",
+    "unitCount": 36,
+    "totalPoints": 3295
+  },
+  {
+    "faction": "Emperor's Children",
+    "unitCount": 22,
+    "totalPoints": 3215
+  },
+  {
+    "faction": "Genestealer Cults",
+    "unitCount": 37,
+    "totalPoints": 3050
+  },
+  {
+    "faction": "Grey Knights",
+    "unitCount": 27,
+    "totalPoints": 4615
+  },
+  {
+    "faction": "Imperial Fists",
+    "unitCount": 3,
+    "totalPoints": 280
+  },
+  {
+    "faction": "Imperial Knights",
+    "unitCount": 21,
+    "totalPoints": 8135
+  },
+  {
+    "faction": "Iron Hands",
+    "unitCount": 2,
+    "totalPoints": 195
+  },
+  {
+    "faction": "Leagues of Votann",
+    "unitCount": 21,
+    "totalPoints": 1915
+  },
+  {
+    "faction": "Necrons",
+    "unitCount": 52,
+    "totalPoints": 7175
+  },
+  {
+    "faction": "Orks",
+    "unitCount": 56,
+    "totalPoints": 6530
+  },
+  {
+    "faction": "Raven Guard",
+    "unitCount": 2,
+    "totalPoints": 210
+  },
+  {
+    "faction": "Salamanders",
+    "unitCount": 2,
+    "totalPoints": 185
+  },
+  {
+    "faction": "Space Marines",
+    "unitCount": 82,
+    "totalPoints": 10450
+  },
+  {
+    "faction": "Space Wolves",
+    "unitCount": 22,
+    "totalPoints": 2235
+  },
+  {
+    "faction": "T'au Empire",
+    "unitCount": 42,
+    "totalPoints": 7215
+  },
+  {
+    "faction": "Thousand Sons",
+    "unitCount": 35,
+    "totalPoints": 4615
+  },
+  {
+    "faction": "Titanicus Traitoris",
+    "unitCount": 4,
+    "totalPoints": 9400
+  },
+  {
+    "faction": "Titans",
+    "unitCount": 4,
+    "totalPoints": 9400
+  },
+  {
+    "faction": "Tyranids",
+    "unitCount": 50,
+    "totalPoints": 6840
+  },
+  {
+    "faction": "Ultramarines",
+    "unitCount": 11,
+    "totalPoints": 1390
+  },
+  {
+    "faction": "White Scars",
+    "unitCount": 2,
+    "totalPoints": 175
+  },
+  {
+    "faction": "World Eaters",
+    "unitCount": 31,
+    "totalPoints": 4860
+  },
+  {
+    "faction": "Ynnari",
+    "unitCount": 65,
+    "totalPoints": 9985
+  }
+]
