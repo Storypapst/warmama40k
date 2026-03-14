@@ -220,7 +220,7 @@ import { GAME_PHASES } from '@warmama40k/shared';
       text-align: center; padding: 64px 16px;
     }
     .no-game mat-icon {
-      font-size: 64px; width: 64px; height: 64px; color: #c9a84c;
+      font-size: 64px; width: 64px; height: 64px; color: var(--mat-sys-primary);
     }
     .game-container { max-width: 900px; margin: 0 auto; }
     .turn-header {
@@ -228,16 +228,16 @@ import { GAME_PHASES } from '@warmama40k/shared';
       margin-bottom: 12px;
     }
     .turn-number {
-      font-size: 1.3rem; font-weight: 700; color: #c9a84c;
+      font-size: 1.3rem; font-weight: 700; color: var(--mat-sys-primary);
     }
     .player-turn {
       margin-left: 12px; font-size: 1.1rem; color: #ddd;
     }
     .cp-display {
       display: flex; align-items: center; gap: 4px;
-      background: rgba(201, 168, 76, 0.15);
+      background: color-mix(in srgb, var(--mat-sys-primary) 15%, transparent);
       padding: 6px 12px; border-radius: 20px;
-      color: #c9a84c; font-weight: 600;
+      color: var(--mat-sys-primary); font-weight: 600;
     }
     .cp-display mat-icon { font-size: 18px; width: 18px; height: 18px; }
 
@@ -249,22 +249,22 @@ import { GAME_PHASES } from '@warmama40k/shared';
     .phase-step {
       flex: 1; display: flex; flex-direction: column; align-items: center;
       padding: 8px 4px; gap: 2px;
-      color: #666; font-size: 0.7em;
+      color: var(--mat-sys-outline-variant, #666); font-size: 0.7em;
       transition: all 0.3s ease;
     }
     .phase-step mat-icon { font-size: 20px; width: 20px; height: 20px; }
     .phase-step.active {
-      background: rgba(201, 168, 76, 0.2);
-      color: #c9a84c; font-weight: 600;
+      background: color-mix(in srgb, var(--mat-sys-primary) 20%, transparent);
+      color: var(--mat-sys-primary); font-weight: 600;
     }
     .phase-step.done { color: #4caf50; }
     .phase-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 
     /* Phase Card */
     .phase-card { margin-bottom: 16px; }
-    .short-hint { font-size: 0.9em; color: #aaa; margin: 0; }
+    .short-hint { font-size: 0.9em; color: var(--mat-sys-on-surface-variant, #aaa); margin: 0; }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c; font-size: 32px; width: 40px; height: 40px;
+      color: var(--mat-sys-primary); font-size: 32px; width: 40px; height: 40px;
     }
     mat-card-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
@@ -272,11 +272,11 @@ import { GAME_PHASES } from '@warmama40k/shared';
     .tip-card {
       display: flex; align-items: flex-start; gap: 8px;
       padding: 10px 12px; margin-bottom: 12px;
-      background: rgba(201, 168, 76, 0.08);
-      border: 1px solid rgba(201, 168, 76, 0.2);
+      background: color-mix(in srgb, var(--mat-sys-primary) 8%, transparent);
+      border: 1px solid color-mix(in srgb, var(--mat-sys-primary) 20%, transparent);
       border-radius: 8px;
     }
-    .tip-icon { color: #c9a84c; font-size: 20px; width: 20px; height: 20px; margin-top: 2px; }
+    .tip-icon { color: var(--mat-sys-primary); font-size: 20px; width: 20px; height: 20px; margin-top: 2px; }
     .tip-content { flex: 1; }
     .tip-text { font-size: 0.9em; line-height: 1.4; }
     .tip-badge {
@@ -290,7 +290,7 @@ import { GAME_PHASES } from '@warmama40k/shared';
     /* Section Titles */
     .section-title {
       display: flex; align-items: center; gap: 8px;
-      color: #c9a84c; margin: 16px 0 8px;
+      color: var(--mat-sys-primary); margin: 16px 0 8px;
     }
     .enemy-title { color: #f44336; }
     .enemy-title mat-icon { color: #f44336; }
@@ -314,7 +314,7 @@ import { GAME_PHASES } from '@warmama40k/shared';
       margin-bottom: 6px;
     }
     .unit-card-name { font-weight: 600; font-size: 0.9em; }
-    .unit-card-faction { color: #aaa; font-size: 0.75em; }
+    .unit-card-faction { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.75em; }
     .unit-card-stats {
       display: flex; gap: 12px; margin-bottom: 6px;
     }

@@ -110,10 +110,10 @@ import type { OwnedUnitRef } from '@warmama40k/shared';
     .error-msg { text-align: center; padding: 48px; }
     .error-msg mat-icon { font-size: 48px; width: 48px; height: 48px; color: #f44336; }
     .setup-container { max-width: 800px; margin: 0 auto; }
-    h1 { color: #c9a84c; margin-bottom: 4px; }
-    .subtitle { color: #aaa; margin-top: 0; }
+    h1 { color: var(--mat-sys-primary); margin-bottom: 4px; }
+    .subtitle { color: var(--mat-sys-on-surface-variant, #aaa); margin-top: 0; }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c; font-size: 32px; width: 40px; height: 40px;
+      color: var(--mat-sys-primary); font-size: 32px; width: 40px; height: 40px;
     }
     .level-card { margin-bottom: 16px; }
     .level-options {
@@ -125,11 +125,11 @@ import type { OwnedUnitRef } from '@warmama40k/shared';
       white-space: normal;
     }
     .level-options button.selected {
-      border-color: #c9a84c; background: rgba(201, 168, 76, 0.1);
+      border-color: var(--mat-sys-primary); background: color-mix(in srgb, var(--mat-sys-primary) 10%, transparent);
     }
     .level-info { display: flex; flex-direction: column; }
     .level-info strong { font-size: 1em; }
-    .level-info small { color: #aaa; font-size: 0.85em; }
+    .level-info small { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.85em; }
     .armies-preview {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -140,8 +140,8 @@ import type { OwnedUnitRef } from '@warmama40k/shared';
       padding: 4px 0; font-size: 0.9em;
     }
     .unit-name { flex: 1; }
-    .unit-faction { color: #aaa; font-size: 0.85em; margin: 0 8px; }
-    .unit-pts { color: #c9a84c; font-weight: 600; }
+    .unit-faction { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.85em; margin: 0 8px; }
+    .unit-pts { color: var(--mat-sys-primary); font-weight: 600; }
     .start-row {
       display: flex; justify-content: center; gap: 16px;
       padding: 16px 0 32px;

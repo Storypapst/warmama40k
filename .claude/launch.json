@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "client-dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd warmama40k && NX_IGNORE_UNSUPPORTED_TS_SETUP=true npx nx serve client --configuration=development"],
+      "port": 4200
+    },
+    {
+      "name": "server-dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd warmama40k && NX_IGNORE_UNSUPPORTED_TS_SETUP=true npx nx serve server --configuration=development"],
+      "port": 3000
+    }
+  ]
+}

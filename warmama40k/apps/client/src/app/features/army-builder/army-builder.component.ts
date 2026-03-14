@@ -182,8 +182,8 @@ import { buildBalancedArmies } from '@warmama40k/shared';
   styles: `
     .loading { display: flex; justify-content: center; padding: 48px; }
     .builder-container { max-width: 800px; margin: 0 auto; }
-    h1 { color: #c9a84c; margin-bottom: 4px; }
-    .subtitle { color: #aaa; margin-top: 0; }
+    h1 { color: var(--mat-sys-primary); margin-bottom: 4px; }
+    .subtitle { color: var(--mat-sys-on-surface-variant, #aaa); margin-top: 0; }
     .config-card { margin-bottom: 16px; }
     .slider-row {
       display: flex;
@@ -191,9 +191,9 @@ import { buildBalancedArmies } from '@warmama40k/shared';
       gap: 8px;
       margin-bottom: 8px;
     }
-    .slider-row mat-icon { color: #c9a84c; }
+    .slider-row mat-icon { color: var(--mat-sys-primary); }
     .slider-label { font-weight: 600; }
-    .points-value { color: #c9a84c; font-size: 1.5rem; font-weight: 700; margin-left: auto; }
+    .points-value { color: var(--mat-sys-primary); font-size: 1.5rem; font-weight: 700; margin-left: auto; }
     mat-slider { width: 100%; }
     .points-presets {
       display: flex;
@@ -208,7 +208,7 @@ import { buildBalancedArmies } from '@warmama40k/shared';
       margin-bottom: 16px;
     }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 32px;
       width: 40px;
       height: 40px;
@@ -228,8 +228,8 @@ import { buildBalancedArmies } from '@warmama40k/shared';
       cursor: pointer;
     }
     .must-name { flex: 1; font-size: 0.9em; }
-    .must-pts { color: #c9a84c; font-size: 0.85em; }
-    .no-units { color: #777; font-style: italic; }
+    .must-pts { color: var(--mat-sys-primary); font-size: 0.85em; }
+    .no-units { color: var(--mat-sys-outline, #777); font-style: italic; }
     .generate-row {
       display: flex;
       gap: 12px;
@@ -258,7 +258,7 @@ import { buildBalancedArmies } from '@warmama40k/shared';
     .balance-score.bad { border-color: #f44336; color: #f44336; }
     .score-number { font-size: 1.8rem; font-weight: 700; line-height: 1; }
     .score-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; }
-    .balance-reasoning { color: #aaa; font-size: 0.9em; }
+    .balance-reasoning { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.9em; }
     .armies-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -270,7 +270,7 @@ import { buildBalancedArmies } from '@warmama40k/shared';
       display: flex;
       align-items: center;
       gap: 6px;
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-weight: 600;
       font-size: 0.9em;
       margin: 12px 0 4px;
@@ -279,11 +279,11 @@ import { buildBalancedArmies } from '@warmama40k/shared';
       font-size: 16px;
       width: 16px;
       height: 16px;
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
     }
     .army-faction-meta {
       margin-left: auto;
-      color: #aaa;
+      color: var(--mat-sys-on-surface-variant, #aaa);
       font-weight: 400;
       font-size: 0.85em;
     }
@@ -293,7 +293,7 @@ import { buildBalancedArmies } from '@warmama40k/shared';
       padding: 4px 0 4px 22px;
       font-size: 0.9em;
     }
-    .army-unit-pts { color: #c9a84c; }
+    .army-unit-pts { color: var(--mat-sys-primary); }
     .final-actions {
       display: flex;
       justify-content: center;
