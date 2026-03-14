@@ -117,7 +117,7 @@ export class PlayerService {
   }
 
   hasPlayers(): boolean {
-    return this.players().length >= 2;
+    return this.players().length > 0;
   }
 
   getPlayerCount(): number {

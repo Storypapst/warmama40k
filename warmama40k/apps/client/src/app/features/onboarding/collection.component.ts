@@ -92,23 +92,50 @@ type ViewMode = 'factions' | 'units' | 'summary';
                 </mat-form-field>
               </div>
 
-              @if (searchResults().length > 0) {
-                <div class="unit-list">
-                  @for (unit of searchResults(); track unit.id) {
-                    <mat-card class="unit-card" (click)="addUnit(unit)">
-                      <div class="unit-row">
-                        <div class="unit-info">
-                          <span class="unit-name">{{ unit.name }}</span>
-                          <span class="unit-faction">{{ unit.faction }}</span>
+              @if (filteredFactions().length > 0 || searchResults().length > 0) {
+                <!-- Matching factions -->
+                @if (filteredFactions().length > 0) {
+                  <h3 class="search-section-title">Fraktionen</h3>
+                  <div class="faction-grid">
+                    @for (faction of filteredFactions(); track faction.faction) {
+                      <mat-card class="faction-card" (click)="selectFaction(faction.faction)">
+                        <div class="faction-row">
+                          <mat-icon>shield</mat-icon>
+                          <div class="faction-info">
+                            <span class="faction-name">{{ faction.faction }}</span>
+                            <span class="faction-count">{{ faction.unitCount }} Einheiten</span>
+                          </div>
+                          @if (factionOwnedCount(faction.faction) > 0) {
+                            <span class="owned-badge">
+                              {{ factionOwnedCount(faction.faction) }} gewaehlt
+                            </span>
+                          }
+                          <mat-icon class="chevron">chevron_right</mat-icon>
                         </div>
-                        <div class="unit-meta">
-                          <span class="unit-points">{{ unit.points || 0 }} Pkt</span>
-                          <mat-icon class="add-icon">add_circle</mat-icon>
+                      </mat-card>
+                    }
+                  </div>
+                }
+                <!-- Matching units -->
+                @if (searchResults().length > 0) {
+                  <h3 class="search-section-title">Einheiten</h3>
+                  <div class="unit-list">
+                    @for (unit of searchResults(); track unit.id) {
+                      <mat-card class="unit-card" (click)="addUnit(unit)">
+                        <div class="unit-row">
+                          <div class="unit-info">
+                            <span class="unit-name">{{ unit.name }}</span>
+                            <span class="unit-faction">{{ unit.faction }}</span>
+                          </div>
+                          <div class="unit-meta">
+                            <span class="unit-points">{{ unit.points || 0 }} Pkt</span>
+                            <mat-icon class="add-icon">add_circle</mat-icon>
+                          </div>
                         </div>
-                      </div>
-                    </mat-card>
-                  }
-                </div>
+                      </mat-card>
+                    }
+                  </div>
+                }
               } @else {
                 <div class="faction-grid">
                   @for (faction of factions(); track faction.faction) {
@@ -144,12 +171,8 @@ type ViewMode = 'factions' | 'units' | 'summary';
                   <mat-card
                     class="unit-card"
                     [class.owned]="isOwned(unit.id)"
-                    (click)="toggleUnit(unit)"
                   >
                     <div class="unit-row">
-                      <mat-icon class="check-icon" [class.active]="isOwned(unit.id)">
-                        {{ isOwned(unit.id) ? 'check_circle' : 'radio_button_unchecked' }}
-                      </mat-icon>
                       <div class="unit-info">
                         <span class="unit-name">{{ unit.name }}</span>
                         <span class="unit-stats">
@@ -163,6 +186,24 @@ type ViewMode = 'factions' | 'units' | 'summary';
                       </div>
                       <div class="unit-meta">
                         <span class="unit-points">{{ unit.points || 0 }} Pkt</span>
+                        <div class="qty-controls">
+                          <button
+                            mat-icon-button
+                            (click)="decreaseQuantity(unit); $event.stopPropagation()"
+                            [disabled]="getOwnedCount(unit.id) === 0"
+                          >
+                            <mat-icon>remove_circle_outline</mat-icon>
+                          </button>
+                          <span class="qty-count" [class.has-qty]="getOwnedCount(unit.id) > 0">
+                            {{ getOwnedCount(unit.id) }}
+                          </span>
+                          <button
+                            mat-icon-button
+                            (click)="addUnit(unit); $event.stopPropagation()"
+                          >
+                            <mat-icon>add_circle_outline</mat-icon>
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </mat-card>
@@ -195,16 +236,27 @@ type ViewMode = 'factions' | 'units' | 'summary';
                         {{ group.count }} Einheiten / {{ group.points }} Pkt
                       </span>
                     </h3>
-                    @for (owned of getOwnedByFaction(group.faction); track owned.id) {
+                    @for (group2 of getGroupedOwnedByFaction(group.faction); track group2.unitId) {
                       <mat-card class="owned-card">
                         <div class="owned-row">
                           <div class="owned-info">
-                            <span class="unit-name">{{ owned.unitName }}</span>
-                            <span class="owned-meta">{{ owned.points }} Pkt</span>
+                            <span class="unit-name">
+                              @if (group2.count > 1) {
+                                {{ group2.count }}x
+                              }
+                              {{ group2.unitName }}
+                            </span>
+                            <span class="owned-meta">{{ group2.totalPoints }} Pkt</span>
                           </div>
-                          <button mat-icon-button color="warn" (click)="removeUnit(owned.id); $event.stopPropagation()">
-                            <mat-icon>delete</mat-icon>
-                          </button>
+                          <div class="qty-controls">
+                            <button mat-icon-button (click)="removeOneOfUnit(group2.unitId); $event.stopPropagation()">
+                              <mat-icon>remove_circle_outline</mat-icon>
+                            </button>
+                            <span class="qty-count has-qty">{{ group2.count }}</span>
+                            <button mat-icon-button (click)="addUnitById(group2.unitId); $event.stopPropagation()">
+                              <mat-icon>add_circle_outline</mat-icon>
+                            </button>
+                          </div>
                         </div>
                       </mat-card>
                     }
@@ -270,7 +322,7 @@ type ViewMode = 'factions' | 'units' | 'summary';
       gap: 16px;
     }
     .stat {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-weight: 600;
       font-size: 0.9em;
     }
@@ -284,10 +336,17 @@ type ViewMode = 'factions' | 'units' | 'summary';
     }
     .section-header h2 {
       margin: 0;
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       flex: 1;
     }
     .search-field { min-width: 200px; }
+    .search-section-title {
+      color: var(--mat-sys-primary, var(--mat-sys-primary));
+      font-size: 0.9rem;
+      margin: 12px 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
     .faction-grid {
       display: flex;
       flex-direction: column;
@@ -297,30 +356,30 @@ type ViewMode = 'factions' | 'units' | 'summary';
       cursor: pointer;
       transition: background 0.15s;
     }
-    .faction-card:hover { background: rgba(201, 168, 76, 0.08); }
+    .faction-card:hover { background: color-mix(in srgb, var(--mat-sys-primary) 8%, transparent); }
     .faction-row {
       display: flex;
       align-items: center;
       gap: 12px;
       padding: 4px 0;
     }
-    .faction-row > mat-icon:first-child { color: #c9a84c; }
+    .faction-row > mat-icon:first-child { color: var(--mat-sys-primary); }
     .faction-info {
       flex: 1;
       display: flex;
       flex-direction: column;
     }
     .faction-name { font-weight: 600; }
-    .faction-count { font-size: 0.85em; color: #aaa; }
+    .faction-count { font-size: 0.85em; color: var(--mat-sys-on-surface-variant, #aaa); }
     .owned-badge {
-      background: rgba(201, 168, 76, 0.2);
-      color: #c9a84c;
+      background: color-mix(in srgb, var(--mat-sys-primary) 20%, transparent);
+      color: var(--mat-sys-primary);
       padding: 2px 8px;
       border-radius: 12px;
       font-size: 0.8em;
       font-weight: 600;
     }
-    .chevron { color: #666; }
+    .chevron { color: var(--mat-sys-outline-variant, #666); }
     .unit-list {
       display: flex;
       flex-direction: column;
@@ -330,15 +389,15 @@ type ViewMode = 'factions' | 'units' | 'summary';
       cursor: pointer;
       transition: background 0.15s;
     }
-    .unit-card:hover { background: rgba(201, 168, 76, 0.08); }
-    .unit-card.owned { border-left: 3px solid #c9a84c; }
+    .unit-card:hover { background: color-mix(in srgb, var(--mat-sys-primary) 8%, transparent); }
+    .unit-card.owned { border-left: 3px solid var(--mat-sys-primary); }
     .unit-row {
       display: flex;
       align-items: center;
       gap: 12px;
     }
-    .check-icon { color: #666; transition: color 0.15s; }
-    .check-icon.active { color: #c9a84c; }
+    .check-icon { color: var(--mat-sys-outline-variant, #666); transition: color 0.15s; }
+    .check-icon.active { color: var(--mat-sys-primary); }
     .add-icon { color: #4caf50; }
     .unit-info {
       flex: 1;
@@ -346,16 +405,31 @@ type ViewMode = 'factions' | 'units' | 'summary';
       flex-direction: column;
     }
     .unit-name { font-weight: 600; }
-    .unit-faction, .unit-stats { font-size: 0.85em; color: #aaa; }
+    .unit-faction, .unit-stats { font-size: 0.85em; color: var(--mat-sys-on-surface-variant, #aaa); }
     .unit-meta {
       display: flex;
       align-items: center;
       gap: 8px;
     }
     .unit-points {
-      color: #c9a84c;
+      color: var(--mat-sys-primary, var(--mat-sys-primary));
       font-weight: 600;
       white-space: nowrap;
+    }
+    .qty-controls {
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+    .qty-count {
+      min-width: 24px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.1em;
+      color: var(--mat-sys-on-surface-variant, #888);
+    }
+    .qty-count.has-qty {
+      color: var(--mat-sys-primary, var(--mat-sys-primary));
     }
     .empty-state {
       text-align: center;
@@ -365,10 +439,10 @@ type ViewMode = 'factions' | 'units' | 'summary';
       font-size: 64px;
       width: 64px;
       height: 64px;
-      color: #666;
+      color: var(--mat-sys-outline-variant, #666);
     }
-    .empty-state h3 { color: #aaa; }
-    .empty-state p { color: #777; }
+    .empty-state h3 { color: var(--mat-sys-on-surface-variant, #aaa); }
+    .empty-state p { color: var(--mat-sys-outline, #777); }
     .owned-list {
       display: flex;
       flex-direction: column;
@@ -379,14 +453,14 @@ type ViewMode = 'factions' | 'units' | 'summary';
       display: flex;
       align-items: center;
       gap: 8px;
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       margin: 0 0 8px;
       font-size: 1rem;
     }
     .faction-group-header mat-icon { font-size: 20px; width: 20px; height: 20px; }
     .faction-group-meta {
       font-size: 0.8em;
-      color: #aaa;
+      color: var(--mat-sys-on-surface-variant, #aaa);
       font-weight: 400;
       margin-left: auto;
     }
@@ -403,7 +477,7 @@ type ViewMode = 'factions' | 'units' | 'summary';
       display: flex;
       flex-direction: column;
     }
-    .owned-meta { font-size: 0.85em; color: #aaa; }
+    .owned-meta { font-size: 0.85em; color: var(--mat-sys-on-surface-variant, #aaa); }
     .action-bar {
       position: fixed;
       bottom: 0;
@@ -412,8 +486,8 @@ type ViewMode = 'factions' | 'units' | 'summary';
       display: flex;
       justify-content: space-between;
       padding: 12px 16px;
-      background: #1a1a2e;
-      border-top: 1px solid rgba(201, 168, 76, 0.3);
+      background: var(--mat-sys-surface, #0a0a0a);
+      border-top: 1px solid color-mix(in srgb, var(--mat-sys-primary) 30%, transparent);
       z-index: 100;
     }
   `,
@@ -423,6 +497,7 @@ export class CollectionComponent implements OnInit {
   player = signal<LocalPlayer | null>(null);
   allPlayers = computed(() => this.playerService.players());
   factions = signal<FactionSummary[]>([]);
+  filteredFactions = signal<FactionSummary[]>([]);
   factionUnits = signal<Unit[]>([]);
   searchResults = signal<Unit[]>([]);
   viewMode = signal<ViewMode>('factions');
@@ -500,10 +575,15 @@ export class CollectionComponent implements OnInit {
   async onSearch(query: string) {
     if (query.length < 2) {
       this.searchResults.set([]);
+      this.filteredFactions.set([]);
       return;
     }
-    const results = await this.unitData.searchUnits(query);
-    this.searchResults.set(results);
+    const [units, factions] = await Promise.all([
+      this.unitData.searchUnits(query),
+      this.unitData.searchFactions(query),
+    ]);
+    this.searchResults.set(units);
+    this.filteredFactions.set(factions);
   }
 
   isOwned(unitId: string): boolean {
@@ -512,27 +592,29 @@ export class CollectionComponent implements OnInit {
     return p.ownedUnits.some((u) => u.unitId === unitId);
   }
 
+  getOwnedCount(unitId: string): number {
+    const p = this.player();
+    if (!p) return 0;
+    return p.ownedUnits.filter((u) => u.unitId === unitId).length;
+  }
+
   factionOwnedCount(faction: string): number {
     const p = this.player();
     if (!p) return 0;
     return p.ownedUnits.filter((u) => u.faction === faction).length;
   }
 
-  async toggleUnit(unit: Unit) {
+  async decreaseQuantity(unit: Unit) {
     const p = this.player();
     if (!p) return;
-
-    if (this.isOwned(unit.id)) {
-      const owned = p.ownedUnits.find((u) => u.unitId === unit.id);
-      if (owned) {
-        await this.playerService.removeUnit(p.id, owned.id);
-      }
-    } else {
-      await this.addUnit(unit);
+    // Remove last added copy of this unit
+    const ownedCopies = p.ownedUnits.filter((u) => u.unitId === unit.id);
+    if (ownedCopies.length > 0) {
+      const lastCopy = ownedCopies[ownedCopies.length - 1];
+      await this.playerService.removeUnit(p.id, lastCopy.id);
+      const updated = await this.playerService.getPlayer(p.id);
+      if (updated) this.player.set(updated);
     }
-    // Refresh player state
-    const updated = await this.playerService.getPlayer(p.id);
-    if (updated) this.player.set(updated);
   }
 
   async addUnit(unit: Unit) {
@@ -565,6 +647,41 @@ export class CollectionComponent implements OnInit {
     const p = this.player();
     if (!p) return [];
     return p.ownedUnits.filter((u) => u.faction === faction);
+  }
+
+  getGroupedOwnedByFaction(faction: string): { unitId: string; unitName: string; count: number; totalPoints: number }[] {
+    const owned = this.getOwnedByFaction(faction);
+    const map = new Map<string, { unitId: string; unitName: string; count: number; totalPoints: number }>();
+    for (const u of owned) {
+      const existing = map.get(u.unitId);
+      if (existing) {
+        existing.count++;
+        existing.totalPoints += u.points;
+      } else {
+        map.set(u.unitId, { unitId: u.unitId, unitName: u.unitName, count: 1, totalPoints: u.points });
+      }
+    }
+    return Array.from(map.values()).sort((a, b) => a.unitName.localeCompare(b.unitName));
+  }
+
+  async removeOneOfUnit(unitId: string) {
+    const p = this.player();
+    if (!p) return;
+    const copies = p.ownedUnits.filter((u) => u.unitId === unitId);
+    if (copies.length > 0) {
+      await this.playerService.removeUnit(p.id, copies[copies.length - 1].id);
+      const updated = await this.playerService.getPlayer(p.id);
+      if (updated) this.player.set(updated);
+    }
+  }
+
+  async addUnitById(unitId: string) {
+    const p = this.player();
+    if (!p) return;
+    const unit = await this.unitData.getUnit(unitId);
+    if (unit) {
+      await this.addUnit(unit);
+    }
   }
 
   canProceed(): boolean {

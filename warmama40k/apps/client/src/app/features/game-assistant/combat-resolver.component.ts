@@ -287,12 +287,12 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
     .combat-header {
       display: flex; align-items: center; gap: 8px; margin-bottom: 16px;
     }
-    .combat-header h2 { flex: 1; color: #c9a84c; margin: 0; }
+    .combat-header h2 { flex: 1; color: var(--mat-sys-primary); margin: 0; }
     .phase-badge {
       display: flex; align-items: center; gap: 4px;
-      background: rgba(201, 168, 76, 0.15);
+      background: color-mix(in srgb, var(--mat-sys-primary) 15%, transparent);
       padding: 4px 12px; border-radius: 16px;
-      font-size: 0.9em; color: #c9a84c;
+      font-size: 0.9em; color: var(--mat-sys-primary);
     }
     .phase-badge mat-icon { font-size: 16px; width: 16px; height: 16px; }
 
@@ -301,7 +301,7 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
       padding: 8px 12px; background: #1a1a1a; border-radius: 8px;
       margin-bottom: 12px; flex-wrap: wrap;
     }
-    .selected-info mat-icon { font-size: 18px; width: 18px; height: 18px; color: #c9a84c; }
+    .selected-info mat-icon { font-size: 18px; width: 18px; height: 18px; color: var(--mat-sys-primary); }
     .enemy-name { color: #f44336; }
 
     .step-title {
@@ -311,7 +311,7 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
     .step-num {
       display: inline-flex; align-items: center; justify-content: center;
       width: 28px; height: 28px; border-radius: 50%;
-      background: #c9a84c; color: #000; font-weight: 700; font-size: 0.9em;
+      background: var(--mat-sys-primary); color: #000; font-weight: 700; font-size: 0.9em;
     }
 
     /* Unit select */
@@ -325,8 +325,8 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
     .unit-select-btn.enemy { border-color: #f44336; }
     .unit-select-info { display: flex; flex-direction: column; }
     .unit-select-info strong { font-size: 1em; }
-    .unit-select-info small { color: #aaa; }
-    .empty-msg { color: #777; font-style: italic; padding: 16px; text-align: center; }
+    .unit-select-info small { color: var(--mat-sys-on-surface-variant, #aaa); }
+    .empty-msg { color: var(--mat-sys-outline, #777); font-style: italic; padding: 16px; text-align: center; }
 
     /* Weapons */
     .weapon-grid {
@@ -338,22 +338,22 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
       padding: 12px; cursor: pointer;
       transition: border-color 0.2s;
     }
-    .weapon-card:hover { border-color: #c9a84c; }
+    .weapon-card:hover { border-color: var(--mat-sys-primary); }
     .weapon-name {
       font-weight: 600; margin-bottom: 4px; display: flex;
       justify-content: space-between;
     }
-    .weapon-range { color: #aaa; font-weight: 400; font-size: 0.85em; }
+    .weapon-range { color: var(--mat-sys-on-surface-variant, #aaa); font-weight: 400; font-size: 0.85em; }
     .weapon-stats {
-      display: flex; gap: 8px; font-size: 0.85em; color: #c9a84c;
+      display: flex; gap: 8px; font-size: 0.85em; color: var(--mat-sys-primary);
       font-family: monospace; margin-bottom: 4px;
     }
     .ws-label { color: #ddd; }
     .weapon-abilities { display: flex; flex-wrap: wrap; gap: 4px; }
     .ability-chip {
       font-size: 0.75em; padding: 2px 6px;
-      background: rgba(201, 168, 76, 0.15); border-radius: 8px;
-      color: #c9a84c;
+      background: color-mix(in srgb, var(--mat-sys-primary) 15%, transparent); border-radius: 8px;
+      color: var(--mat-sys-primary);
     }
 
     /* Combat Steps */
@@ -362,7 +362,7 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
     }
     .step-card {
       padding: 12px;
-      border-left: 3px solid #c9a84c;
+      border-left: 3px solid var(--mat-sys-primary);
       transition: opacity 0.3s, transform 0.3s;
     }
     .step-card.future { opacity: 0.4; }
@@ -374,10 +374,10 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
     .step-card-header {
       display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
     }
-    .step-card-header mat-icon { font-size: 18px; width: 18px; height: 18px; color: #c9a84c; }
+    .step-card-header mat-icon { font-size: 18px; width: 18px; height: 18px; color: var(--mat-sys-primary); }
     .step-phase-name { font-weight: 600; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1px; }
     .step-description { font-size: 1em; margin: 4px 0; }
-    .step-detail { font-size: 0.85em; color: #aaa; margin: 4px 0; }
+    .step-detail { font-size: 0.85em; color: var(--mat-sys-on-surface-variant, #aaa); margin: 4px 0; }
     .step-mods, .step-specials {
       display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px;
     }
@@ -421,7 +421,7 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
       display: flex; align-items: center; gap: 4px;
     }
     .counter-value {
-      font-size: 1.3em; font-weight: 700; color: #c9a84c;
+      font-size: 1.3em; font-weight: 700; color: var(--mat-sys-primary);
       min-width: 40px; text-align: center;
     }
     .done-actions {

@@ -169,16 +169,16 @@ import { LLMService } from '../../core/services/llm.service';
     .settings-container { max-width: 700px; margin: 0 auto; }
     .page-title {
       display: flex; align-items: center; gap: 8px;
-      color: #c9a84c; margin-bottom: 16px;
+      color: var(--mat-sys-primary); margin-bottom: 16px;
     }
     .page-title mat-icon { font-size: 28px; width: 28px; height: 28px; }
 
     .settings-card { margin-bottom: 16px; }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c; font-size: 28px; width: 36px; height: 36px;
+      color: var(--mat-sys-primary); font-size: 28px; width: 36px; height: 36px;
     }
 
-    .info-text { color: #aaa; font-size: 0.9em; margin-bottom: 16px; }
+    .info-text { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.9em; margin-bottom: 16px; }
     .full-width { width: 100%; }
 
     .action-row {
@@ -207,10 +207,10 @@ import { LLMService } from '../../core/services/llm.service';
       display: flex; gap: 12px; align-items: flex-start;
     }
     .info-item mat-icon {
-      color: #c9a84c; font-size: 22px; width: 22px; height: 22px;
+      color: var(--mat-sys-primary); font-size: 22px; width: 22px; height: 22px;
       margin-top: 2px;
     }
-    .info-item p { color: #aaa; font-size: 0.85em; margin: 2px 0 0; }
+    .info-item p { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.85em; margin: 2px 0 0; }
   `,
 })
 export class SettingsComponent {
