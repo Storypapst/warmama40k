@@ -1,4 +1,4 @@
-import { Component, OnInit, signal, computed } from '@angular/core';
+import { Component, OnInit, signal, computed, inject } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
@@ -20,6 +20,7 @@ import {
   UnitDataService,
   FactionSummary,
 } from '../../core/services/unit-data.service';
+import { SettingsService } from '../../core/services/settings.service';
 import type { Unit } from '@warmama40k/shared';
 
 type ViewMode = 'factions' | 'units' | 'summary';
@@ -159,7 +160,7 @@ type ViewMode = 'factions' | 'units' | 'summary';
               }
             } @else if (viewMode() === 'units') {
               <!-- Unit list for selected faction -->
-              <div class="section-header">
+              <div class="section-header sticky-header">
                 <button mat-icon-button (click)="backToFactions()">
                   <mat-icon>arrow_back</mat-icon>
                 </button>
@@ -173,14 +174,26 @@ type ViewMode = 'factions' | 'units' | 'summary';
                     [class.owned]="isOwned(unit.id)"
                   >
                     <div class="unit-row">
+                      <mat-icon class="unit-type-icon" [title]="getUnitTypeLabel(unit)">
+                        {{ getUnitTypeIcon(unit) }}
+                      </mat-icon>
                       <div class="unit-info">
                         <span class="unit-name">{{ unit.name }}</span>
                         <span class="unit-stats">
-                          T{{ unit.stats.toughness }}
-                          W{{ unit.stats.wounds }}
-                          Sv{{ unit.stats.armourSave }}+
-                          @if (unit.stats.invulnerableSave) {
-                            Inv{{ unit.stats.invulnerableSave }}+
+                          @if (verboseStats()) {
+                            Zaehigkeit {{ unit.stats.toughness }}
+                            · Lebenspunkte {{ unit.stats.wounds }}
+                            · Ruestungswurf {{ unit.stats.armourSave }}+
+                            @if (unit.stats.invulnerableSave) {
+                              · Unverwundbar {{ unit.stats.invulnerableSave }}+
+                            }
+                          } @else {
+                            T{{ unit.stats.toughness }}
+                            W{{ unit.stats.wounds }}
+                            Sv{{ unit.stats.armourSave }}+
+                            @if (unit.stats.invulnerableSave) {
+                              Inv{{ unit.stats.invulnerableSave }}+
+                            }
                           }
                         </span>
                       </div>
@@ -273,6 +286,10 @@ type ViewMode = 'factions' | 'units' | 'summary';
             <mat-icon>arrow_back</mat-icon>
             Zurueck
           </button>
+          <div class="action-bar-stats">
+            <span class="action-bar-count">{{ player()!.ownedUnits.length }} Einheiten</span>
+            <span class="action-bar-points">{{ totalPoints() }} Pkt</span>
+          </div>
           @if (isLastPlayer()) {
             <button
               mat-raised-button
@@ -280,8 +297,8 @@ type ViewMode = 'factions' | 'units' | 'summary';
               (click)="proceed()"
               [disabled]="!canProceed()"
             >
-              <mat-icon>check</mat-icon>
-              Fertig!
+              <mat-icon>play_arrow</mat-icon>
+              Spiel vorbereiten
             </button>
           } @else {
             <button
@@ -339,6 +356,22 @@ type ViewMode = 'factions' | 'units' | 'summary';
       color: var(--mat-sys-primary);
       flex: 1;
     }
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--mat-sys-surface, #fff);
+      padding: 8px 0;
+      margin: 0 0 8px;
+      border-bottom: 1px solid color-mix(in srgb, var(--mat-sys-primary) 20%, transparent);
+    }
+    .unit-type-icon {
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      color: var(--mat-sys-on-surface-variant, #888);
+      flex-shrink: 0;
+    }
     .search-field { min-width: 200px; }
     .search-section-title {
       color: var(--mat-sys-primary, var(--mat-sys-primary));
@@ -361,7 +394,7 @@ type ViewMode = 'factions' | 'units' | 'summary';
       display: flex;
       align-items: center;
       gap: 12px;
-      padding: 4px 0;
+      padding: 8px;
     }
     .faction-row > mat-icon:first-child { color: var(--mat-sys-primary); }
     .faction-info {
@@ -395,6 +428,7 @@ type ViewMode = 'factions' | 'units' | 'summary';
       display: flex;
       align-items: center;
       gap: 12px;
+      padding: 8px;
     }
     .check-icon { color: var(--mat-sys-outline-variant, #666); transition: color 0.15s; }
     .check-icon.active { color: var(--mat-sys-primary); }
@@ -471,6 +505,7 @@ type ViewMode = 'factions' | 'units' | 'summary';
       display: flex;
       align-items: center;
       gap: 8px;
+      padding: 8px;
     }
     .owned-info {
       flex: 1;
@@ -484,15 +519,33 @@ type ViewMode = 'factions' | 'units' | 'summary';
       left: 0;
       right: 0;
       display: flex;
+      align-items: center;
       justify-content: space-between;
       padding: 12px 16px;
       background: var(--mat-sys-surface, #0a0a0a);
       border-top: 1px solid color-mix(in srgb, var(--mat-sys-primary) 30%, transparent);
       z-index: 100;
     }
+    .action-bar-stats {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+    }
+    .action-bar-count {
+      font-weight: 600;
+      font-size: 0.95em;
+      color: var(--mat-sys-primary);
+    }
+    .action-bar-points {
+      font-size: 0.8em;
+      color: var(--mat-sys-on-surface-variant, #aaa);
+    }
   `,
 })
 export class CollectionComponent implements OnInit {
+  private settingsService = inject(SettingsService);
+
   loading = signal(true);
   player = signal<LocalPlayer | null>(null);
   allPlayers = computed(() => this.playerService.players());
@@ -504,6 +557,8 @@ export class CollectionComponent implements OnInit {
   selectedFaction = signal('');
   tabIndex = 0;
   searchQuery = '';
+
+  verboseStats = computed(() => this.settingsService.verboseStats());
 
   totalPoints = computed(() => {
     const p = this.player();
@@ -546,11 +601,15 @@ export class CollectionComponent implements OnInit {
 
   switchPlayer(playerId: string) {
     this.router.navigate(['/collection', playerId]);
-    // Reload
+    // Reload — reset all search/browse state
     this.loading.set(true);
     this.viewMode.set('factions');
     this.searchQuery = '';
     this.searchResults.set([]);
+    this.filteredFactions.set([]);
+    this.selectedFaction.set('');
+    this.factionUnits.set([]);
+    this.tabIndex = 0;
     this.playerService.getPlayer(playerId).then((p) => {
       if (p) {
         this.player.set(p);
@@ -706,8 +765,8 @@ export class CollectionComponent implements OnInit {
       // Switch to next player
       this.switchPlayer(players[currentIdx + 1].id);
     } else {
-      // All done - go to overview
-      this.router.navigate(['/overview']);
+      // All done - go to squad setup for first player
+      this.router.navigate(['/squad-setup', players[0].id]);
     }
   }
 
@@ -725,5 +784,31 @@ export class CollectionComponent implements OnInit {
     } else {
       this.router.navigate(['/']);
     }
+  }
+
+  /** Returns a Material icon name based on unit tags */
+  getUnitTypeIcon(unit: Unit): string {
+    const tags = unit.tags?.map(t => t.toLowerCase()) ?? [];
+    if (tags.includes('aircraft')) return 'flight';
+    if (tags.includes('vehicle') && tags.includes('walker')) return 'smart_toy';
+    if (tags.includes('vehicle')) return 'local_shipping';
+    if (tags.includes('monster')) return 'pest_control';
+    if (tags.includes('cavalry') || tags.includes('mounted')) return 'sports_motorsports';
+    if (tags.includes('beast') || tags.includes('swarm')) return 'bug_report';
+    if (tags.includes('character') || tags.includes('epic hero')) return 'stars';
+    return 'directions_walk'; // Infantry default
+  }
+
+  /** Returns a German label for the unit type */
+  getUnitTypeLabel(unit: Unit): string {
+    const tags = unit.tags?.map(t => t.toLowerCase()) ?? [];
+    if (tags.includes('aircraft')) return 'Flieger';
+    if (tags.includes('vehicle') && tags.includes('walker')) return 'Laeufer';
+    if (tags.includes('vehicle')) return 'Fahrzeug';
+    if (tags.includes('monster')) return 'Monster';
+    if (tags.includes('cavalry') || tags.includes('mounted')) return 'Kavallerie';
+    if (tags.includes('beast') || tags.includes('swarm')) return 'Bestie/Schwarm';
+    if (tags.includes('character') || tags.includes('epic hero')) return 'Charakter';
+    return 'Infanterie';
   }
 }

@@ -8,6 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { FormsModule } from '@angular/forms';
 import { SettingsService, LLMProvider } from '../../core/services/settings.service';
 import { LLMService } from '../../core/services/llm.service';
@@ -24,6 +25,7 @@ import { LLMService } from '../../core/services/llm.service';
     MatSelectModule,
     MatDividerModule,
     MatSnackBarModule,
+    MatSlideToggleModule,
     FormsModule,
   ],
   template: `
@@ -131,6 +133,44 @@ import { LLMService } from '../../core/services/llm.service';
         </mat-card-content>
       </mat-card>
 
+      <!-- Display Settings -->
+      <mat-card class="settings-card">
+        <mat-card-header>
+          <mat-icon mat-card-avatar>visibility</mat-icon>
+          <mat-card-title>Anzeige</mat-card-title>
+          <mat-card-subtitle>Darstellung der Einheiten-Werte</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="toggle-row">
+            <div class="toggle-info">
+              <strong>Ausfuehrliche Werte</strong>
+              <p class="info-text">
+                Zeigt die Werte ausgeschrieben an (z.B. "Zaehigkeit 4" statt "T4").
+                Hilfreich fuer Einsteiger!
+              </p>
+            </div>
+            <mat-slide-toggle
+              [checked]="verboseStats()"
+              (change)="toggleVerboseStats($event.checked)"
+            />
+          </div>
+          <div class="stats-preview">
+            <span class="preview-label">Vorschau:</span>
+            @if (verboseStats()) {
+              <span class="preview-stat">Zaehigkeit 4</span>
+              <span class="preview-stat">Lebenspunkte 6</span>
+              <span class="preview-stat">Ruestungswurf 3+</span>
+              <span class="preview-stat">Unverwundbar 4+</span>
+            } @else {
+              <span class="preview-stat">T4</span>
+              <span class="preview-stat">W6</span>
+              <span class="preview-stat">Sv3+</span>
+              <span class="preview-stat">Inv4+</span>
+            }
+          </div>
+        </mat-card-content>
+      </mat-card>
+
       <!-- Info Card -->
       <mat-card class="settings-card info-card">
         <mat-card-header>
@@ -211,6 +251,27 @@ import { LLMService } from '../../core/services/llm.service';
       margin-top: 2px;
     }
     .info-item p { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.85em; margin: 2px 0 0; }
+
+    /* Display Settings */
+    .toggle-row {
+      display: flex; align-items: center; gap: 16px; justify-content: space-between;
+    }
+    .toggle-info { flex: 1; }
+    .toggle-info strong { font-size: 0.95em; }
+    .toggle-info .info-text { margin-top: 4px; margin-bottom: 0; }
+    .stats-preview {
+      display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+      margin-top: 16px; padding: 12px;
+      background: color-mix(in srgb, var(--mat-sys-primary) 5%, transparent);
+      border-radius: 8px;
+    }
+    .preview-label { font-size: 0.85em; color: var(--mat-sys-on-surface-variant, #aaa); margin-right: 4px; }
+    .preview-stat {
+      font-size: 0.85em; font-weight: 600;
+      padding: 2px 8px; border-radius: 6px;
+      background: color-mix(in srgb, var(--mat-sys-primary) 15%, transparent);
+      color: var(--mat-sys-primary);
+    }
   `,
 })
 export class SettingsComponent {
@@ -221,6 +282,7 @@ export class SettingsComponent {
   selectedProvider = signal<LLMProvider>(this.settingsService.settings().llmProvider);
   apiKey = signal(this.settingsService.settings().apiKey);
   model = signal(this.settingsService.settings().model);
+  verboseStats = signal(this.settingsService.settings().verboseStats);
   showKey = signal(false);
   isTesting = signal(false);
   testResult = signal<'success' | 'error' | ''>('');
@@ -254,6 +316,15 @@ export class SettingsComponent {
     this.model.set('');
     this.testResult.set('');
     this.snackBar.open('API-Key geloescht', '', { duration: 2000 });
+  }
+
+  async toggleVerboseStats(checked: boolean): Promise<void> {
+    this.verboseStats.set(checked);
+    await this.settingsService.save({ verboseStats: checked });
+    this.snackBar.open(
+      checked ? 'Ausfuehrliche Werte aktiviert' : 'Kurzform aktiviert',
+      '', { duration: 1500 }
+    );
   }
 
   async testConnection(): Promise<void> {

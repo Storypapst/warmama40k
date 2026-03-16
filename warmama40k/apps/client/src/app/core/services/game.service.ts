@@ -6,6 +6,12 @@ import { getNextPhase, GAME_PHASES } from '@warmama40k/shared';
 import type { OwnedUnitRef } from '@warmama40k/shared';
 import { UnitDataService } from './unit-data.service';
 
+export interface ModelKillEvent {
+  modelIndex: number;
+  killedAt: string;
+  killedByPlayerName?: string;
+}
+
 export interface GameUnitState {
   unitId: string;
   unitName: string;
@@ -22,6 +28,12 @@ export interface GameUnitState {
   hasFought: boolean;
   hasAdvanced: boolean;
   hasFallenBack: boolean;
+  /** LocalOwnedUnit.id for squad photo/nickname lookup */
+  ownedUnitId?: string;
+  /** Per-model kill tracking (append-only) */
+  modelKillLog?: ModelKillEvent[];
+  /** Model indices that are dead (for O(1) template lookup) */
+  deadModelIndices?: number[];
 }
 
 export interface GamePlayerState {
@@ -131,6 +143,9 @@ export class GameService {
           hasFought: false,
           hasAdvanced: false,
           hasFallenBack: false,
+          ownedUnitId: ref.ownedUnitId,
+          modelKillLog: [],
+          deadModelIndices: [],
         };
       }),
       commandPoints: 0,
@@ -318,6 +333,80 @@ export class GameService {
           return {
             ...u,
             currentWounds: Math.min(u.maxWounds, u.currentWounds + woundsHealed),
+          };
+        }),
+      },
+    };
+
+    await this.saveGame(updated);
+  }
+
+  async killModel(
+    playerIndex: number,
+    unitId: string,
+    modelIndex: number,
+    killedByPlayerName?: string
+  ): Promise<void> {
+    const game = this.currentGame();
+    if (!game) return;
+
+    const playerKey = playerIndex === 0 ? 'player1' : 'player2';
+    const updated = {
+      ...game,
+      [playerKey]: {
+        ...game[playerKey],
+        units: game[playerKey].units.map((u) => {
+          if (u.unitId !== unitId) return u;
+          const deadIndices = [...(u.deadModelIndices ?? [])];
+          if (deadIndices.includes(modelIndex)) return u; // already dead
+          deadIndices.push(modelIndex);
+          const killLog = [...(u.modelKillLog ?? []), {
+            modelIndex,
+            killedAt: new Date().toISOString(),
+            killedByPlayerName,
+          }];
+          const newModels = Math.max(0, u.modelsRemaining - 1);
+          return {
+            ...u,
+            modelsRemaining: newModels,
+            isDestroyed: newModels === 0,
+            currentWounds: newModels === 0 ? 0 : u.currentWounds,
+            deadModelIndices: deadIndices,
+            modelKillLog: killLog,
+          };
+        }),
+      },
+    };
+
+    await this.saveGame(updated);
+  }
+
+  async reviveModel(
+    playerIndex: number,
+    unitId: string,
+    modelIndex: number
+  ): Promise<void> {
+    const game = this.currentGame();
+    if (!game) return;
+
+    const playerKey = playerIndex === 0 ? 'player1' : 'player2';
+    const updated = {
+      ...game,
+      [playerKey]: {
+        ...game[playerKey],
+        units: game[playerKey].units.map((u) => {
+          if (u.unitId !== unitId) return u;
+          const deadIndices = (u.deadModelIndices ?? []).filter(
+            (i) => i !== modelIndex
+          );
+          const wasDestroyed = u.isDestroyed;
+          return {
+            ...u,
+            modelsRemaining: u.modelsRemaining + (wasDestroyed || deadIndices.length < (u.deadModelIndices?.length ?? 0) ? 1 : 0),
+            isDestroyed: false,
+            currentWounds: wasDestroyed ? u.maxWounds : u.currentWounds,
+            deadModelIndices: deadIndices,
+            // NOTE: modelKillLog is append-only — kill history preserved
           };
         }),
       },

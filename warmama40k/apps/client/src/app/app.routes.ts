@@ -16,6 +16,13 @@ export const appRoutes: Route[] = [
       ),
   },
   {
+    path: 'squad-setup/:playerId',
+    loadComponent: () =>
+      import('./features/squad-manager/squad-manager.component').then(
+        (m) => m.SquadManagerComponent,
+      ),
+  },
+  {
     path: 'overview',
     loadComponent: () =>
       import('./features/onboarding/overview.component').then(
