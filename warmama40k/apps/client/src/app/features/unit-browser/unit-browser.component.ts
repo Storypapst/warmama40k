@@ -75,7 +75,7 @@ import type { Unit } from '@warmama40k/shared';
       gap: 16px;
       margin-bottom: 16px;
     }
-    h1 { margin: 0; color: #c9a84c; }
+    h1 { margin: 0; color: var(--mat-sys-primary); }
     .search-field { min-width: 250px; }
     .loading { display: flex; justify-content: center; padding: 48px; }
     .faction-grid, .unit-grid {
@@ -89,15 +89,15 @@ import type { Unit } from '@warmama40k/shared';
     }
     .faction-card:hover, .unit-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(201, 168, 76, 0.3);
+      box-shadow: 0 4px 12px color-mix(in srgb, var(--mat-sys-primary) 30%, transparent);
     }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 32px;
       width: 40px;
       height: 40px;
     }
-    h2 { color: #c9a84c; }
+    h2 { color: var(--mat-sys-primary); }
   `,
 })
 export class UnitBrowserComponent implements OnInit {

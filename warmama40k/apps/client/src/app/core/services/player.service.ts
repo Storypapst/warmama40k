@@ -8,6 +8,19 @@ export interface LocalPlayer {
   ownedUnits: LocalOwnedUnit[];
 }
 
+/** Per-model weapon assignment within a squad */
+export interface SquadModel {
+  modelIndex: number;
+  weaponLoadout: string[];
+  customLabel?: string;
+}
+
+/** Models grouped by identical weapon configuration */
+export interface WeaponGroup {
+  weaponLoadout: string[];
+  modelIndices: number[];
+}
+
 export interface LocalOwnedUnit {
   id: string;
   unitId: string;
@@ -15,9 +28,13 @@ export interface LocalOwnedUnit {
   faction: string;
   selectedModelCount: number;
   selectedWeapons: string[];
+  /** Base64 data URI for squad photo (resized to max 400px) */
   photoUrl?: string;
+  /** Custom squad nickname (e.g. "Sechser Trupp Orks") */
   nickname?: string;
   points: number;
+  /** Per-model weapon assignments (v2) */
+  squadModels?: SquadModel[];
 }
 
 class WarmamaDb extends Dexie {
@@ -26,6 +43,10 @@ class WarmamaDb extends Dexie {
   constructor() {
     super('warmama40k');
     this.version(1).stores({
+      players: 'id, name',
+    });
+    // v2: squadModels added to LocalOwnedUnit (optional field, no schema change needed)
+    this.version(2).stores({
       players: 'id, name',
     });
   }
@@ -117,7 +138,7 @@ export class PlayerService {
   }
 
   hasPlayers(): boolean {
-    return this.players().length >= 2;
+    return this.players().length > 0;
   }
 
   getPlayerCount(): number {
@@ -128,6 +149,30 @@ export class PlayerService {
     const player = this.players().find((p) => p.id === playerId);
     if (!player) return 0;
     return player.ownedUnits.reduce((sum, u) => sum + u.points, 0);
+  }
+
+  async updateSquadModels(
+    playerId: string,
+    ownedUnitId: string,
+    squadModels: SquadModel[]
+  ): Promise<void> {
+    await this.updateUnit(playerId, ownedUnitId, { squadModels });
+  }
+
+  async updateSquadPhoto(
+    playerId: string,
+    ownedUnitId: string,
+    photoBase64: string
+  ): Promise<void> {
+    await this.updateUnit(playerId, ownedUnitId, { photoUrl: photoBase64 });
+  }
+
+  async updateSquadNickname(
+    playerId: string,
+    ownedUnitId: string,
+    nickname: string
+  ): Promise<void> {
+    await this.updateUnit(playerId, ownedUnitId, { nickname });
   }
 
   getFactionBreakdown(

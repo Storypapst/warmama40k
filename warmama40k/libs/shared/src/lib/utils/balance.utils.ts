@@ -7,6 +7,8 @@ export interface OwnedUnitRef {
   faction: string;
   points: number;
   playerId: string;
+  /** LocalOwnedUnit.id for squad photo/nickname lookup in game */
+  ownedUnitId?: string;
 }
 
 export interface BalanceInput {

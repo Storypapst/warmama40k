@@ -53,8 +53,19 @@ export class UnitDataService {
     await this.ensureLoaded();
     const q = query.toLowerCase();
     return this.allUnits
-      .filter((u) => u.name.toLowerCase().includes(q))
+      .filter((u) =>
+        u.name.toLowerCase().includes(q) ||
+        u.faction.toLowerCase().includes(q)
+      )
       .slice(0, 50);
+  }
+
+  async searchFactions(query: string): Promise<FactionSummary[]> {
+    await this.ensureLoaded();
+    const q = query.toLowerCase();
+    return this.factionIndex.filter((f) =>
+      f.faction.toLowerCase().includes(q)
+    ).sort((a, b) => a.faction.localeCompare(b.faction));
   }
 
   async getAllUnits(): Promise<Unit[]> {

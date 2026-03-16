@@ -68,7 +68,7 @@ import type { Unit } from '@warmama40k/shared';
       gap: 12px;
       margin-bottom: 16px;
     }
-    h1 { margin: 0; color: #c9a84c; flex: 1; }
+    h1 { margin: 0; color: var(--mat-sys-primary); flex: 1; }
     .unit-count { color: #888; }
     .loading { display: flex; justify-content: center; padding: 48px; }
     .unit-grid {
@@ -82,7 +82,7 @@ import type { Unit } from '@warmama40k/shared';
     }
     .unit-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(201, 168, 76, 0.3);
+      box-shadow: 0 4px 12px color-mix(in srgb, var(--mat-sys-primary) 30%, transparent);
     }
     .stat-row {
       display: flex;
@@ -99,8 +99,8 @@ import type { Unit } from '@warmama40k/shared';
       color: #e0e0e0;
     }
     .invuln {
-      color: #c9a84c;
-      border: 1px solid #c9a84c;
+      color: var(--mat-sys-primary);
+      border: 1px solid var(--mat-sys-primary);
     }
     .tags { margin-top: 8px; }
   `,

@@ -69,21 +69,29 @@ import { PlayerService } from '../../core/services/player.service';
           </mat-card-header>
           <mat-card-content>
             <div class="player-inputs">
-              <mat-form-field appearance="outline" class="player-field">
-                <mat-label>Spieler 1</mat-label>
-                <input matInput [(ngModel)]="player1Name" placeholder="Name eingeben..." />
-                <mat-icon matPrefix>person</mat-icon>
-              </mat-form-field>
-
-              <div class="vs-divider">
-                <span>VS</span>
-              </div>
-
-              <mat-form-field appearance="outline" class="player-field">
-                <mat-label>Spieler 2</mat-label>
-                <input matInput [(ngModel)]="player2Name" placeholder="Name eingeben..." />
-                <mat-icon matPrefix>person</mat-icon>
-              </mat-form-field>
+              @for (name of playerNames; track $index; let i = $index) {
+                @if (i > 0) {
+                  <div class="vs-divider">
+                    <span>VS</span>
+                  </div>
+                }
+                <div class="player-field-row">
+                  <mat-form-field appearance="outline" class="player-field">
+                    <mat-label>Spieler {{ i + 1 }}</mat-label>
+                    <input matInput [ngModel]="playerNames[i]" (ngModelChange)="playerNames[i] = $event" placeholder="Name eingeben..." />
+                    <mat-icon matPrefix>person</mat-icon>
+                  </mat-form-field>
+                  @if (playerNames.length > 2) {
+                    <button mat-icon-button color="warn" (click)="removePlayerSlot(i)">
+                      <mat-icon>close</mat-icon>
+                    </button>
+                  }
+                </div>
+              }
+              <button mat-stroked-button (click)="addPlayerSlot()" class="add-player-btn">
+                <mat-icon>person_add</mat-icon>
+                Spieler hinzufuegen
+              </button>
             </div>
           </mat-card-content>
           <mat-card-actions>
@@ -133,16 +141,16 @@ import { PlayerService } from '../../core/services/player.service';
       font-size: 64px;
       width: 64px;
       height: 64px;
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
     }
     h1 {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 2rem;
       margin: 8px 0 4px;
       letter-spacing: 2px;
     }
     .subtitle {
-      color: #aaa;
+      color: var(--mat-sys-on-surface-variant, #aaa);
       font-size: 1rem;
       margin: 0;
     }
@@ -151,7 +159,7 @@ import { PlayerService } from '../../core/services/player.service';
       margin-bottom: 24px;
     }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 32px;
       width: 40px;
       height: 40px;
@@ -165,6 +173,16 @@ import { PlayerService } from '../../core/services/player.service';
     }
     .player-field {
       width: 100%;
+      flex: 1;
+    }
+    .player-field-row {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      width: 100%;
+    }
+    .add-player-btn {
+      margin-top: 8px;
     }
     .vs-divider {
       display: flex;
@@ -174,7 +192,7 @@ import { PlayerService } from '../../core/services/player.service';
       width: 100%;
     }
     .vs-divider span {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-weight: 700;
       font-size: 1.5rem;
       letter-spacing: 4px;
@@ -196,15 +214,15 @@ import { PlayerService } from '../../core/services/player.service';
       gap: 12px;
       padding: 8px 12px;
       border-radius: 8px;
-      background: rgba(201, 168, 76, 0.1);
+      background: color-mix(in srgb, var(--mat-sys-primary) 10%, transparent);
     }
-    .player-item mat-icon { color: #c9a84c; }
+    .player-item mat-icon { color: var(--mat-sys-primary); }
     .player-name {
       font-weight: 600;
       flex: 1;
     }
     .player-units {
-      color: #aaa;
+      color: var(--mat-sys-on-surface-variant, #aaa);
       font-size: 0.9em;
     }
     .info-cards {
@@ -218,7 +236,7 @@ import { PlayerService } from '../../core/services/player.service';
       padding: 16px;
     }
     .info-card mat-icon {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 36px;
       width: 36px;
       height: 36px;
@@ -226,12 +244,12 @@ import { PlayerService } from '../../core/services/player.service';
     .info-card h3 {
       margin: 8px 0 4px;
       font-size: 0.9rem;
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
     }
     .info-card p {
       margin: 0;
       font-size: 0.8rem;
-      color: #aaa;
+      color: var(--mat-sys-on-surface-variant, #aaa);
     }
     @media (max-width: 600px) {
       .info-cards {
@@ -241,8 +259,7 @@ import { PlayerService } from '../../core/services/player.service';
   `,
 })
 export class WelcomeComponent implements OnInit {
-  player1Name = '';
-  player2Name = '';
+  playerNames: string[] = ['', ''];
   loading = signal(true);
 
   constructor(
@@ -260,14 +277,26 @@ export class WelcomeComponent implements OnInit {
   }
 
   canStart(): boolean {
-    return this.player1Name.trim().length > 0 && this.player2Name.trim().length > 0;
+    return this.playerNames.filter((n) => n.trim().length > 0).length >= 2;
+  }
+
+  addPlayerSlot() {
+    this.playerNames = [...this.playerNames, ''];
+  }
+
+  removePlayerSlot(index: number) {
+    this.playerNames = this.playerNames.filter((_, i) => i !== index);
   }
 
   async startSetup() {
     if (!this.canStart()) return;
-    const p1 = await this.playerService.createPlayer(this.player1Name.trim());
-    await this.playerService.createPlayer(this.player2Name.trim());
-    this.router.navigate(['/collection', p1.id]);
+    const validNames = this.playerNames.filter((n) => n.trim().length > 0);
+    let firstId = '';
+    for (const name of validNames) {
+      const p = await this.playerService.createPlayer(name.trim());
+      if (!firstId) firstId = p.id;
+    }
+    this.router.navigate(['/collection', firstId]);
   }
 
   continueWithExisting() {
