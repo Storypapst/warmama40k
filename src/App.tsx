@@ -93,7 +93,10 @@ export default function App() {
   return (
     <main className="app-shell">
       <header className="top-bar">
-        <h1>Breath Flow</h1>
+        <div>
+          <p className="kicker">Waiting Room Visualization</p>
+          <h1>Breath Flow</h1>
+        </div>
         <button
           type="button"
           className={deepSoundEnabled ? "sound-toggle active" : "sound-toggle"}
@@ -109,21 +112,29 @@ export default function App() {
 
       <MenuBar mode={sessionMode} canOpenZen={isZenAvailable} onSelectMode={onSelectMode} />
 
-      <BreathScene phase={breath.phase} stage={stage} cycles={breath.cycles} />
+      <section className="experience-card">
+        <div className="status-ribbon" aria-label="Sessionstatus">
+          <span>{breath.mode === "MOBILE_HOLD" ? "Mobile Hold" : "Desktop Click"}</span>
+          <span>Phase: {breath.phase}</span>
+          <span>{sessionMode === "ZEN" ? "Zen Session" : `Queue: ${queue}`}</span>
+        </div>
 
-      <BreathControls
-        mode={breath.mode}
-        phase={breath.phase}
-        instruction={breath.instruction}
-        canAdvanceDesktop={breath.canAdvanceDesktop}
-        onDesktopClick={breath.handleDesktopClick}
-        onPointerDown={breath.handlePointerDown}
-        onPointerUp={breath.handlePointerUp}
-        onPointerCancel={breath.handlePointerCancel}
-        onUserGesture={() => {
-          void deepSound.unlockAudio();
-        }}
-      />
+        <BreathScene phase={breath.phase} stage={stage} cycles={breath.cycles} />
+
+        <BreathControls
+          mode={breath.mode}
+          phase={breath.phase}
+          instruction={breath.instruction}
+          canAdvanceDesktop={breath.canAdvanceDesktop}
+          onDesktopClick={breath.handleDesktopClick}
+          onPointerDown={breath.handlePointerDown}
+          onPointerUp={breath.handlePointerUp}
+          onPointerCancel={breath.handlePointerCancel}
+          onUserGesture={() => {
+            void deepSound.unlockAudio();
+          }}
+        />
+      </section>
 
       {sessionMode !== "ZEN" ? (
         <footer className="queue-bar">
