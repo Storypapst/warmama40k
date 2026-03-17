@@ -28,7 +28,7 @@ export function buildCombatSteps(
   if (abilities.blast) {
     const blastBonus = Math.floor(defender.stats.modelCount / 5);
     if (blastBonus > 0) {
-      blastNote = ` (+${blastBonus} from Blast vs ${defender.stats.modelCount} models)`;
+      blastNote = ` (+${blastBonus} durch Blast gegen ${defender.stats.modelCount} Modelle)`;
     }
   }
 
@@ -40,36 +40,36 @@ export function buildCombatSteps(
   if (abilities.autoHit) {
     steps.push({
       phase: 'hit',
-      description: `This weapon auto-hits! All ${totalAttacksDesc}${blastNote} attacks hit automatically.`,
-      detailedExplanation: 'Torrent weapons always hit - no dice roll needed!',
+      description: `Diese Waffe trifft automatisch! Alle ${totalAttacksDesc}${blastNote} Attacken treffen.`,
+      detailedExplanation: 'Torrent-Waffen treffen immer - kein Wuerfelwurf noetig!',
       targetNumber: 0,
       numberOfDice: 0,
-      modifiers: ['Auto-hit (Torrent)'],
+      modifiers: ['Auto-Treffer (Torrent)'],
       specialRules: [],
     });
   } else {
     if (attacker.globalModifiers?.plusOneToHit) {
       hitTarget = Math.max(2, hitTarget - 1);
-      hitModifiers.push('+1 to Hit');
+      hitModifiers.push('+1 auf Treffer');
     }
     if (attacker.globalModifiers?.rerollHits) {
-      hitSpecial.push('Reroll all failed hits');
+      hitSpecial.push('Alle fehlgeschlagenen Treffer neu wuerfeln');
     }
     if (attacker.globalModifiers?.rerollOnesHits) {
-      hitSpecial.push('Reroll hit rolls of 1');
+      hitSpecial.push('Trefferwuerfe von 1 neu wuerfeln');
     }
     if (abilities.lethalHits) {
-      hitSpecial.push('Lethal Hits: natural 6s auto-wound (set aside)');
+      hitSpecial.push('Lethal Hits: Natuerliche 6en verwunden automatisch (beiseite legen)');
     }
     if (abilities.sustainedHits !== undefined) {
       const sh = abilities.sustainedHits;
-      hitSpecial.push(`Sustained Hits ${sh}: natural 6s generate ${sh} extra hit(s)`);
+      hitSpecial.push(`Sustained Hits ${sh}: Natuerliche 6en erzeugen ${sh} extra Treffer`);
     }
 
     steps.push({
       phase: 'hit',
-      description: `Roll ${totalAttacksDesc}${blastNote} dice. You need ${hitTarget}+ to hit.`,
-      detailedExplanation: `Each attack gets one D6. A result of ${hitTarget} or higher is a hit. Natural 1s always miss, natural 6s are critical hits.`,
+      description: `Wuerfle ${totalAttacksDesc}${blastNote} Wuerfel. Du brauchst ${hitTarget}+ zum Treffen.`,
+      detailedExplanation: `Jede Attacke bekommt einen W6. Ein Ergebnis von ${hitTarget} oder hoeher ist ein Treffer. Natuerliche 1en verfehlen immer, natuerliche 6en sind kritische Treffer.`,
       targetNumber: hitTarget,
       numberOfDice: totalAttacksDesc,
       modifiers: hitModifiers,
@@ -83,16 +83,16 @@ export function buildCombatSteps(
   const woundSpecial: string[] = [];
 
   if (attacker.globalModifiers?.plusOneToWound || abilities.plusOneToWound) {
-    woundModifiers.push('+1 to Wound');
+    woundModifiers.push('+1 auf Verwundung');
   }
   if (abilities.twinLinked) {
-    woundSpecial.push('Twin-linked: reroll all failed wound rolls');
+    woundSpecial.push('Twin-linked: Alle fehlgeschlagenen Verwundungswuerfe neu wuerfeln');
   }
   if (attacker.globalModifiers?.rerollWounds) {
-    woundSpecial.push('Reroll all failed wounds');
+    woundSpecial.push('Alle fehlgeschlagenen Verwundungen neu wuerfeln');
   }
   if (attacker.globalModifiers?.rerollOnesWounds) {
-    woundSpecial.push('Reroll wound rolls of 1');
+    woundSpecial.push('Verwundungswuerfe von 1 neu wuerfeln');
   }
   if (abilities.anti) {
     const defenderHasTag = defender.tags.some(
@@ -100,20 +100,20 @@ export function buildCombatSteps(
     );
     if (defenderHasTag) {
       woundSpecial.push(
-        `Anti-${abilities.anti.targetType} ${abilities.anti.rollNeeded}+: critical wounds on ${abilities.anti.rollNeeded}+`,
+        `Anti-${abilities.anti.targetType} ${abilities.anti.rollNeeded}+: Kritische Verwundungen ab ${abilities.anti.rollNeeded}+`,
       );
     }
   }
   if (abilities.devastatingWounds) {
-    woundSpecial.push('Devastating Wounds: critical wounds become Mortal Wounds');
+    woundSpecial.push('Devastating Wounds: Kritische Verwundungen werden zu Todenwunden');
   }
 
   steps.push({
     phase: 'wound',
-    description: `S${weapon.strength} vs T${defender.stats.toughness} = you need ${woundTarget}+ to wound.`,
-    detailedExplanation: `Compare the weapon's Strength (${weapon.strength}) against the target's Toughness (${defender.stats.toughness}). The wound table determines the roll needed.`,
+    description: `Staerke ${weapon.strength} gegen Zaehigkeit ${defender.stats.toughness} = du brauchst ${woundTarget}+ zum Verwunden.`,
+    detailedExplanation: `Vergleiche die Staerke der Waffe (${weapon.strength}) mit der Zaehigkeit des Ziels (${defender.stats.toughness}). Die Verwundungstabelle bestimmt den benoetigten Wurf.`,
     targetNumber: woundTarget,
-    numberOfDice: 'hits',
+    numberOfDice: 'Treffer',
     modifiers: woundModifiers,
     specialRules: woundSpecial,
   });
@@ -131,11 +131,11 @@ export function buildCombatSteps(
 
   if (invuln !== null && invuln < modifiedSave) {
     effectiveSave = invuln;
-    saveDesc = `Invulnerable Save ${invuln}+ (better than modified armour ${modifiedSave}+)`;
-    saveModifiers.push(`AP-${ap} ignored by Invulnerable Save`);
+    saveDesc = `Unverwundbarkeitswurf ${invuln}+ (besser als modifizierte Ruestung ${modifiedSave}+)`;
+    saveModifiers.push(`AP-${ap} wird durch Unverwundbarkeitswurf ignoriert`);
   } else {
     effectiveSave = modifiedSave;
-    saveDesc = `Armour Save ${baseSave}+ with AP-${ap} = needs ${modifiedSave}+`;
+    saveDesc = `Ruestungswurf ${baseSave}+ mit AP-${ap} = braucht ${modifiedSave}+`;
   }
 
   if (effectiveSave > 6) {
@@ -144,15 +144,15 @@ export function buildCombatSteps(
   }
 
   if (defender.defenderGlobalModifiers?.stealth) {
-    saveModifiers.push('Stealth: +1 to saving throw against ranged attacks');
+    saveModifiers.push('Tarnung: +1 auf Rettungswuerfe gegen Fernkampfattacken');
   }
 
   steps.push({
     phase: 'save',
-    description: `Defender rolls saves. ${saveDesc}`,
-    detailedExplanation: `The defending player rolls D6 for each wound. They need to meet or beat the save value. AP reduces the armour save. Invulnerable saves are NOT affected by AP.`,
+    description: `Verteidiger wuerfelt Rettungswuerfe. ${saveDesc}`,
+    detailedExplanation: `Der verteidigende Spieler wuerfelt einen W6 pro Verwundung. Er muss den Rettungswert erreichen oder uebertreffen. AP reduziert den Ruestungswurf. Unverwundbarkeitswuerfe werden NICHT durch AP beeinflusst.`,
     targetNumber: Math.min(effectiveSave, 7),
-    numberOfDice: 'wounds',
+    numberOfDice: 'Verwundungen',
     modifiers: saveModifiers,
     specialRules: saveSpecial,
   });
@@ -163,19 +163,19 @@ export function buildCombatSteps(
   const damageModifiers: string[] = [];
 
   if (abilities.melta) {
-    damageModifiers.push(`Melta: +${abilities.melta} damage at half range`);
+    damageModifiers.push(`Melta: +${abilities.melta} Schaden auf halbe Reichweite`);
   }
   if (defender.defenderGlobalModifiers?.minusOneDamage) {
-    damageModifiers.push('Defender reduces damage by 1 (minimum 1)');
+    damageModifiers.push('Verteidiger reduziert Schaden um 1 (mindestens 1)');
   }
   if (defender.defenderGlobalModifiers?.halfDamage) {
-    damageModifiers.push('Defender halves damage (round up)');
+    damageModifiers.push('Verteidiger halbiert Schaden (aufrunden)');
   }
 
   steps.push({
     phase: 'damage',
-    description: `Each failed save = ${weapon.damage} damage (avg ${avgDmg.toFixed(1)}). Target has ${defender.stats.wounds} wound(s) per model.`,
-    detailedExplanation: `Multiply failed saves by weapon damage. Allocate damage to models one at a time. When a model reaches 0 wounds, it is removed.`,
+    description: `Jeder fehlgeschlagene Rettungswurf = ${weapon.damage} Schaden (Durchschnitt ${avgDmg.toFixed(1)}). Ziel hat ${defender.stats.wounds} Lebenspunkt(e) pro Modell.`,
+    detailedExplanation: `Multipliziere fehlgeschlagene Rettungswuerfe mit dem Waffenschaden. Verteile den Schaden auf Modelle nacheinander. Wenn ein Modell 0 Lebenspunkte erreicht, wird es entfernt.`,
     targetNumber: 0,
     numberOfDice: 0,
     modifiers: damageModifiers,
@@ -187,12 +187,12 @@ export function buildCombatSteps(
   if (fnp) {
     steps.push({
       phase: 'feel-no-pain',
-      description: `Defender rolls Feel No Pain ${fnp}+ for each wound taken.`,
-      detailedExplanation: `Roll a D6 for each point of damage (including Mortal Wounds). On a ${fnp}+, that wound is ignored. This is rolled AFTER saving throws.`,
+      description: `Verteidiger wuerfelt Schmerzresistenz ${fnp}+ fuer jeden erlittenen Schadenspunkt.`,
+      detailedExplanation: `Wuerfle einen W6 pro Schadenspunkt (inklusive Todenwunden). Bei ${fnp}+ wird der Schaden ignoriert. Dies wird NACH Rettungswuerfen gewuerfelt.`,
       targetNumber: fnp,
-      numberOfDice: 'total damage',
+      numberOfDice: 'Gesamtschaden',
       modifiers: [],
-      specialRules: [`Feel No Pain ${fnp}+`],
+      specialRules: [`Schmerzresistenz ${fnp}+`],
     });
   }
 

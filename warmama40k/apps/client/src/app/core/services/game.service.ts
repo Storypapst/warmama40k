@@ -5,6 +5,13 @@ import { GamePhase, AssistanceLevel } from '@warmama40k/shared';
 import { getNextPhase, GAME_PHASES } from '@warmama40k/shared';
 import type { OwnedUnitRef } from '@warmama40k/shared';
 import { UnitDataService } from './unit-data.service';
+import { PlayerService } from './player.service';
+
+export interface ModelKillEvent {
+  modelIndex: number;
+  killedAt: string;
+  killedByPlayerName?: string;
+}
 
 export interface GameUnitState {
   unitId: string;
@@ -22,6 +29,18 @@ export interface GameUnitState {
   hasFought: boolean;
   hasAdvanced: boolean;
   hasFallenBack: boolean;
+  /** LocalOwnedUnit.id for squad photo/nickname lookup */
+  ownedUnitId?: string;
+  /** Custom squad nickname for identification */
+  nickname?: string;
+  /** Squad photo (Base64) for visual identification */
+  photoUrl?: string;
+  /** Weapons assigned in Squad Manager (filter combat weapons to these) */
+  assignedWeapons?: string[];
+  /** Per-model kill tracking (append-only) */
+  modelKillLog?: ModelKillEvent[];
+  /** Model indices that are dead (for O(1) template lookup) */
+  deadModelIndices?: number[];
 }
 
 export interface GamePlayerState {
@@ -91,7 +110,7 @@ export class GameService {
     return player.units.filter((u) => !u.isDestroyed);
   });
 
-  constructor(private unitData: UnitDataService) {}
+  constructor(private unitData: UnitDataService, private playerService: PlayerService) {}
 
   async createGame(
     player1Name: string,
@@ -107,6 +126,16 @@ export class GameService {
     for (const u of allUnits) lookup.set(u.id, u);
     this.unitLookup.set(lookup);
 
+    // Build a lookup of ownedUnitId → LocalOwnedUnit for nickname/photo/weapon data
+    await this.playerService.ensureLoaded();
+    const allPlayers = this.playerService.players();
+    const ownedUnitLookup = new Map<string, import('./player.service').LocalOwnedUnit>();
+    for (const player of allPlayers) {
+      for (const owned of player.ownedUnits) {
+        ownedUnitLookup.set(owned.id, owned);
+      }
+    }
+
     const buildPlayerState = (
       playerName: string,
       units: OwnedUnitRef[]
@@ -115,6 +144,11 @@ export class GameService {
       playerName,
       units: units.map((ref) => {
         const unitData = lookup.get(ref.unitId);
+        const ownedUnit = ref.ownedUnitId ? ownedUnitLookup.get(ref.ownedUnitId) : undefined;
+        // Collect all assigned weapons from squad models
+        const assignedWeapons = ownedUnit?.squadModels
+          ? [...new Set(ownedUnit.squadModels.flatMap(m => m.weaponLoadout))]
+          : undefined;
         return {
           unitId: ref.unitId,
           unitName: ref.unitName,
@@ -131,6 +165,12 @@ export class GameService {
           hasFought: false,
           hasAdvanced: false,
           hasFallenBack: false,
+          ownedUnitId: ref.ownedUnitId,
+          nickname: ownedUnit?.nickname,
+          photoUrl: ownedUnit?.photoUrl,
+          assignedWeapons,
+          modelKillLog: [],
+          deadModelIndices: [],
         };
       }),
       commandPoints: 0,
@@ -318,6 +358,80 @@ export class GameService {
           return {
             ...u,
             currentWounds: Math.min(u.maxWounds, u.currentWounds + woundsHealed),
+          };
+        }),
+      },
+    };
+
+    await this.saveGame(updated);
+  }
+
+  async killModel(
+    playerIndex: number,
+    unitId: string,
+    modelIndex: number,
+    killedByPlayerName?: string
+  ): Promise<void> {
+    const game = this.currentGame();
+    if (!game) return;
+
+    const playerKey = playerIndex === 0 ? 'player1' : 'player2';
+    const updated = {
+      ...game,
+      [playerKey]: {
+        ...game[playerKey],
+        units: game[playerKey].units.map((u) => {
+          if (u.unitId !== unitId) return u;
+          const deadIndices = [...(u.deadModelIndices ?? [])];
+          if (deadIndices.includes(modelIndex)) return u; // already dead
+          deadIndices.push(modelIndex);
+          const killLog = [...(u.modelKillLog ?? []), {
+            modelIndex,
+            killedAt: new Date().toISOString(),
+            killedByPlayerName,
+          }];
+          const newModels = Math.max(0, u.modelsRemaining - 1);
+          return {
+            ...u,
+            modelsRemaining: newModels,
+            isDestroyed: newModels === 0,
+            currentWounds: newModels === 0 ? 0 : u.currentWounds,
+            deadModelIndices: deadIndices,
+            modelKillLog: killLog,
+          };
+        }),
+      },
+    };
+
+    await this.saveGame(updated);
+  }
+
+  async reviveModel(
+    playerIndex: number,
+    unitId: string,
+    modelIndex: number
+  ): Promise<void> {
+    const game = this.currentGame();
+    if (!game) return;
+
+    const playerKey = playerIndex === 0 ? 'player1' : 'player2';
+    const updated = {
+      ...game,
+      [playerKey]: {
+        ...game[playerKey],
+        units: game[playerKey].units.map((u) => {
+          if (u.unitId !== unitId) return u;
+          const deadIndices = (u.deadModelIndices ?? []).filter(
+            (i) => i !== modelIndex
+          );
+          const wasDestroyed = u.isDestroyed;
+          return {
+            ...u,
+            modelsRemaining: u.modelsRemaining + (wasDestroyed || deadIndices.length < (u.deadModelIndices?.length ?? 0) ? 1 : 0),
+            isDestroyed: false,
+            currentWounds: wasDestroyed ? u.maxWounds : u.currentWounds,
+            deadModelIndices: deadIndices,
+            // NOTE: modelKillLog is append-only — kill history preserved
           };
         }),
       },

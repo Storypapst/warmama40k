@@ -10,6 +10,8 @@ export interface AppSettings {
   /** Model override – empty = use default */
   model: string;
   language: 'de' | 'en';
+  /** Show full German stat labels instead of abbreviations */
+  verboseStats: boolean;
 }
 
 const DEFAULT_SETTINGS: AppSettings = {
@@ -18,6 +20,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   apiKey: '',
   model: '',
   language: 'de',
+  verboseStats: false,
 };
 
 class SettingsDB extends Dexie {
@@ -43,6 +46,7 @@ export class SettingsService {
   });
 
   readonly provider = computed(() => this.settings().llmProvider);
+  readonly verboseStats = computed(() => this.settings().verboseStats);
 
   constructor() {
     this.load();

@@ -83,8 +83,8 @@ import {
       max-width: 800px;
       margin: 0 auto;
     }
-    h1 { color: #c9a84c; margin-bottom: 4px; }
-    .subtitle { color: #aaa; margin-top: 0; margin-bottom: 24px; }
+    h1 { color: var(--mat-sys-primary); margin-bottom: 4px; }
+    .subtitle { color: var(--mat-sys-on-surface-variant, #aaa); margin-top: 0; margin-bottom: 24px; }
     .players-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -95,7 +95,7 @@ import {
       min-height: 200px;
     }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 32px;
       width: 40px;
       height: 40px;
@@ -107,7 +107,7 @@ import {
       padding: 6px 0;
     }
     .faction-icon {
-      color: #c9a84c;
+      color: var(--mat-sys-primary);
       font-size: 18px;
       width: 18px;
       height: 18px;
@@ -117,7 +117,7 @@ import {
       font-size: 0.9em;
     }
     .faction-meta {
-      color: #aaa;
+      color: var(--mat-sys-on-surface-variant, #aaa);
       font-size: 0.85em;
     }
     mat-divider { margin: 24px 0; }
@@ -142,7 +142,7 @@ export class OverviewComponent implements OnInit {
   async ngOnInit() {
     await this.playerService.ensureLoaded();
     const all = this.playerService.players();
-    if (all.length < 2) {
+    if (all.length < 1) {
       this.router.navigate(['/']);
       return;
     }

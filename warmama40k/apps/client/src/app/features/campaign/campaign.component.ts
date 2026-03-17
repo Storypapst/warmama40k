@@ -188,12 +188,12 @@ import { PlayerService } from '../../core/services/player.service';
     .campaign-container { max-width: 700px; margin: 0 auto; }
     .page-title {
       display: flex; align-items: center; gap: 8px;
-      color: #c9a84c; margin-bottom: 16px;
+      color: var(--mat-sys-primary); margin-bottom: 16px;
     }
     .page-title mat-icon { font-size: 28px; width: 28px; height: 28px; }
 
     mat-icon[mat-card-avatar] {
-      color: #c9a84c; font-size: 28px; width: 36px; height: 36px;
+      color: var(--mat-sys-primary); font-size: 28px; width: 36px; height: 36px;
     }
 
     /* Score Bar */
@@ -208,21 +208,21 @@ import { PlayerService } from '../../core/services/player.service';
     .score-player.right .score-name { text-align: right; }
     .score-name { font-size: 1em; color: #ddd; }
     .score-value { font-size: 2em; font-weight: 900; }
-    .score-value.gold { color: #c9a84c; }
+    .score-value.gold { color: var(--mat-sys-primary); }
     .score-divider {
       font-size: 2em; font-weight: 900; color: #555;
     }
 
     .leader-text {
       display: flex; align-items: center; justify-content: center;
-      gap: 6px; color: #c9a84c; font-weight: 600; margin: 0;
+      gap: 6px; color: var(--mat-sys-primary); font-weight: 600; margin: 0;
     }
     .leader-text mat-icon { font-size: 20px; width: 20px; height: 20px; }
-    .leader-text.tied { color: #aaa; }
+    .leader-text.tied { color: var(--mat-sys-on-surface-variant, #aaa); }
 
     /* Timeline */
     .section-label {
-      color: #c9a84c; margin: 16px 0 8px; font-size: 0.95em;
+      color: var(--mat-sys-primary); margin: 16px 0 8px; font-size: 0.95em;
     }
     .timeline {
       display: flex; flex-direction: column; gap: 4px;
@@ -233,14 +233,14 @@ import { PlayerService } from '../../core/services/player.service';
       padding: 8px; border-radius: 8px;
       transition: background 0.2s;
     }
-    .timeline-entry:hover { background: rgba(201, 168, 76, 0.05); }
+    .timeline-entry:hover { background: color-mix(in srgb, var(--mat-sys-primary) 5%, transparent); }
     .timeline-marker {
       display: flex; flex-direction: column; align-items: center;
     }
     .battle-num {
       display: flex; align-items: center; justify-content: center;
       width: 28px; height: 28px; border-radius: 50%;
-      background: rgba(201, 168, 76, 0.15); color: #c9a84c;
+      background: color-mix(in srgb, var(--mat-sys-primary) 15%, transparent); color: var(--mat-sys-primary);
       font-weight: 700; font-size: 0.85em;
     }
     .timeline-content { flex: 1; }
@@ -250,15 +250,15 @@ import { PlayerService } from '../../core/services/player.service';
     }
     .battle-winner {
       display: flex; align-items: center; gap: 4px;
-      color: #c9a84c; font-size: 0.85em;
+      color: var(--mat-sys-primary); font-size: 0.85em;
     }
     .battle-winner mat-icon { font-size: 16px; width: 16px; height: 16px; }
-    .battle-score-line { font-size: 0.85em; color: #aaa; }
+    .battle-score-line { font-size: 0.85em; color: var(--mat-sys-on-surface-variant, #aaa); }
 
     /* Story Detail */
     .battle-story {
       margin-top: 8px; padding: 8px;
-      background: rgba(201, 168, 76, 0.05);
+      background: color-mix(in srgb, var(--mat-sys-primary) 5%, transparent);
       border-radius: 8px;
     }
     .story-text {
@@ -266,16 +266,16 @@ import { PlayerService } from '../../core/services/player.service';
       line-height: 1.4; margin: 4px 0;
       font-style: italic; color: #ccc;
     }
-    .story-text mat-icon { font-size: 16px; width: 16px; height: 16px; color: #c9a84c; flex-shrink: 0; margin-top: 2px; }
-    .story-text.outro { color: #aaa; }
+    .story-text mat-icon { font-size: 16px; width: 16px; height: 16px; color: var(--mat-sys-primary); flex-shrink: 0; margin-top: 2px; }
+    .story-text.outro { color: var(--mat-sys-on-surface-variant, #aaa); }
 
-    .empty-text { color: #777; font-style: italic; text-align: center; padding: 16px; }
+    .empty-text { color: var(--mat-sys-outline, #777); font-style: italic; text-align: center; padding: 16px; }
 
     mat-card-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
     /* Create Card */
     .create-card { margin-bottom: 16px; }
-    .info-text { color: #aaa; font-size: 0.9em; margin-bottom: 16px; }
+    .info-text { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.9em; margin-bottom: 16px; }
     .full-width { width: 100%; }
     .create-btn { margin-top: 8px; }
     .warn-text {
@@ -285,14 +285,14 @@ import { PlayerService } from '../../core/services/player.service';
     .warn-text mat-icon { font-size: 18px; width: 18px; height: 18px; }
 
     /* Past Campaigns */
-    .past-title { color: #aaa; margin: 24px 0 8px; }
+    .past-title { color: var(--mat-sys-on-surface-variant, #aaa); margin: 24px 0 8px; }
     .past-card { padding: 12px; margin-bottom: 6px; cursor: pointer; }
-    .past-card:hover { border-color: #c9a84c; }
+    .past-card:hover { border-color: var(--mat-sys-primary); }
     .past-info {
       display: flex; justify-content: space-between; align-items: center;
     }
     .past-info mat-icon { color: #555; }
-    .past-detail { display: block; color: #aaa; font-size: 0.8em; }
+    .past-detail { display: block; color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.8em; }
   `,
 })
 export class CampaignComponent implements OnInit {

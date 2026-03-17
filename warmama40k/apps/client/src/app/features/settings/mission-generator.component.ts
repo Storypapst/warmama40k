@@ -198,10 +198,10 @@ const STATIC_MISSIONS: Mission[] = [
     .mission-container { max-width: 700px; margin: 0 auto; }
     .page-title {
       display: flex; align-items: center; gap: 8px;
-      color: #c9a84c; margin-bottom: 4px;
+      color: var(--mat-sys-primary); margin-bottom: 4px;
     }
     .page-title mat-icon { font-size: 28px; width: 28px; height: 28px; }
-    .subtitle { color: #aaa; margin-bottom: 16px; }
+    .subtitle { color: var(--mat-sys-on-surface-variant, #aaa); margin-bottom: 16px; }
 
     .gen-actions {
       display: flex; align-items: center; gap: 12px;
@@ -218,13 +218,13 @@ const STATIC_MISSIONS: Mission[] = [
 
     .mission-card { margin-bottom: 16px; }
     mat-icon[mat-card-avatar] {
-      color: #c9a84c; font-size: 28px; width: 36px; height: 36px;
+      color: var(--mat-sys-primary); font-size: 28px; width: 36px; height: 36px;
     }
     .mission-desc { font-size: 1em; line-height: 1.5; margin-bottom: 16px; }
 
     .section-label {
       display: flex; align-items: center; gap: 6px;
-      color: #c9a84c; font-size: 0.95em; margin: 12px 0 6px;
+      color: var(--mat-sys-primary); font-size: 0.95em; margin: 12px 0 6px;
     }
     .section-label mat-icon { font-size: 18px; width: 18px; height: 18px; }
 
@@ -236,16 +236,16 @@ const STATIC_MISSIONS: Mission[] = [
     }
     .rules-list li { color: #ce93d8; }
 
-    .history-title { color: #aaa; margin: 24px 0 8px; }
+    .history-title { color: var(--mat-sys-on-surface-variant, #aaa); margin: 24px 0 8px; }
     .history-card {
       padding: 12px; margin-bottom: 6px; cursor: pointer;
       transition: border-color 0.2s;
     }
-    .history-card:hover { border-color: #c9a84c; }
+    .history-card:hover { border-color: var(--mat-sys-primary); }
     .history-info {
       display: flex; justify-content: space-between; align-items: center;
     }
-    .history-rounds { color: #aaa; font-size: 0.85em; }
+    .history-rounds { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.85em; }
 
     mat-progress-spinner { display: inline-block; }
   `,

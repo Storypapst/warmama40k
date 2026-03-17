@@ -148,18 +148,18 @@ import { CampaignService } from '../../core/services/campaign.service';
       text-align: center; padding: 64px 16px;
     }
     .no-game mat-icon {
-      font-size: 64px; width: 64px; height: 64px; color: #c9a84c;
+      font-size: 64px; width: 64px; height: 64px; color: var(--mat-sys-primary);
     }
 
     .summary-container { max-width: 600px; margin: 0 auto; }
     .page-title {
       display: flex; align-items: center; gap: 8px;
-      color: #c9a84c; margin-bottom: 16px;
+      color: var(--mat-sys-primary); margin-bottom: 16px;
     }
     .page-title mat-icon { font-size: 28px; width: 28px; height: 28px; }
 
     mat-icon[mat-card-avatar] {
-      color: #c9a84c; font-size: 28px; width: 36px; height: 36px;
+      color: var(--mat-sys-primary); font-size: 28px; width: 36px; height: 36px;
     }
 
     .score-card { margin-bottom: 16px; }
@@ -170,7 +170,7 @@ import { CampaignService } from '../../core/services/campaign.service';
     .player-score {
       display: flex; flex-direction: column; align-items: center; gap: 4px;
     }
-    .player-label { font-weight: 600; color: #c9a84c; font-size: 1.1em; }
+    .player-label { font-weight: 600; color: var(--mat-sys-primary); font-size: 1.1em; }
     .player-score mat-form-field { width: 120px; text-align: center; }
     .score-vs {
       font-size: 1.5em; font-weight: 700; color: #555;
@@ -179,7 +179,7 @@ import { CampaignService } from '../../core/services/campaign.service';
 
     .section-label {
       display: flex; align-items: center; gap: 6px;
-      color: #c9a84c; font-size: 0.95em; margin: 16px 0 8px;
+      color: var(--mat-sys-primary); font-size: 0.95em; margin: 16px 0 8px;
     }
     .section-label mat-icon { font-size: 18px; width: 18px; height: 18px; }
 
@@ -199,15 +199,15 @@ import { CampaignService } from '../../core/services/campaign.service';
       display: flex; justify-content: space-between; align-items: center;
       padding: 4px 0;
     }
-    .stat-label { color: #aaa; }
-    .stat-value { font-weight: 600; color: #c9a84c; }
+    .stat-label { color: var(--mat-sys-on-surface-variant, #aaa); }
+    .stat-value { font-weight: 600; color: var(--mat-sys-primary); }
 
     .campaign-notice {
       display: flex; align-items: center; gap: 8px;
       padding: 12px; margin-bottom: 16px;
-      background: rgba(201, 168, 76, 0.08);
-      border: 1px solid rgba(201, 168, 76, 0.2);
-      border-radius: 8px; color: #c9a84c;
+      background: color-mix(in srgb, var(--mat-sys-primary) 8%, transparent);
+      border: 1px solid color-mix(in srgb, var(--mat-sys-primary) 20%, transparent);
+      border-radius: 8px; color: var(--mat-sys-primary);
       font-size: 0.9em;
     }
     .campaign-notice mat-icon { flex-shrink: 0; }

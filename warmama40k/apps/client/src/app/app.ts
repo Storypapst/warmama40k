@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { ThemeService } from './core/services/theme.service';
 
 @Component({
   imports: [RouterModule, MatToolbarModule, MatIconModule, MatButtonModule],
@@ -15,6 +16,9 @@ import { MatButtonModule } from '@angular/material/button';
         </button>
         <span class="app-title">WarMama40K</span>
         <span class="spacer"></span>
+        <button mat-icon-button (click)="themeService.toggle()" title="Theme wechseln">
+          <mat-icon>{{ themeService.mode() === 'dark' ? 'light_mode' : 'dark_mode' }}</mat-icon>
+        </button>
         <button mat-icon-button routerLink="/overview" routerLinkActive="active-link">
           <mat-icon>people</mat-icon>
         </button>
@@ -68,9 +72,6 @@ import { MatButtonModule } from '@angular/material/button';
       padding-right: calc(16px + env(safe-area-inset-right));
       padding-bottom: calc(16px + env(safe-area-inset-bottom));
     }
-    .active-link {
-      color: #c9a84c;
-    }
 
     /* iPad landscape: wider content */
     @media (min-width: 1024px) {
@@ -82,4 +83,6 @@ import { MatButtonModule } from '@angular/material/button';
     }
   `,
 })
-export class App {}
+export class App {
+  readonly themeService = inject(ThemeService);
+}

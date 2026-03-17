@@ -192,7 +192,7 @@ import type { Unit, Weapon } from '@warmama40k/shared';
   `,
   styles: `
     .header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
-    h1 { margin: 0; color: #c9a84c; }
+    h1 { margin: 0; color: var(--mat-sys-primary); }
     .subtitle { margin: 4px 0 0; color: #888; }
     .loading { display: flex; justify-content: center; padding: 48px; }
 
@@ -207,9 +207,9 @@ import type { Unit, Weapon } from '@warmama40k/shared';
     }
     .stat-label { font-size: 11px; color: #888; text-transform: uppercase; }
     .stat-value { font-size: 20px; font-weight: 700; font-family: monospace; }
-    .invuln { border: 2px solid #c9a84c; }
-    .invuln .stat-value { color: #c9a84c; }
-    .model-info { color: #aaa; font-size: 13px; }
+    .invuln { border: 2px solid var(--mat-sys-primary); }
+    .invuln .stat-value { color: var(--mat-sys-primary); }
+    .model-info { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 13px; }
     .comp-options { color: #888; }
 
     .weapon-row {
@@ -223,7 +223,7 @@ import type { Unit, Weapon } from '@warmama40k/shared';
       font-family: monospace; font-size: 12px;
     }
     .weapon-abilities {
-      margin-top: 4px; color: #c9a84c; font-size: 12px; font-style: italic;
+      margin-top: 4px; color: var(--mat-sys-primary); font-size: 12px; font-style: italic;
     }
 
     .modifiers { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
@@ -235,7 +235,7 @@ import type { Unit, Weapon } from '@warmama40k/shared';
       background: #4a2a2a; color: #f88;
     }
 
-    mat-icon[mat-card-avatar] { color: #c9a84c; }
+    mat-icon[mat-card-avatar] { color: var(--mat-sys-primary); }
   `,
 })
 export class UnitDetailComponent implements OnInit {
