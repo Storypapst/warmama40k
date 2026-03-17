@@ -50,13 +50,15 @@ import { PlayerService } from '../../core/services/player.service';
               }
             </div>
           </mat-card-content>
-          <mat-card-actions>
+          <mat-card-actions class="existing-actions">
+            <button mat-button color="warn" (click)="startFresh()">
+              <mat-icon>refresh</mat-icon>
+              Neu anfangen
+            </button>
+            <span class="spacer"></span>
             <button mat-raised-button color="primary" (click)="continueWithExisting()">
               <mat-icon>play_arrow</mat-icon>
               Weiter
-            </button>
-            <button mat-button color="warn" (click)="startFresh()">
-              Neu anfangen
             </button>
           </mat-card-actions>
         </mat-card>
@@ -202,6 +204,11 @@ import { PlayerService } from '../../core/services/player.service';
       gap: 8px;
       padding: 16px !important;
     }
+    .existing-actions {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .spacer { flex: 1; }
     .player-list {
       display: flex;
       flex-direction: column;
@@ -302,7 +309,13 @@ export class WelcomeComponent implements OnInit {
   continueWithExisting() {
     const players = this.playerService.players();
     if (players.length > 0) {
-      this.router.navigate(['/collection', players[0].id]);
+      const first = players[0];
+      // If player already has units, go to squad setup; otherwise collection
+      if (first.ownedUnits.length > 0) {
+        this.router.navigate(['/squad-setup', first.id]);
+      } else {
+        this.router.navigate(['/collection', first.id]);
+      }
     }
   }
 

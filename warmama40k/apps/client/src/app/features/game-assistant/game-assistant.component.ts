@@ -127,7 +127,15 @@ import { GAME_PHASES } from '@warmama40k/shared';
               [class.damaged]="unit.currentWounds < unit.maxWounds || unit.modelsRemaining < unit.maxModels"
             >
               <div class="unit-card-header">
-                <span class="unit-card-name">{{ unit.unitName }}</span>
+                @if (unit.photoUrl) {
+                  <img [src]="unit.photoUrl" class="unit-thumb" alt="" />
+                }
+                <div class="unit-card-names">
+                  <span class="unit-card-name">{{ unit.nickname || unit.unitName }}</span>
+                  @if (unit.nickname) {
+                    <span class="unit-card-realname">{{ unit.unitName }}</span>
+                  }
+                </div>
                 <span class="unit-card-faction">{{ unit.faction }}</span>
               </div>
               <div class="unit-card-stats">
@@ -188,7 +196,15 @@ import { GAME_PHASES } from '@warmama40k/shared';
               [class.damaged]="unit.currentWounds < unit.maxWounds || unit.modelsRemaining < unit.maxModels"
             >
               <div class="unit-card-header">
-                <span class="unit-card-name">{{ unit.unitName }}</span>
+                @if (unit.photoUrl) {
+                  <img [src]="unit.photoUrl" class="unit-thumb" alt="" />
+                }
+                <div class="unit-card-names">
+                  <span class="unit-card-name">{{ unit.nickname || unit.unitName }}</span>
+                  @if (unit.nickname) {
+                    <span class="unit-card-realname">{{ unit.unitName }}</span>
+                  }
+                </div>
                 <span class="unit-card-faction">{{ unit.faction }}</span>
               </div>
               <div class="unit-card-stats">
@@ -310,11 +326,17 @@ import { GAME_PHASES } from '@warmama40k/shared';
     .unit-card.damaged { border-left-color: #ff9800; }
     .unit-card.enemy-unit { border-left-color: #f44336; }
     .unit-card-header {
-      display: flex; justify-content: space-between; align-items: baseline;
+      display: flex; align-items: center; gap: 8px;
       margin-bottom: 6px;
     }
-    .unit-card-name { font-weight: 600; font-size: 0.9em; }
-    .unit-card-faction { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.75em; }
+    .unit-thumb {
+      width: 36px; height: 36px; border-radius: 50%; object-fit: cover;
+      flex-shrink: 0;
+    }
+    .unit-card-names { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+    .unit-card-name { font-weight: 600; font-size: 0.9em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .unit-card-realname { font-size: 0.7em; color: var(--mat-sys-on-surface-variant, #aaa); }
+    .unit-card-faction { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.75em; flex-shrink: 0; }
     .unit-card-stats {
       display: flex; gap: 12px; margin-bottom: 6px;
     }

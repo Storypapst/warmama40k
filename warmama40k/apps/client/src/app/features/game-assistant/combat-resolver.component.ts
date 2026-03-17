@@ -47,9 +47,12 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
               class="unit-select-btn"
               (click)="selectAttacker(unit)"
             >
+              @if (unit.photoUrl) {
+                <img [src]="unit.photoUrl" class="unit-thumb" alt="" />
+              }
               <div class="unit-select-info">
-                <strong>{{ unit.unitName }}</strong>
-                <small>{{ unit.faction }} | {{ unit.modelsRemaining }} Modelle</small>
+                <strong>{{ unit.nickname || unit.unitName }}</strong>
+                <small>{{ unit.nickname ? unit.unitName + ' · ' : '' }}{{ unit.faction }} | {{ unit.modelsRemaining }} Modelle</small>
               </div>
             </button>
           }
@@ -83,12 +86,12 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
               </div>
               <div class="weapon-stats">
                 <span class="ws-label">
-                  {{ weapon.type === 'ranged' ? 'BS' : 'WS' }} {{ weapon.ballisticSkill }}+
+                  {{ weapon.type === 'ranged' ? 'Trefferwert' : 'Nahkampf' }} {{ weapon.ballisticSkill }}+
                 </span>
-                <span>S{{ weapon.strength }}</span>
-                <span>AP-{{ weapon.armourPenetration }}</span>
-                <span>D{{ weapon.damage }}</span>
-                <span>A{{ weapon.attacks }}</span>
+                <span>Staerke {{ weapon.strength }}</span>
+                <span>AP -{{ weapon.armourPenetration }}</span>
+                <span>Schaden {{ weapon.damage }}</span>
+                <span>Attacken {{ weapon.attacks }}</span>
               </div>
               @if (assistanceLevel() !== 'low' && hasAbilities(weapon)) {
                 <div class="weapon-abilities">
@@ -124,10 +127,13 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
               class="unit-select-btn enemy"
               (click)="selectTarget(unit)"
             >
+              @if (unit.photoUrl) {
+                <img [src]="unit.photoUrl" class="unit-thumb" alt="" />
+              }
               <div class="unit-select-info">
-                <strong>{{ unit.unitName }}</strong>
+                <strong>{{ unit.nickname || unit.unitName }}</strong>
                 <small>
-                  {{ unit.faction }} |
+                  {{ unit.nickname ? unit.unitName + ' · ' : '' }}{{ unit.faction }} |
                   {{ unit.modelsRemaining }}/{{ unit.maxModels }} Modelle |
                   W{{ unit.maxWounds }}
                 </small>
@@ -326,6 +332,10 @@ type CombatStage = 'select-attacker' | 'select-weapon' | 'select-target' | 'reso
     .unit-select-info { display: flex; flex-direction: column; }
     .unit-select-info strong { font-size: 1em; }
     .unit-select-info small { color: var(--mat-sys-on-surface-variant, #aaa); }
+    .unit-thumb {
+      width: 40px; height: 40px; border-radius: 50%; object-fit: cover;
+      flex-shrink: 0;
+    }
     .empty-msg { color: var(--mat-sys-outline, #777); font-style: italic; padding: 16px; text-align: center; }
 
     /* Weapons */
@@ -465,9 +475,18 @@ export class CombatResolverComponent implements OnInit {
     const data = this.selectedAttackerData();
     if (!data) return [];
     const p = this.phase();
-    if (p === 'shooting') return data.rangedWeapons;
-    if (p === 'fight') return data.meleeWeapons;
-    return [...data.rangedWeapons, ...data.meleeWeapons];
+    let weapons: Weapon[];
+    if (p === 'shooting') weapons = data.rangedWeapons;
+    else if (p === 'fight') weapons = data.meleeWeapons;
+    else weapons = [...data.rangedWeapons, ...data.meleeWeapons];
+
+    // Filter to only weapons assigned in Squad Manager (if available)
+    const assigned = this.selectedAttackerState()?.assignedWeapons;
+    if (assigned && assigned.length > 0) {
+      const filtered = weapons.filter(w => assigned.includes(w.name));
+      if (filtered.length > 0) return filtered;
+    }
+    return weapons;
   });
 
   constructor(

@@ -123,13 +123,19 @@ import type { OwnedUnitRef } from '@warmama40k/shared';
       display: flex; align-items: center; gap: 12px;
       text-align: left; padding: 12px 16px; height: auto;
       white-space: normal;
+      color: #888; border-color: #555;
     }
+    .level-options button mat-icon { color: #888; }
     .level-options button.selected {
-      border-color: var(--mat-sys-primary); background: color-mix(in srgb, var(--mat-sys-primary) 10%, transparent);
+      border-color: var(--mat-sys-primary);
+      background: color-mix(in srgb, var(--mat-sys-primary) 10%, transparent);
+      color: var(--mat-sys-primary);
     }
+    .level-options button.selected mat-icon { color: var(--mat-sys-primary); }
     .level-info { display: flex; flex-direction: column; }
     .level-info strong { font-size: 1em; }
-    .level-info small { color: var(--mat-sys-on-surface-variant, #aaa); font-size: 0.85em; }
+    .level-info small { color: #888; font-size: 0.85em; }
+    .level-options button.selected .level-info small { color: var(--mat-sys-on-surface-variant, #aaa); }
     .armies-preview {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
