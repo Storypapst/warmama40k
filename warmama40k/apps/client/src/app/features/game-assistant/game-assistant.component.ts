@@ -249,7 +249,7 @@ import { GAME_PHASES } from '@warmama40k/shared';
     .phase-step {
       flex: 1; display: flex; flex-direction: column; align-items: center;
       padding: 8px 4px; gap: 2px;
-      color: var(--mat-sys-outline-variant, #666); font-size: 0.7em;
+      color: #bbb; font-size: 0.7em;
       transition: all 0.3s ease;
     }
     .phase-step mat-icon { font-size: 20px; width: 20px; height: 20px; }
